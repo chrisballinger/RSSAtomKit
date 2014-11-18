@@ -1,0 +1,7 @@
+language: objective-c
+
+before_script:
+  - gem install cocoapods --no-rdoc --no-ri # Need Cocoapods >= 0.34.1
+  - pod install
+script:
+  - xctool -workspace RSSAtomKit.xcworkspace -scheme RSSAtomKitTests -sdk iphonesimulator8.0 -arch i386 test
