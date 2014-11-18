@@ -10,14 +10,16 @@
 
 @implementation RSSItem
 
-- (instancetype) initWithXMLElement:(ONOXMLElement*)xmlElement {
+
+- (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement {
     if (self = [super init]) {
+        _feedType = feedType;
         _xmlElement = xmlElement;
     }
     return self;
 }
 
-+ (NSArray*) itemsWithXMLDocument:(ONOXMLDocument*)xmlDocument {
++ (NSArray*) itemsWithFeedType:(RSSFeedType)feedType xmlDocument:(ONOXMLDocument*)xmlDocument {
     return nil;
 }
 

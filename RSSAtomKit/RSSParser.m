@@ -68,8 +68,13 @@
             });
             return;
         }
-        RSSFeed *feed = [[self.feedClass alloc] initWithXMLDocument:document];
-        NSArray *items = [self.itemClass itemsWithXMLDocument:document];
+        RSSFeed *feed = [[self.feedClass alloc] initWithXMLDocument:document error:&error];
+        if (error) {
+            dispatch_async(completionQueue, ^{
+                completionBlock(nil, nil, error);
+            });
+        }
+        NSArray *items = [self.itemClass itemsWithFeedType:feed.feedType xmlDocument:document];
         dispatch_async(completionQueue, ^{
             completionBlock(feed, items, nil);
         });
