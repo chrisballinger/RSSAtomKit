@@ -24,11 +24,6 @@ typedef NS_ENUM(NSUInteger, RSSFeedType) {
 @property (nonatomic, strong, readonly) NSURL *linkURL;
 @property (nonatomic, strong, readonly) NSString *feedDescription;
 
-/**
- *  @warning This property will be removed.
- */
-@property (nonatomic, strong, readonly) ONOXMLDocument *xmlDocument;
-
 - (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error;
 
 @end

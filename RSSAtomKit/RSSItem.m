@@ -15,7 +15,6 @@
 - (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement {
     if (self = [super init]) {
         _feedType = feedType;
-        _xmlElement = xmlElement;
         [self parseFeedFromElement:xmlElement];
     }
     return self;
@@ -62,7 +61,7 @@
                            document:(ONOXMLDocument*)document {
     NSMutableArray *items = [NSMutableArray array];
     [document enumerateElementsWithXPath:XPath usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
-        RSSItem *item = [[RSSItem alloc] initWithFeedType:feedType xmlElement:element];
+        RSSItem *item = [[[self class] alloc] initWithFeedType:feedType xmlElement:element];
         [items addObject:item];
     }];
     return items;

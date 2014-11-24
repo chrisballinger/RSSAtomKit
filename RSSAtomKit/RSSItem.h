@@ -10,8 +10,10 @@
 #import "RSSFeed.h"
 #import "Ono.h"
 
-@interface RSSItem : MTLModel
+@import CoreGraphics.CGGeometry;
 
+@interface RSSItem : MTLModel
+    
 @property (nonatomic, readonly) RSSFeedType feedType;
 
 @property (nonatomic, strong, readonly) NSString *title;
@@ -22,11 +24,6 @@
 // Media RSS
 @property (nonatomic, strong, readonly) NSURL *thumbnailURL;
 @property (nonatomic, readonly) CGSize thumbnailSize;
-
-/**
- *  @warning This property will be removed.
- */
-@property (nonatomic, strong, readonly) ONOXMLElement *xmlElement;
 
 - (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement;
 

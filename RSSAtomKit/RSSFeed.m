@@ -12,7 +12,6 @@
 
 - (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error {
     if (self = [super init]) {
-        _xmlDocument = xmlDocument;
         NSError *parseError = nil;
         [self parseXMLDocument:xmlDocument error:&parseError];
         if (parseError) {
