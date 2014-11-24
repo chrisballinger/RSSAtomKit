@@ -7,6 +7,7 @@
 //
 
 #import "RSSItem.h"
+#import "RSSItem+MediaRSS.h"
 
 @implementation RSSItem
 
@@ -15,8 +16,41 @@
     if (self = [super init]) {
         _feedType = feedType;
         _xmlElement = xmlElement;
+        [self parseFeedFromElement:xmlElement];
     }
     return self;
+}
+
+- (void) parseFeedFromElement:(ONOXMLElement*)element {
+    switch (_feedType) {
+        case RSSFeedTypeRSS:
+            [self parseRSSFeedFromElement:element];
+            break;
+        default:
+            NSAssert(NO, @"Feed type currently unsupported.");
+            break;
+    }
+}
+
+- (void) parseRSSFeedFromElement:(ONOXMLElement*)element {
+    ONOXMLElement *titleElement = [element firstChildWithTag:@"title"];
+    _title = [titleElement stringValue];
+    ONOXMLElement *linkElement = [element firstChildWithTag:@"link"];
+    NSString *linkString = [linkElement stringValue];
+    if (linkString) {
+        _linkURL = [NSURL URLWithString:linkString];
+    }
+    ONOXMLElement *descriptionElement = [element firstChildWithTag:@"description"];
+    _itemDescription = [descriptionElement stringValue];
+    ONOXMLElement *pubDateElement = [element firstChildWithTag:@"pubDate"];
+    _publicationDate = [pubDateElement dateValue];
+    
+    // Media RSS
+    ONOXMLElement *thumbnailElement = [element firstChildWithTag:@"thumbnail" inNamespace:@"media"];
+    if (thumbnailElement) {
+        _thumbnailURL = [self media_URLForElement:thumbnailElement];
+        _thumbnailSize = [self media_sizeForElement:thumbnailElement];
+    }
 }
 
 

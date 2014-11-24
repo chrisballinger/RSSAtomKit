@@ -100,6 +100,12 @@
         XCTAssertNotNil(parsedFeed.title);
         XCTAssertNotNil(parsedFeed.feedDescription);
         XCTAssertNotNil(parsedFeed.linkURL);
+        [items enumerateObjectsUsingBlock:^(RSSItem *item, NSUInteger idx, BOOL *stop) {
+            XCTAssertNotNil(item.title);
+            XCTAssertNotNil(item.itemDescription);
+            XCTAssertNotNil(item.linkURL);
+            NSLog(@"Parsed item from %@: %@", feedName, item.title);
+        }];
     } completionQueue:nil];
     EXP_expect(parsedFeed).willNot.beNil();
     EXP_expect(parsedItems).willNot.beNil();
