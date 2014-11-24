@@ -9,10 +9,11 @@
 #import "MTLModel.h"
 #import "Ono.h"
 
-typedef NS_ENUM(NSInteger, RSSFeedType) {
+typedef NS_ENUM(NSUInteger, RSSFeedType) {
+    RSSFeedTypeUnknown, // Parse Error
     RSSFeedTypeRDF, // RDF / RSS 1.0
     RSSFeedTypeRSS, // RSS 2.0
-    RSSFeedTypeAtom
+    RSSFeedTypeAtom // Atom 1.0
 };
 
 @interface RSSFeed : MTLModel

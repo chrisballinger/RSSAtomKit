@@ -10,6 +10,7 @@
 #import <XCTest/XCTest.h>
 #import "RSSParser.h"
 #import "Expecta.h"
+#import "RSSFeed+Utilities.h"
 
 /**
  *  Runs tests on the following RSS feeds:
@@ -92,7 +93,7 @@
             XCTFail(@"Error for %@: %@", feedName, error);
             return;
         }
-        NSLog(@"Parsed feed: %@ with items %lu", feedName, (unsigned long)items.count);
+        NSLog(@"Parsed %@ feed: (%@) with items %lu", [RSSFeed stringForFeedType:feed.feedType], feedName, (unsigned long)items.count);
         parsedFeed = feed;
         parsedItems = items;
         
