@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='http://rss.nytimes.com/xsl/eng/rss.xsl'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+    <atom:link href="http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml" rel="self" type="application/rss+xml"/>
+    <title>NYT &gt; International Home</title>
+    <link>http://www.nytimes.com/pages/international/index.html?partner=rss&amp;emc=rss</link>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2014 The New York Times Company</copyright>
+    <pubDate>Mon, 24 Nov 2014 07:52:42 GMT</pubDate>
+    <lastBuildDate>Mon, 24 Nov 2014 07:52:42 GMT</lastBuildDate>
+    <ttl>5</ttl>
+    <image>
+        <title>NYT &gt; International Home</title>
+        <url>http://graphics8.nytimes.com/images/misc/NYT_logo_rss_250x40.png</url>
+        <link>http://www.nytimes.com/pages/international/index.html?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/books/gabriel-garca-mrquezs-archive-goes-to-university-of-texas.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Gabriel García Márquez’s Archive Goes to University of Texas</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c6384b/sc/38/l/0L0Snytimes0N0C20A140C110C240Cbooks0Cgabriel0Egarca0Emrquezs0Earchive0Egoes0Eto0Euniversity0Eof0Etexas0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>The archive of Gabriel García Márquez has been acquired by the Harry Ransom Center at the University of Texas and includes manuscripts, notebooks, photos, correspondence and personal artifacts related to his important books.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c6384b/sc/38/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597870517/u/0/f/667200/c/34625/s/40c6384b/sc/38/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Colombia</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of Texas</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Ransom, Harry, Center, The University of Texas at Austin</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Garcia Marquez, Gabriel</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Latin America</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+        <pubDate>Mon, 24 Nov 2014 07:00:02 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/books/gabriel-garca-mrquezs-archive-goes-to-university-of-texas.html</guid>
+        <dc:creator>By JENNIFER SCHUESSLER</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/interactive/2014/11/24/us/north-dakota-oil-boom-politics.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>In North Dakota, Rising Unease Over Oil’s Effects</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c5ae9a/sc/3/l/0L0Snytimes0N0Cinteractive0C20A140C110C240Cus0Cnorth0Edakota0Eoil0Eboom0Epolitics0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>After an unusual land deal, a giant spill and a tanker-train explosion, anxiety began to ripple across the North Dakota prairie.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c5ae9a/sc/3/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597927688/u/0/f/667200/c/34625/s/40c5ae9a/sc/3/a2t.img" border="0"/&gt;</description>
+        <pubDate>Mon, 24 Nov 2014 03:13:36 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/interactive/2014/11/24/us/north-dakota-oil-boom-politics.html</guid>
+        <dc:creator>By DEBORAH SONTAG</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/23/us/climate-change-threatens-to-strip-the-identity-of-glacier-national-park.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Climate Change Threatens to Strip the Identity of Glacier National Park</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c31162/sc/8/l/0L0Snytimes0N0C20A140C110C230Cus0Cclimate0Echange0Ethreatens0Eto0Estrip0Ethe0Eidentity0Eof0Eglacier0Enational0Epark0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>In a century, the number of glaciers in Montana’s Glacier National Park, on the Canadian border, has dropped to about 25 from 150.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c31162/sc/8/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597865175/u/0/f/667200/c/34625/s/40c31162/sc/8/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Spring (Season)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Snow and Snowstorms</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">National Parks, Monuments and Seashores</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Global Warming</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Ice</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Weather</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Glacier National Park (Mont)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Glaciers</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">United States Geological Survey</category>
+        <pubDate>Mon, 24 Nov 2014 03:08:19 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/23/us/climate-change-threatens-to-strip-the-identity-of-glacier-national-park.html</guid>
+        <dc:creator>By MICHAEL WINES</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/us/politics/marion-s-barry-jr-a-complicated-man-whose-legacy-recounts-both-greatness-and-blunders.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Marion S. Barry Jr.: ‘A Complicated Man’ Whose Legacy Recounts Both Greatness and Blunders</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c626df/sc/8/l/0L0Snytimes0N0C20A140C110C240Cus0Cpolitics0Cmarion0Es0Ebarry0Ejr0Ea0Ecomplicated0Eman0Ewhose0Elegacy0Erecounts0Eboth0Egreatness0Eand0Eblunders0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Mr. Barry was a man venerated, disgraced and redeemed in a political career that spanned four decades and included four terms as mayor and six months in prison on drug charges.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c626df/sc/8/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Washington (DC)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drug Abuse and Traffic</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Mayors</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Holder, Eric H Jr</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bowser, Muriel E</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Barry, Marion S Jr</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gray, Vincent C</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Memorial Baptist Church</category>
+        <pubDate>Mon, 24 Nov 2014 02:53:26 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/us/politics/marion-s-barry-jr-a-complicated-man-whose-legacy-recounts-both-greatness-and-blunders.html</guid>
+        <dc:creator>By ANDREW SIDDONS and EMMARIE HUETTEMAN</dc:creator>
+        <media:credit scheme="urn:ebu">Erik Freeland</media:credit>
+        <media:description>Marion S. Barry Jr. campaigning in 1994, four years after his drug arrest.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/us/MARION1/MARION1-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/nations-ponder-how-to-handle-european-fighters-returning-from-jihad.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Memo From Europe: Nations Ponder How to Handle European Fighters Returning From Jihad</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c5b5c3/sc/8/l/0L0Snytimes0N0C20A140C110C240Cworld0Cnations0Eponder0Ehow0Eto0Ehandle0Eeuropean0Efighters0Ereturning0Efrom0Ejihad0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>A young man who came back to Germany from fighting in Syria has confessed in court and said he would like “to live a totally normal life.”&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c5b5c3/sc/8/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Germany</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Confessions</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kreshnik B.</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Syria</category>
+        <pubDate>Mon, 24 Nov 2014 02:50:22 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/nations-ponder-how-to-handle-european-fighters-returning-from-jihad.html</guid>
+        <dc:creator>By MELISSA EDDY</dc:creator>
+        <media:credit scheme="urn:ebu">Michael Probst/Associated Press</media:credit>
+        <media:description>German officials have shielded the full identity of Kreshnik B., left, who confessed to fighting in Syria with the Islamic State.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/24return/24return-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/technology/workers-in-silicon-valley-weigh-in-on-obamas-immigration-order.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Workers in Silicon Valley Weigh In on Obama’s Immigration Order</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c5296c/sc/1/l/0L0Snytimes0N0C20A140C110C240Ctechnology0Cworkers0Ein0Esilicon0Evalley0Eweigh0Ein0Eon0Eobamas0Eimmigration0Eorder0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Despite drawbacks, some immigrants working in technology said the president’s actions could make work in the United States easier.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c5296c/sc/1/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597865174/u/0/f/667200/c/34625/s/40c5296c/sc/1/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Zenefits</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Start-ups</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Laks Srini</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Visas</category>
+        <pubDate>Mon, 24 Nov 2014 02:47:27 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/technology/workers-in-silicon-valley-weigh-in-on-obamas-immigration-order.html</guid>
+        <dc:creator>By VINDU GOEL</dc:creator>
+        <media:credit scheme="urn:ebu">Jim Wilson/The New York Times</media:credit>
+        <media:description>Laks Srini, the chief technology officer at Zenefits, who is from India, has been unable to upgrade his visa to reflect his role.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/business/silicon2/silicon2-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/us/politics/rand-paul-calls-for-a-formal-declaration-of-war-against-isis.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Rand Paul Calls for a Formal Declaration of War Against ISIS</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c5296b/sc/1/l/0L0Snytimes0N0C20A140C110C240Cus0Cpolitics0Crand0Epaul0Ecalls0Efor0Ea0Eformal0Edeclaration0Eof0Ewar0Eagainst0Eisis0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Mr. Paul, a likely presidential candidate who has emerged as one of the Republican Party’s most cautious voices on military intervention, offered a very circumscribed definition of war.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c5296b/sc/1/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597865173/u/0/f/667200/c/34625/s/40c5296b/sc/1/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Defense and Military Forces</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Paul, Rand</category>
+        <pubDate>Mon, 24 Nov 2014 02:40:05 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/us/politics/rand-paul-calls-for-a-formal-declaration-of-war-against-isis.html</guid>
+        <dc:creator>By JEREMY W. PETERS</dc:creator>
+        <media:credit scheme="urn:ebu">Doug Mills/The New York Times</media:credit>
+        <media:description>Senator Rand Paul, Republican of Kentucky, offered a proposal that would limit the duration of military action to one year.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/us/RAND/RAND-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/despite-persecution-guardian-of-lake-tai-spotlights-chinas-polluters.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Despite Persecution, Guardian of Lake Tai Spotlights China’s Polluters</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c48220/sc/29/l/0L0Snytimes0N0C20A140C110C240Cworld0Cdespite0Epersecution0Eguardian0Eof0Elake0Etai0Espotlights0Echinas0Epolluters0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Despite pressure from Beijing, factories continue to dump toxic waste into waterways because the cost of violating the rules is lower than the cost of compliance.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c48220/sc/29/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597951003/u/0/f/667200/c/34625/s/40c48220/sc/29/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Hazardous and Toxic Substances</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Water Pollution</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wu Lihong</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Environment</category>
+        <pubDate>Mon, 24 Nov 2014 02:17:35 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/despite-persecution-guardian-of-lake-tai-spotlights-chinas-polluters.html</guid>
+        <dc:creator>By ANDREW JACOBS</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/theater/sting-to-join-the-cast-of-his-broadway-musical.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Sting to Join the Cast of His Broadway Musical</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c47f73/sc/38/l/0L0Snytimes0N0C20A140C110C240Ctheater0Csting0Eto0Ejoin0Ethe0Ecast0Eof0Ehis0Ebroadway0Emusical0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Sting, who wrote the music and lyrics for the struggling Broadway musical “The Last Ship,” will join the cast on Dec. 9.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c47f73/sc/38/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597950614/u/0/f/667200/c/34625/s/40c47f73/sc/38/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sting</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Last Ship (Play)</category>
+        <pubDate>Mon, 24 Nov 2014 02:00:02 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/theater/sting-to-join-the-cast-of-his-broadway-musical.html</guid>
+        <dc:creator>By PATRICK HEALY</dc:creator>
+        <media:credit scheme="urn:ebu">Jacob Blickenstaff for The New York Times</media:credit>
+        <media:description>Sting and Jeffrey Seller, left, lead producer of “The Last Ship,” told performers Sunday that Sting is joining the cast, replacing Jimmy Nail, right.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/arts/SUB-STING/SUB-STING-moth-v3.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/iran-grants-bail-to-woman-from-britain-held-5-months.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Iran Grants Bail to Woman From Britain Held 5 Months</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c47f74/sc/2/l/0L0Snytimes0N0C20A140C110C240Cworld0Ciran0Egrants0Ebail0Eto0Ewoman0Efrom0Ebritain0Eheld0E50Emonths0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Ghoncheh Ghavami, 25, who has dual citizenship, is appealing a one-year sentence for a conviction that has been linked to activism.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c47f74/sc/2/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597950613/u/0/f/667200/c/34625/s/40c47f74/sc/2/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ghavami, Ghoncheh</category>
+        <pubDate>Mon, 24 Nov 2014 01:53:14 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/iran-grants-bail-to-woman-from-britain-held-5-months.html</guid>
+        <dc:creator>By THOMAS ERDBRINK</dc:creator>
+        <media:credit scheme="urn:ebu">Press Association, via Associated Press</media:credit>
+        <media:description>Ghoncheh Ghavami</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/24iran/24iran-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/middleeast/graft-hobbles-iraqs-military-in-fighting-isis.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Graft Hobbles Iraq’s Military in Fighting ISIS</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c47b18/sc/11/l/0L0Snytimes0N0C20A140C110C240Cworld0Cmiddleeast0Cgraft0Ehobbles0Eiraqs0Emilitary0Ein0Efighting0Eisis0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>The Iraqi military and police forces had been so pillaged by their own leadership that they all but collapsed this spring in the face of the advancing Islamic State fighters.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c47b18/sc/11/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597949968/u/0/f/667200/c/34625/s/40c47b18/sc/11/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Defense and Military Forces</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Islamic State in Iraq and Syria (ISIS)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iraq</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Corruption (Institutional)</category>
+        <pubDate>Mon, 24 Nov 2014 01:26:19 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/middleeast/graft-hobbles-iraqs-military-in-fighting-isis.html</guid>
+        <dc:creator>By DAVID D. KIRKPATRICK</dc:creator>
+        <media:credit scheme="urn:ebu">Andrea Bruce for The New York Times</media:credit>
+        <media:description>An Iraqi Army member reporting to be reinstated for duty in September, after many deserted in the face of the ISIS onslaught.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/24iraqmilitary/24iraqmilitary-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/sports/in-delhi-pushing-through-the-wall-of-air-pollution-.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>In Delhi, Pushing Through the Wall (of Air Pollution)</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c47f72/sc/30/l/0L0Snytimes0N0C20A140C110C240Csports0Cin0Edelhi0Epushing0Ethrough0Ethe0Ewall0Eof0Eair0Epollution0E0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Despite very high levels of air pollution in India’s capital city, the Delhi half-marathon is one of a growing number of running races across the country.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c47f72/sc/30/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New Delhi (India)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Air Pollution</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Running</category>
+        <pubDate>Mon, 24 Nov 2014 01:17:47 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/sports/in-delhi-pushing-through-the-wall-of-air-pollution-.html</guid>
+        <dc:creator>By GARDINER HARRIS</dc:creator>
+        <media:credit scheme="urn:ebu">Sajjad Hussain/Agence France-Presse — Getty Images</media:credit>
+        <media:description>Runners passing the India Gate in the Delhi half-marathon Sunday. India has had a recent increase in running races.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/sports/SMOG/SMOG-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/africa/tunisian-presidential-election-may-be-headed-to-runoff.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Tunisia Vote for Leader Likely to Go to a Runoff</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c5ae9e/sc/1/l/0L0Snytimes0N0C20A140C110C240Cworld0Cafrica0Ctunisian0Epresidential0Eelection0Emay0Ebe0Eheaded0Eto0Erunoff0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Beji Caid Essebsi, a former prime minister, and Moncef Marzouki, the interim president, were leading but neither expected to win a majority.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c5ae9e/sc/1/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Essebsi, Beji Caid</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Middle East and North Africa Unrest (2010- )</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Tunisia</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Nidaa Tounes</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Marzouki, Moncef</category>
+        <pubDate>Mon, 24 Nov 2014 01:00:23 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/africa/tunisian-presidential-election-may-be-headed-to-runoff.html</guid>
+        <dc:creator>By CARLOTTA GALL</dc:creator>
+        <media:credit scheme="urn:ebu">Fadel Senna/Agence France-Presse — Getty Images</media:credit>
+        <media:description>A polling station in Tunis, the capital, on Sunday. Beji Caid Essebsi, a former prime minister, and Moncef Marzouki, the interim president, were leading in Tunisia’s first free presidential election.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/24tunisia/24tunisia-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/us/debate-persists-over-diagnosing-mental-health-disorders-long-after-sybil.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Retro Report: Debate Persists Over Diagnosing Mental Health Disorders, Long After ‘Sybil’</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c40f69/sc/14/l/0L0Snytimes0N0C20A140C110C240Cus0Cdebate0Epersists0Eover0Ediagnosing0Emental0Ehealth0Edisorders0Elong0Eafter0Esybil0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>After the book and film “Sybil” were released, diagnoses of multiple personality disorder skyrocketed. Was it more awareness by doctors, or overdiagnosis?&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c40f69/sc/14/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597860967/u/0/f/667200/c/34625/s/40c40f69/sc/14/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Mental Health and Disorders</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shirley Ardell Mason "Sybil"</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychiatry and Psychiatrists</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Multiple Personalities</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dr. Cornelia B. Wilbur</category>
+        <pubDate>Mon, 24 Nov 2014 00:35:48 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/us/debate-persists-over-diagnosing-mental-health-disorders-long-after-sybil.html</guid>
+        <dc:creator>By CLYDE HABERMAN</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/25/science/a-lifesaving-transplant-for-coral-reefs.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Science Times: A Lifesaving Transplant for Coral Reefs</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c40f6d/sc/24/l/0L0Snytimes0N0C20A140C110C250Cscience0Ca0Elifesaving0Etransplant0Efor0Ecoral0Ereefs0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>A quick-grow laboratory technique, called microfragmenting, may make it possible to mass-produce reef-building corals for transplanting onto dead or dying reefs that took centuries to develop.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c40f6d/sc/24/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597860966/u/0/f/667200/c/34625/s/40c40f6d/sc/24/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Reefs</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Florida Keys</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Science and Technology</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Oceans and Seas</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Coral</category>
+        <pubDate>Sun, 23 Nov 2014 23:55:52 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/25/science/a-lifesaving-transplant-for-coral-reefs.html</guid>
+        <dc:creator>By RICHARD MORIN</dc:creator>
+        <media:credit scheme="urn:ebu">Richard Morin</media:credit>
+        <media:description>A mountainous star coral colony that was grown from an inch-square fragment cut a year earlier off of a parent colony.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/25/science/25Coral1/25Coral1-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/us/indianapolis-star-newspaper-apologizes-for-cartoon-on-migrants.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Indianapolis Star Newspaper Apologizes for Cartoon on Migrants</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c626e0/sc/8/l/0L0Snytimes0N0C20A140C110C240Cus0Cindianapolis0Estar0Enewspaper0Eapologizes0Efor0Ecartoon0Eon0Emigrants0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>The Star removed a cartoon from its website after readers complained the drawing was racist for depicting an immigrant family climbing through a window to crash a white family’s Thanksgiving dinner.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c626e0/sc/8/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/nyt_org_all">Twitter|TWTR|NYSE</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Cartoons and Cartoonists</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Varvel, Gary</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Indianapolis Star</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+        <pubDate>Sun, 23 Nov 2014 23:51:55 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/us/indianapolis-star-newspaper-apologizes-for-cartoon-on-migrants.html</guid>
+        <dc:creator>By EMMA G. FITZSIMMONS</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/middleeast/iran-nuclear-negotiators-facing-deadline-and-differences-weigh-extending-talks.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Iran Nuclear Negotiators, Facing Key Differences, Weigh Extending Deadline</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c25a8f/sc/11/l/0L0Snytimes0N0C20A140C110C240Cworld0Cmiddleeast0Ciran0Enuclear0Enegotiators0Efacing0Edeadline0Eand0Edifferences0Eweigh0Eextending0Etalks0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Western and Iranian officials said on Sunday that with issues still unresolved on an agreement to curb Iran’s nuclear program, they might consider prolonging the talks beyond Monday.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c25a8f/sc/11/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597852463/u/0/f/667200/c/34625/s/40c25a8f/sc/11/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kerry, John</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Iran</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Nuclear Weapons</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">International Relations</category>
+        <pubDate>Sun, 23 Nov 2014 23:13:56 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/middleeast/iran-nuclear-negotiators-facing-deadline-and-differences-weigh-extending-talks.html</guid>
+        <dc:creator>By MICHAEL R. GORDON and DAVID E. SANGER</dc:creator>
+        <media:credit scheme="urn:ebu">Newsha Tavakolian for The New York Times</media:credit>
+        <media:description>Students demonstrating in front of Tehran's only nuclear test reactor.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/middleeast/24diplo/24diplo-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/business/media/hunger-games-studio-lionsgate-punches-above-its-hollywood-weight.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>With ‘Hunger Games’ Campaigns, Lionsgate Punches Above Its Weight</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c3cd21/sc/21/l/0L0Snytimes0N0C20A140C110C240Cbusiness0Cmedia0Chunger0Egames0Estudio0Elionsgate0Epunches0Eabove0Eits0Ehollywood0Eweight0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>In its campaigns for the “Hunger Games” films, Lionsgate’s tiny marketing department has used mastery of social media and a culture of risk-taking to dazzle the legacy studios.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c3cd21/sc/21/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Hunger Games: Mockingjay Part 1 (Movie)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Lions Gate Entertainment Corporation</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Advertising and Marketing</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Online Advertising</category>
+        <pubDate>Sun, 23 Nov 2014 23:12:33 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/business/media/hunger-games-studio-lionsgate-punches-above-its-hollywood-weight.html</guid>
+        <dc:creator>By BROOKS BARNES</dc:creator>
+        <media:credit scheme="urn:ebu">Gregory Zabilski</media:credit>
+        <media:description>Jennifer Lawrence, star of the "Hunger Games" films, was prepped for a photo shoot in January to market the latest entry in the series.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/business/lionsgate1/lionsgate1-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/arts/video-games/dragon-age-inquisition-evokes-interactive-storytelling.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Critic’s Notebook: Dragon Age: Inquisition Evokes Interactive Storytelling</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c5aea2/sc/38/l/0L0Snytimes0N0C20A140C110C240Carts0Cvideo0Egames0Cdragon0Eage0Einquisition0Eevokes0Einteractive0Estorytelling0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Dragon Age: Inquisition shows that sophisticated storytelling in video games has become commonplace even as it remains the most experimental and contentious aspect of the medium.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c5aea2/sc/38/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer and Video Games</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">BioWare Corp</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dragon Age: Inquisition (Video Game)</category>
+        <pubDate>Sun, 23 Nov 2014 23:03:33 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/arts/video-games/dragon-age-inquisition-evokes-interactive-storytelling.html</guid>
+        <dc:creator>By CHRIS SUELLENTROP</dc:creator>
+        <media:credit scheme="urn:ebu">Electronic Arts/BioWare</media:credit>
+        <media:description>Games like Dragon Age: Inquisition increasingly incorporate interactive stories.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/arts/JPDRAGON2/JPDRAGON2-moth-v2.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/arts/music/beyonc-platinum-edition-adds-new-songs-and-remixes.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Beyoncé ‘Platinum Edition’ Adds New Songs and Remixes</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c40f70/sc/38/l/0L0Snytimes0N0C20A140C110C240Carts0Cmusic0Cbeyonc0Eplatinum0Eedition0Eadds0Enew0Esongs0Eand0Eremixes0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Beyoncé has repackaged her latest hit album with two new songs and four remixes, as well as a live DVD and a calendar.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c40f70/sc/38/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Knowles, Beyonce</category>
+        <pubDate>Sun, 23 Nov 2014 22:33:49 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/arts/music/beyonc-platinum-edition-adds-new-songs-and-remixes.html</guid>
+        <dc:creator>By BEN SISARIO</dc:creator>
+        <media:credit scheme="urn:ebu">Robin Harper/Associated Press</media:credit>
+        <media:description>Beyoncé</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/arts/BEYONCE/BEYONCE-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/asia/japan-earthquake-rescuers-pull-survivors-from-collapsed-houses.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Survivors Pulled From Ruins After Quake in Japan</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c25a90/sc/30/l/0L0Snytimes0N0C20A140C110C240Cworld0Casia0Cjapan0Eearthquake0Erescuers0Epull0Esurvivors0Efrom0Ecollapsed0Ehouses0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>A magnitude-6.7 quake near the city of Nagano injured at least 40 people, damaged dozens of buildings and forced hundreds into emergency shelters.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c25a90/sc/30/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597852465/u/0/f/667200/c/34625/s/40c25a90/sc/30/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Japan</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Earthquakes</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Rescues</category>
+        <pubDate>Sun, 23 Nov 2014 21:51:10 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/asia/japan-earthquake-rescuers-pull-survivors-from-collapsed-houses.html</guid>
+        <dc:creator>By MARTIN FACKLER</dc:creator>
+        <media:credit scheme="urn:ebu">Kimimasa Mayama/European Pressphoto Agency</media:credit>
+        <media:description>Police officers patrolled on Sunday near damaged houses in the ski resort town of Hakuba, where some of the worst damage occurred.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/asia/24japanquake/24japanquake-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/asia/afghanistan-quietly-lifts-ban-on-night-raids.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Afghanistan Quietly Lifts Ban on Nighttime Raids</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c34db2/sc/8/l/0L0Snytimes0N0C20A140C110C240Cworld0Casia0Cafghanistan0Equietly0Elifts0Eban0Eon0Enight0Eraids0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>The government of President Ashraf Ghani has cleared the way for special forces raids, blocked by former President Hamid Karzai, to resume in 2015.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c34db2/sc/8/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ghani, Ashraf</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Afghan National Army</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Karzai, Hamid</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+        <pubDate>Sun, 23 Nov 2014 21:26:33 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/asia/afghanistan-quietly-lifts-ban-on-night-raids.html</guid>
+        <dc:creator>By ROD NORDLAND and TAIMOOR SHAH</dc:creator>
+        <media:credit scheme="urn:ebu">Matt Robinson/Reuters</media:credit>
+        <media:description>Soldiers of the 101st Airborne Division after a night raid in Yahya Khel, Paktika Province, in February 2011. A subsequent ban on night raids under the Karzai administration has been lifted by the new Afghan president, Ashraf Ghani.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/world/24raids-hp/24raids-hp-moth.jpg"/>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/world/asia/afghanistan-suicide-bomber-volleyball-match.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Blast at Game Kills Dozens in Afghanistan</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c25a8e/sc/11/l/0L0Snytimes0N0C20A140C110C240Cworld0Casia0Cafghanistan0Esuicide0Ebomber0Evolleyball0Ematch0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Explosives were detonated in a crowd gathered to watch a game between a village team and players from a neighboring district in Paktika Province.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c25a8e/sc/11/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597852464/u/0/f/667200/c/34625/s/40c25a8e/sc/11/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Afghanistan</category>
+        <pubDate>Sun, 23 Nov 2014 19:33:38 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/world/asia/afghanistan-suicide-bomber-volleyball-match.html</guid>
+        <dc:creator>By JOSEPH GOLDSTEIN</dc:creator>
+    </item>
+    <item>
+        <atom:link href="http://www.nytimes.com/2014/11/24/us/politics/marion-s-barry-jr-former-mayor-of-washington-dies-at-78.html?partner=rss&amp;emc=rss" rel="standout"/>
+        <title>Marion Barry, Washington’s ‘Mayor for Life,’ Even After Prison, Dies at 78</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c1bff8/sc/7/l/0L0Snytimes0N0C20A140C110C240Cus0Cpolitics0Cmarion0Es0Ebarry0Ejr0Eformer0Emayor0Eof0Ewashington0Edies0Eat0E780Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Mr. Barry was a flamboyant and polarizing mayor of the nation’s capital who went to prison on a cocaine charge and then made one of the most improbable comebacks in the history of American politics.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c1bff8/sc/7/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/213968797362/u/0/f/667200/c/34625/s/40c1bff8/sc/7/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Mayors</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Barry, Marion S Jr</category>
+        <pubDate>Sun, 23 Nov 2014 19:30:20 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/us/politics/marion-s-barry-jr-former-mayor-of-washington-dies-at-78.html</guid>
+        <dc:creator>By DAVID STOUT</dc:creator>
+    </item>
+    <item>
+        <title>Formula One: Hamilton Takes Formula One Title Over Rosberg</title>
+        <link>http://rss.nytimes.com/c/34625/f/667200/s/40c25a97/sc/13/l/0L0Snytimes0N0C20A140C110C240Csports0Cautoracing0Clewis0Ehamilton0Etakes0Eformula0Eone0Etitle0Eover0Erosberg0Eabu0Edhabi0Egrand0Eprix0Bhtml0Dpartner0Frss0Gemc0Frss/story01.htm</link>
+        <description>Lewis Hamilton clinched his second Formula One title with victory at the season-ending Abu Dhabi Grand Prix on Sunday, with his rival Nico Rosberg finishing far behind.&lt;img width='1' height='1' src='http://rss.nytimes.com/c/34625/f/667200/s/40c25a97/sc/13/mf.gif' border='0'/&gt;&lt;br clear='all'/&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/rc/1/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/rc/1/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/rc/2/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/rc/2/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/rc/3/rc.htm" rel="nofollow"&gt;&lt;img src="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/rc/3/rc.img" border="0"/&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;&lt;a href="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/a2.htm"&gt;&lt;img src="http://da.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/a2.img" border="0"/&gt;&lt;/a&gt;&lt;img width="1" height="1" src="http://pi.feedsportal.com/r/211597852466/u/0/f/667200/c/34625/s/40c25a97/sc/13/a2t.img" border="0"/&gt;</description>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rosberg, Nico</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobiles</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/des">Automobile Racing</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hamilton, Lewis</category>
+        <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Formula One</category>
+        <pubDate>Sun, 23 Nov 2014 18:08:45 GMT</pubDate>
+        <guid isPermaLink="false">http://www.nytimes.com/2014/11/24/sports/autoracing/lewis-hamilton-takes-formula-one-title-over-rosberg-abu-dhabi-grand-prix.html</guid>
+        <dc:creator>By BRAD SPURGEON</dc:creator>
+        <media:credit scheme="urn:ebu">Kamran Jebreili/Associated Press</media:credit>
+        <media:description>Lewis Hamilton was greeted by his partner Nicole Scherzinger, family and friends after clinching the Formula One championship with a victory in the Abu Dhabi Grand Prix.</media:description>
+        <media:content height="151" lang="" width="151" url="http://graphics8.nytimes.com/images/2014/11/24/sports/24prix/24prix-moth.jpg"/>
+    </item>
+</channel>
+</rss>
