@@ -19,7 +19,30 @@
     return self;
 }
 
+
+
+#pragma mark Static Methods
+
++ (NSArray*) parseRSSItemsWithXPath:(NSString*)XPath
+                           feedType:(RSSFeedType)feedType
+                           document:(ONOXMLDocument*)document {
+    NSMutableArray *items = [NSMutableArray array];
+    [document enumerateElementsWithXPath:XPath usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
+        RSSItem *item = [[RSSItem alloc] initWithFeedType:feedType xmlElement:element];
+        [items addObject:item];
+    }];
+    return items;
+}
+
 + (NSArray*) itemsWithFeedType:(RSSFeedType)feedType xmlDocument:(ONOXMLDocument*)xmlDocument {
+    switch (feedType) {
+        case RSSFeedTypeRSS:
+            return [self parseRSSItemsWithXPath:@"/rss/channel/item" feedType:feedType document:xmlDocument];
+            break;
+        default:
+            return nil;
+            break;
+    }
     return nil;
 }
 

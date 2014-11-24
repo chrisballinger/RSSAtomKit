@@ -93,7 +93,7 @@
             XCTFail(@"Error for %@: %@", feedName, error);
             return;
         }
-        NSLog(@"Parsed %@ feed: (%@) with items %lu", [RSSFeed stringForFeedType:feed.feedType], feedName, (unsigned long)items.count);
+        NSLog(@"Parsed %@ %@ feed with %lu items.", feedName, [RSSFeed stringForFeedType:feed.feedType], (unsigned long)items.count);
         parsedFeed = feed;
         parsedItems = items;
         
@@ -102,7 +102,7 @@
         XCTAssertNotNil(parsedFeed.linkURL);
     } completionQueue:nil];
     EXP_expect(parsedFeed).willNot.beNil();
-    //EXP_expect(parsedItems).willNot.beNil();
+    EXP_expect(parsedItems).willNot.beNil();
 }
 
 
