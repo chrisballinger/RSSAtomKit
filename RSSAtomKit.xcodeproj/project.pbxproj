@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F211A648CE500B3E23E /* RFA-tibetan.xml */; };
 		ACEF483BDF922E9A9E86EA8E /* libPods-RSSAtomKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD8898978B2A7E9E7D17CFA /* libPods-RSSAtomKitTests.a */; };
 		D98E6C8C1A1AC10500C0A704 /* RSSAtomKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E6C8B1A1AC10500C0A704 /* RSSAtomKitTests.m */; };
 		D9E6574F1A232FB1000E6301 /* CNN-TopStories.xml in Resources */ = {isa = PBXBuildFile; fileRef = D9E657491A232FB1000E6301 /* CNN-TopStories.xml */; };
@@ -23,6 +24,7 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		639B1F211A648CE500B3E23E /* RFA-tibetan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RFA-tibetan.xml"; path = "Feeds/RFA-tibetan.xml"; sourceTree = "<group>"; };
 		B68C9453DC918E7986604E37 /* Pods-RSSAtomKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSAtomKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSAtomKitTests/Pods-RSSAtomKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D8573CC9DE106990FAD279 /* Pods-RSSAtomKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSAtomKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSAtomKitTests/Pods-RSSAtomKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		D98E6C871A1AC10500C0A704 /* RSSAtomKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSAtomKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 				D9E6574B1A232FB1000E6301 /* Guardian-World.xml */,
 				D9E6574C1A232FB1000E6301 /* NYTimes-International.xml */,
 				D9E6574D1A232FB1000E6301 /* VOA.xml */,
+				639B1F211A648CE500B3E23E /* RFA-tibetan.xml */,
 				D9E6574E1A232FB1000E6301 /* WashingtonPost-World.xml */,
 			);
 			name = Feeds;
@@ -183,6 +186,7 @@
 				D9E657521A232FB1000E6301 /* NYTimes-International.xml in Resources */,
 				D9E657511A232FB1000E6301 /* Guardian-World.xml in Resources */,
 				D9E657541A232FB1000E6301 /* WashingtonPost-World.xml in Resources */,
+				639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */,
 				D9E657531A232FB1000E6301 /* VOA.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

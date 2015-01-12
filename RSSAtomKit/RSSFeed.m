@@ -28,20 +28,20 @@
     // Determine feed type
     ONOXMLElement *root = xmlDocument.rootElement;
     NSString *rootTag = root.tag;
-    if ([rootTag isEqualToString:@"rss"]) {
-        _feedType = RSSFeedTypeRSS;
-        ONOXMLElement *channel = [root firstChildWithTag:@"channel"];
+    
+    //Try RSS way first
+    ONOXMLElement *channel = [root firstChildWithTag:@"channel"];
+    if (channel) {
         ONOXMLElement *titleElement = [channel firstChildWithTag:@"title"];
         _title = [titleElement stringValue];
-        ONOXMLElement *linkElement = [root firstChildWithXPath:@"/rss/channel/link"];
+        ONOXMLElement *linkElement = [channel firstChildWithTag:@"link"];
         NSString *linkString = [linkElement stringValue];
         _linkURL = [NSURL URLWithString:linkString];
         ONOXMLElement *descriptionElement = [channel firstChildWithTag:@"description"];
         _feedDescription = [descriptionElement stringValue];
-    } else if ([rootTag isEqualToString:@"rdf:RDF"]) {
-        _feedType = RSSFeedTypeRDF;
-    } else if ([rootTag isEqualToString:@"feed"]) {
-        _feedType = RSSFeedTypeAtom;
+        _feedType = RSSFeedTypeRSS;
+    }
+    else if ([rootTag isEqualToString:@"feed"]) {
         ONOXMLElement *titleElement = [root firstChildWithXPath:@"/feed/title"];
         _title = [titleElement stringValue];
         ONOXMLElement *subtitleElement = [root firstChildWithXPath:@"/feed/subtitle"];
@@ -49,8 +49,10 @@
         ONOXMLElement *linkElement = [root firstChildWithXPath:@"/feed/link"];
         NSString *linkString = [linkElement stringValue];
         _linkURL = [NSURL URLWithString:linkString];
-    } else {
-        if (*error) {
+        _feedType = RSSFeedTypeAtom;
+    }
+    else {
+        if (!*error) {
             *error = [NSError errorWithDomain:@"RSSAtomKit" code:101 userInfo:@{NSLocalizedDescriptionKey: @"Invalid feed."}];
         }
         return;

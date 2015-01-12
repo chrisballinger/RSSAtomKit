@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://www.rfa.org/tibetan/RSS">
+  <title>བོད་སྐད་སྡེ་ཚན།</title>
+  <link>http://www.rfa.org</link>
+
+  <description>
+    
+      News from and about Tibet. Most of these articles were aired in Uke, Kham, or Amdo dialects and can be found, in their original language, on the Web sites, in written and audio format. 
+    
+  </description>
+
+  
+
+  
+            <syn:updatePeriod>daily</syn:updatePeriod>
+            <syn:updateFrequency>1</syn:updateFrequency>
+            <syn:updateBase>2012-05-24T02:11:35Z</syn:updateBase>
+        
+
+  <image rdf:resource="http://www.rfa.org/logo.png"/>
+
+  <items>
+    <rdf:Seq>
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/sargyur/lhuchu-county-authorities-refused-01122015173226.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/sargyur/kalon-gyari-dolma-meets-canadian-minister-of-immigration-01122015153613.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/society/tyc-to-clean-india-01122015144806.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/tibet/tibetan-news-of-2014-01122015143723.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/sargyur/identity-verification-process-for-teaching-01122015135033.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/sargyur/senior-chinese-spy-chief-under-corruption-probe-01122015131854.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/tibet/two-year-sentenced-experience-shared-01122015124117.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/society/tibetan-childrens-project-canada-01122015121412.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/society/importance-of-mutual-respect-within-religion-01122015113340.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/world/profile-of-cuba-01122015113245.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/world/influenza-spread-wide-in-america-01122015111034.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/exile/gratitute-to-his-holiness-01122015110851.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/exile/long-life-puja-offered-to-sakya-trizin-01122015105306.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/sargyur/kerry-lauds-modi-01122015165401.html"/>
+      
+      
+        <rdf:li rdf:resource="http://www.rfa.org/tibetan/exile/chithue-tour-sweater-sellers-01112015114113.html"/>
+      
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/sargyur/lhuchu-county-authorities-refused-01122015173226.html">
+    <title>དྲང་བདེན་ཐག་གཅོད་མ་བྱུང་བར་མུ་མཐུད་ཞུ་འབོད་བྱེད་བཞིན་པ།</title>
+    <link>http://www.rfa.org/tibetan/sargyur/lhuchu-county-authorities-refused-01122015173226.html</link>
+    <description>སློབ་ཆེན་པ་དང་ཕ་མ་ཁ་ཤས་ལ་བསླུ་ཐབས་བྱེད་པ་དང་འཇིགས་སྐུལ་བྱེད་པ་སོགས་ཀྱི་གནས་ཚུལ་ཡང་ཡོད་བཞིན་པ་རེད་འདུག</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/sargyur/lhuchu-county-authorities-refused-01122015173226.html/f5ef74.JPG"></img><p>སློབ་ཆེན་པ་དང་ཕ་མ་ཁ་ཤས་ལ་བསླུ་ཐབས་བྱེད་པ་དང་འཇིགས་སྐུལ་བྱེད་པ་སོགས་ཀྱི་གནས་ཚུལ་ཡང་ཡོད་བཞིན་པ་རེད་འདུག<br />དེ་ཡང་བོད་ནས་འདི་ག་རླུང་འཕྲིན་ཁང་ལ་གནས་ཚུལ་འབྱོར་དོན། ཁེ་སྔོན་སྤྱི་ཚེས་༨ཉིན་གྱི་དགོང་མོར་ཀླུ་ཆུ་རྫོང་གི་སློབ་ཆེན་མཐར་ཕྱིན་སློབ་མ་དང་། ཁོང་ཚོའི་ཕ་མ་ཚོས་རང་ཁྱིམ་རང་སྐྱོང་། ཁྲིམས་འགལ་གྱིས་རྒྱུགས་ཤོག་བཙོང་བར་དྲང་བདེན་ཐག་གཅོད་དགོས་ཞེས་འཁོད་པའི་འཕྲེད་དར་དང་མཉམ་ཀླུ་ཆུ་རྫོང་ནས་ཀན་ལྷོ་ཁུལ་བར་ཞུ་གཏུགས་གོམ་བགྲོད་བྱས་པར། ལམ་ཐག་སྤྱི་ལེ་༡༥ཙམ་གྱི་སར་འབྱོར་སྐབས་རྫོང་གི་ཉེན་རྟོག་མི་སྣ་དང་། འབྲེལ་ཡོད་ཚན་པའི་ལས་བྱེད་མི་སྣ་ཡོང་ནས་རིམ་པས་ཞིབ་འཇུག་དང་སང་ཉིན་ལས་ཁུངས་ནང་གོ་བསྡུར་བྱེད་ཆོག་ཚུལ་སོགས་བཤད་ནས་གོམ་བགྲོད་མཚམས་འཇོག་བྱེད་དུ་བཅུག་རྗེས་ཉིན་གྲངས་བཞི་ལྷག་ཕྱིན་ཡང་རྫོང་སྲིད་གཞུང་གི་ཕྱོགས་ནས་དྲང་བདེན་གྱི་ཐག་གཅོད་གང་ཡང་མ་བྱས་བར་བརྟེན་སྤྱི་ཚེས༡༢ཉིན་ད་དུང་མུ་མཐུད་སློབ་ཆེན་མཐར་ཕྱིན་སློབ་མ་དང་ཕ་མ་ཚོས་རྫོང་སྲིད་གཞུང་གི་མདུན་ཞུ་འབོད་རྒོལ་གྱི་ལས་འགུལ་སྤེལ་བཞིན་པ་དང་། ས་གནས་བོད་མི་ཞིག་གིས་བརྗོད་དོན། ཉིན་འདི་དག་རིང་ང་ཚོའི་ཞུ་འབོད་དགོས་འདུན་ལ་གཞུང་ཕྱོགས་ནས་ཡ་ལན་གང་ཡང་སྤྲད་མེད་ཐོག་ཞུ་འབོད་པ་ཁ་ཤས་ལ་བསླུ་ཐབས་བྱེད་པ་དང་། འཇིགས་སྐུལ་བྱེད་པ་སོགས་ཀྱི་གནས་ཚུལ་ཡང་ཡོད་བཞིན་པ་བརྗོད་བྱུང་། མདོ་ལྷོ་ཀླུ་ཆུ་རྫོང་ཁོངས་ཀྱི་སློབ་ཆེན་མཐར་ཕྱིན་སློབ་མ་དང་། ཁྱིམ་བདག་ཕ་མ་བརྒྱ་ཕྲག་བརྒལ་བས་རྫོང་སྲིད་གཞུང་ནང་ཞུ་འབོད་ངོ་རྒོལ་གནང་ནས་ད་བར་ཉིན་གྲངས་༡༧ཕྱིན་ཡོད་ཀྱང་། ད་དུང་ཡང་དྲང་བདེན་གྱི་ཐག་གཅོད་གང་ཡང་མ་བྱུང་མེད་པ་རེད།<br />གནས་ཚུལ་དེ་ནི་མདོ་ལྷོ་ཁུལ་ཀླུ་ཆུ་རྫོང་ཁོངས་ཀྱི་སློབ་ཆེན་པའི་སློབ་མ་ཚོའི་ལས་འཚོལ་གཅིག་གྱུར་ཡིག་རྒྱུགས་ཀྱི་རྒྱུགས་ཤོག་རྒྱ་ནག་གི་འབྲེལ་ཡོད་ཚན་པའི་མི་སྣས་བརྐུས་ནས་གསང་བའི་ཐོག་ཕྱི་ལ་བཙོང་པ་དང་། ས་གནས་གཞན་པའི་མི་ཚོ་ས་གནས་ཀྱི་ལས་བྱེད་ཚུད་རྒྱུགས་ཁོངས་སུ་བཅུག་ནས་ས་གནས་ཀྱི་སློབ་ཆེན་མཐར་ཕྱིན་སློབ་མ་ཚོའི་གོ་སྐབས་ཤོར་བཞིན་པའི་གནས་ཚུལ་སློབ་ཆེན་ པ་དང་ཁྱིམ་བདག་ཕ་མ་ཚོས་ཤེས་རྟོགས་བྱུང་རྗེས་ཉེ་བའི་སྤྱི་ཟླ་༡༢བའི་ཚེས་༢༨ ཉིན་ནས་ཞུ་འབོད་ལས་འགུལ་སྤེལ་བ་ཡིན་པ་རེད།<br /><br />གསར་འགོད་པ་ཀླུ་འབུམ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>སློབ་ཆེན་པ་དང་ཕ་མ་ཁ་ཤས་ལ་བསླུ་ཐབས་བྱེད་པ་དང་འཇིགས་སྐུལ་བྱེད་པ་སོགས་ཀྱི་གནས་ཚུལ་ཡང་ཡོད་བཞིན་པ་རེད་འདུག</dc:subject>
+    
+    
+      <dc:subject>Luchu county authorities refused to resolve the issue of sale of question papers for job recruitment during meeting for college graduates</dc:subject>
+    
+    <dc:date>2015-01-12T22:40:01Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/sargyur/kalon-gyari-dolma-meets-canadian-minister-of-immigration-01122015153613.html">
+    <title>ཁེ་ན་ཊའི་ཕྱི་མི་གཞིས་སྤོས་ལས་ཁུངས་ཀྱི་བློན་ཆེན་དང་མཇལ་བ།</title>
+    <link>http://www.rfa.org/tibetan/sargyur/kalon-gyari-dolma-meets-canadian-minister-of-immigration-01122015153613.html</link>
+    <description>ནང་སྲིད་བཀའ་བློན་རྒྱ་རི་སྒྲོལ་མ་མཆོག་གིས་ཁེ་ན་ཊའི་ཕྱི་མི་གཞིས་སྤོས་ལས་ཁུངས་ཀྱི་བློན་ཆེན་དང་མཇལ་འཕྲད་ཀྱིས་འཚམས་འདྲི་ཞུས་གནང་འདུག  </description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/sargyur/kalon-gyari-dolma-meets-canadian-minister-of-immigration-01122015153613.html/Canada-High-Com-meeting-by-Kalon-GD.jpg"></img><p>ནང་སྲིད་བཀའ་བློན་རྒྱ་རི་སྒྲོལ་མ་མཆོག་གིས་ཁེ་ན་ཊའི་ཕྱི་མི་གཞིས་སྤོས་ལས་ཁུངས་ཀྱི་བློན་ཆེན་དང་མཇལ་འཕྲད་ཀྱིས་འཚམས་འདྲི་ཞུས་གནང་འདུག  <br />དེ་ཡང་བོད་མིའི་སྒྲིག་འཛུགས་ཀྱི་ནང་སྲིད་བཀའ་བློན་རྒྱ་རི་སྒྲོལ་མ་མཆོག་གིས་ཁ་ས་ཕྱི་ཚེས་༡༡་ཉིན་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལི་གསར་པའི་ནང་ཁེ་ན་ཊའི་ཕྱི་མི་གཞིས་སྤོས་ལས་ཁུངས་ཀྱི་བློན་ཆེན་གསར་པ་ལྕམ་Shannon  Fraserམཆོག་དང་མཇལ་འཕྲད་ཞུས་ནས་འཚམས་འདྲིའི་མཇལ་དར་ཕུལ་བ་དང་སྦྲགས་ཁེ་ན་ཊའི་གཞུང་གིས་ད་བར་བོད་དོན་ཐོག་རྒྱབ་སྐྱོར་གནང་བར་ཐུགས་རྗེ་ཞུས་པ་མ་ཟད། དེང་སྐབས་ཁེ་ན་ཊའི་ནང་བོད་མི་གཞིས་སྤོས་ཀྱི་ལས་གཞིའི་སྐོར་ལ་འགྲེལ་བཤད་སྐྱོན་གནང་འདུག དེ་བཞིན་དུ་བཀའ་བློན་མཆོག་ནས་དོགས་སེལ་དགོས་པའི་གནད་དོན་ཆུང་ཙག་ཁག་གཅིག་གི་ཐོག་ལ་ལམ་སྟོན་ཡང་ཞུས་འདུག སྐབས་དེར་ཁེ་ན་ཊའི་ཕྱི་མི་གཞིས་སྤོས་ལས་ཁུངས་ཀྱི་བློན་ཆེན་མཆོག་དང་ཁོང་གི་ཕྱག་རོགས་ལྕམ་Lillian Zadravetzརྣམ་གཉིས་ཀྱིས་ཀྱང་ནང་སྲིད་བཀའ་བློན་རྒྱ་རི་སྒྲོལ་མ་མཆོག་དབུས་པའི་བོད་མིའི་སྐུ་ཚབ་རྣམ་པར་གནས་ཚུལ་ཞིབ་ཕྲ་ངོ་སྤྲོད་གནང་བར་ཐུགས་རྗེ་ཆེ་ཞུས་པ་དང་སྦྲགས་ཁེ་ན་ཊར་བོད་མི་གཞིས་སྤོས་ལས་གཞི་འདི་མདུན་བསྐྱོད་བྱེད་བཞིན་པར་འདོད་བློ་ཁེངས་པོ་བྱུང་ཡོད་པའི་རྣམ་པ་ཤུགས་ཆེ་སྟོན་གནང་འདུག ཁོང་རྣམ་གཉིས་ཀྱིས་དོགས་སེལ་དགོས་པའི་གནད་དོན་དེ་དག་གི་ཐོག་གཟིགས་ཞིབ་གནང་རྒྱུའི་ཞལ་བཞེས་ཀྱང་གནང་འདུག ནང་སྲིད་བཀའ་བློན་རྒྱ་རི་སྒྲོལ་མ་མཆོག་གི་ལྷན་དུ་རྒྱ་གར་གྱི་རྒྱལ་ས་ལྡི་ལི་གསར་པར་ཡོད་པའི་ལྡི་ལི་སྐུ་ཚབ་དོན་གཅོད་ཁང་གི་དྲུང་ཆེ་ཚེ་དབང་རྒྱལ་པོ་ལགས་ཀྱང་ལྷན་བཅར་ཞུས་གནང་འདུག<br /><br />གསར་འགོད་པ་བསོད་ནམས་ལྷ་མོ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>ནང་སྲིད་བཀའ་བློན་རྒྱ་རི་སྒྲོལ་མ་མཆོག་གིས་ཁེ་ན་ཊའི་ཕྱི་མི་གཞིས་སྤོས་ལས་ཁུངས་ཀྱི་བློན་ཆེན་དང་མཇལ་འཕྲད་ཀྱིས་འཚམས་འདྲི་ཞུས་གནང་འདུག </dc:subject>
+    
+    
+      <dc:subject>Kalon Gyari Dolma meets Canadian Minister of Immigration</dc:subject>
+    
+    <dc:date>2015-01-12T20:39:54Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/society/tyc-to-clean-india-01122015144806.html">
+    <title>རྒྱ་གར་ནང་གཙང་བཟོའི་ལས་འགུལ་གནང་རྒྱུ།</title>
+    <link>http://www.rfa.org/tibetan/society/tyc-to-clean-india-01122015144806.html</link>
+    <description>བོད་ཀྱི་གཞོན་ནུ་ལྷན་ཚོགས་ཀྱིས་འདི་ཟླའི་ཚེས་༢༦སྟེ་རྒྱ་གར་གྱི་མང་གཙོའི་དུས་ཆེན་ཉིན་རྒྱ་གར་གཙང་བཟོའི་ལས་འགུལ་གཞི་རྒྱ་ཆེན་པོ་སྤེལ་འཆར་ཡོད།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/society/tyc-to-clean-india-01122015144806.html/swach-barat.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/society/tyc-to-clean-india-01122015144806.html/T010715-SLSN.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>༄༅། ཐེངས་འདིའི་གསར་འགྱུར་དང་འབྲེལ་བའི་ལེ་ཚན་ནང་། བོད་ཀྱི་གཞོན་ནུ་ལྷན་ཚོགས་ཀྱིས་འདི་ཟླའི་ཚེས་༢༦་སྟེ་རྒྱ་གར་གྱི་མང་གཙོའི་དུས་ཆེན་ཉིན་རྒྱ་གར་གཙང་བཟོའི་ལས་འགུལ་གཞི་རྒྱ་ཆེན་པོ་སྤེལ་འཆར་ཡོད་སྐོར་སེང་གེ་བསོད་ནམས་ལྷ་མོ་ལགས་ཀྱིས་སྙན་སྒྲོན་གནང་གི་རེད།</p>
+<p><img src="http://www.rfa.org/tibetan/sargyur/no-1-liu-xiaobo-plaza-06252014120828.html/sonamlhamo75.jpg" alt="" class="image-inline" title="" /><br />གསར་འགོད་པ་བསོད་ནམས་ལྷ་མོ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>tibet</dc:subject>
+    
+    
+      <dc:subject>tibetan</dc:subject>
+    
+    
+      <dc:subject>china</dc:subject>
+    
+    
+      <dc:subject>chinese</dc:subject>
+    
+    
+      <dc:subject>radio free asia</dc:subject>
+    
+    
+      <dc:subject>rfa</dc:subject>
+    
+    
+      <dc:subject>news</dc:subject>
+    
+    <dc:date>2015-01-12T19:53:05Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/tibet/tibetan-news-of-2014-01122015143723.html">
+    <title>༢༠༡༤ལོའི་ནང་བྱུང་བའི་བོད་ཀྱི་གནད་དོན།</title>
+    <link>http://www.rfa.org/tibetan/tibet/tibetan-news-of-2014-01122015143723.html</link>
+    <description>ཕྱི་ལོ་༢༠༡༤ལོའི་ནང་བྱུང་བའི་བོད་ཀྱི་གནད་དོན་དང་འབྲེལ་བའི་གནས་ཚུལ་ཕྱོགས་བསྒྲིགས།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/tibet/tibetan-news-of-2014-01122015143723.html/indian-merchants-chamber-mumbai.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/tibet/tibetan-news-of-2014-01122015143723.html/t011215-kbt.mp3" type="audio/mpeg">
+</audio><p>༄༅།།ཐེངས་འདིའི་རྩོམ་སྒྲིག་པའི་གླེང་སྟེགས་ཀྱི་ལེ་ཚན་ནང་ཚེ་བསྟན་རྣམ་རྒྱལ་ལགས་དང་ཀརྨ་རྗོ་རྗེ་ལགས་གཉིས་ཀྱིས་ཕྱི་ལོ་་༢༠༡༤་ལོའི་ནང་བྱུང་བའི་བོད་ཀྱི་གནད་དོན་དང་འབྲེལ་བའི་གནས་ཚུལ་ཆེ་ཁག་ཕྱོགས་སྒྲིག་ཞུས་པར་གསན་རོགས་གནང་།།<br />གསར་འགོད་པ་ཚེ་བརྟན་རྣམ་རྒྱལ་དང་ཀརྨ་རྡོ་རྗེ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>international</dc:subject>
+    
+    
+      <dc:subject>tibet</dc:subject>
+    
+    
+      <dc:subject>world</dc:subject>
+    
+    <dc:date>2015-01-12T19:39:16Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/sargyur/identity-verification-process-for-teaching-01122015135033.html">
+    <title>ཆོས་ཞུ་བར་དེང་དུས་དང་མཐུན་པའི་ཕྱག་འཁྱེར་གནང་རྒྱུ།</title>
+    <link>http://www.rfa.org/tibetan/sargyur/identity-verification-process-for-teaching-01122015135033.html</link>
+    <description>༧གོང་ས་མཆོག་གི་སྐུ་ཕྱ་དང་ཆོས་ཞུ་བར་སྟབས་བདེ་ཆེད་དེང་དུས་དང་མཐུན་པའི་ཆོས་ཞུ་ཕྱག་འཁྱེར་གནང་རྒྱུ་ཡིན་འདུག</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<p>༧གོང་ས་མཆོག་གི་སྐུ་ཕྱ་དང་ཆོས་ཞུ་བར་སྟབས་བདེ་ཆེད་དེང་དུས་དང་མཐུན་པའི་ཆོས་ཞུ་ཕྱག་འཁྱེར་གནང་རྒྱུ་ཡིན་འདུག<br />དེ་ཡང་དེ་རིང་ཕྱི་ཟླ་༡པོའི་ཚེས་༡༢ཉིན་བོད་མིའི་སྒྲིག་འཛུགས་ཀྱི་བདེ་སྲུང་ཡན་ལག་འགན་འཛིན་འཇིགས་མེད་རྒྱ་མཚོ་ལགས་ཀྱིས་ཕྱི་ལོ་༢༠༡༥ལོར་བཞུགས་སྒར་རྡ་ས་ཐེག་ཆེན་ཆོས་གླིང་གཙུག་ལག་ཁང་དུ་སྤྱི་ནོར་༧གོང་ས་སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་གསུང་ཆོས་སྩལ་སྐབས་ཆོས་ཞུ་བ་རྣམས་ལ་དེང་དུས་དང་མཐུན་པའི་ཕྱག་འཁྱེར་འབུལ་ཕྱོགས་སྐོར་གསར་འགོད་གསལ་བསྒྲགས་ཤིག་སྤེལ་ཡོད་པ་དང་། སྤྱི་ནོར་༧གོང་ས་སྐྱབས་མགོན་ཆེན་པོ་མཆོག་གིས་གསུང་ཆོས་སྩལ་སྐབས་རྒྱལ་བའི་སྐུ་ཕྱྭའི་ཆེད་དང་། ཆོས་ཞུ་བ་རྣམས་ལ་དཀའ་ངལ་མི་འཕྲད་རྒྱུའི་ཆེད་བདེ་སྲུང་བཀའ་བློན་དང་། དྲུང་ཆེ་རྣམ་གཉིས་ཀྱིས་ཕྱག་འཁྱེར་གསར་བཟོ་དགོས་སྐོར་ལམ་སྟོན་ཕེབས་དོན་ལྟར་བདེ་སྲུང་ཡན་ལག་དང་། ཕྱི་དྲིལ་རྩིས་འཁོར་སྡེ་ཚན་གཉིས་གོ་བསྡུར་གནང་སྟེ་ཆོས་ཞུ་བའི་ཕྱག་འཁྱེར་ལོ་གཅིག་རིང་གནང་རྒྱུ་ཕྱི་ལོ་༢༠༡༤ནས་འགོ་བཙུགས་གནང་བ་ཡིན་ལུགས་གསལ་སྟོན་གནང་འདུག ལྷག་པར་ཆོས་ཞུ་བའི་ཕྱག་འཁྱེར་སྔར་ལྷག་སྟབས་བདེ་ཡོང་ཆེད་དེང་དུས་ཀྱི་འཕྲུལ་རིག་ལག་རྩལ་དང་མཐུན་པའི་ Digitiseབཟོ་ཐབས་ཚོད་ལྟ་རིམ་པ་གནང་ནས་བདེ་སྲུང་བཀའ་བློན་མཆོག་གིས་བཀའ་འཁྲོལ་ལྟར། ཕྱི་ལོ་༢༠༡༥ཕྱི་ཟླ་༡ཚེས་༡༩ནས་འགོ་བཙུགས་ཏེ་ཐོག་མར་དགོན་སྡེ་གྲྭ་ཚང་དང་། ཚོགས་སྡེ་ཁག་གི་སེར་སྐྱ་རྣམས་ཐོ་འགོད་གནང་རྒྱུ་དང་། དེ་ནས་རིམ་བཞིན་མི་མང་རྣམས་ཐོ་འགོད་གནང་རྒྱུ་ཡིན་པ་གསུངས་འདུག དེ་སྔ་ཐོ་འགོད་ཟིན་པ་རྣམས་ནས་ཆོས་ཞུ་བའི་ཕྱག་འཁྱེར་ཨང་གྲངས་སམ་ཕྱག་འཁྱེར་རྙིང་པ་མཉམ་འཁྱེར་གྱིས་གསར་དུ་ཐོ་འགོད་གནང་དགོས་པ་དང་། ལོ་གཅིག་རིང་གི་གསུང་ཆོས་ཕྱག་འཁྱེར་ཞུ་མཁན་རྣམས་ནས་གསུང་ཆོས་ནམ་སྩལ་སྐབས་བདེ་སྲུང་ཡན་ལག་ལས་ཁུངས་སུ་བཅར་ནས་ངེས་པར་དུ་ཐོ་འགོད་དགོས་པ། གསུང་ཆོས་ཕྱག་འཁྱེར་དེ་རྡ་སར་གསུང་ཆོས་སྐབས་ཁོ་ནའི་ཆེད་དུ་ཡིན་པ་སོགས་གསུངས་འདུག་པ་དང་། ཕྱག་འཁྱེར་ཞུ་ཕྱོགས་ཆ་རྐྱེན་ཁག་གསལ་བཀོད་གནང་འདུག<br /><br />གསར་འགོད་པ་དབྱངས་སྒྲོལ། <br /><br /></p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>༧གོང་ས་མཆོག་གི་སྐུ་ཕྱ་དང་ཆོས་ཞུ་བར་སྟབས་བདེ་ཆེད་དེང་དུས་དང་མཐུན་པའི་ཆོས་ཞུ་ཕྱག་འཁྱེར་གནང་རྒྱུ་ཡིན་འདུག</dc:subject>
+    
+    
+      <dc:subject>identity verification process for devotees attending teachings of H.H. the Dalai Lama</dc:subject>
+    
+    <dc:date>2015-01-12T18:52:15Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/sargyur/senior-chinese-spy-chief-under-corruption-probe-01122015131854.html">
+    <title>རྒྱ་ནག་བདེ་འཇཊ་ལས་ཁང་གི་འགན་འཛིན་ལ་ཁྲིམས་བཤེར།</title>
+    <link>http://www.rfa.org/tibetan/sargyur/senior-chinese-spy-chief-under-corruption-probe-01122015131854.html</link>
+    <description>རྒྱ་ནག་རྒྱལ་ཡོངས་བདེ་འཇཊ་ལས་ཁང་གི་འགན་འཛིན་གཞོན་པར་ལྐོག་ཟ་རུལ་སུངས་ཀྱི་དོན་རྐྱེན་འོག་བཀག་ཉར་ཞིབ་བཤེར་བྱེད་བཞིན་པ་རེད།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/sargyur/senior-chinese-spy-chief-under-corruption-probe-01122015131854.html/majian-a.jpg"></img><p>རྒྱ་ནག་རྒྱལ་ཡོངས་བདེ་འཇཊ་ལས་ཁང་གི་འགན་འཛིན་གཞོན་པ་Ma Jian ཟེར་བར་ལྐོག་ཟ་རུལ་སུངས་ཀྱི་དོན་རྐྱེན་འོག་བཀག་ཉར་ཞིབ་བཤེར་བྱེད་བཞིན་པ་རེད།<br />དེ་ཡང་རྒྱ་ནག་གི་སྲིད་འཛིན་ཞི་ཅིན་ཕིན་གྱིས་སྤེལ་བཞིན་པའི་ལྐོག་ཟ་རུལ་སུངས་ལ་འགོག་རྒོལ་གྱི་ལས་འགུལ་ཁྲོད་རྒྱ་ནག་རྒྱལ་ཡོངས་བདེ་འཇགས་ལས་ཁང་གི་འགན་འཛིན་གཞོན་པ་Ma Jian ཟེར་བར་ལྐོག་ཟ་རུལ་སུངས་ཀྱི་དོན་རྐྱེན་འོག་བཀག་ཉར་གྱིས་ཞིབ་བཤེར་བྱེད་བཞིན་ཡོད་པའི་གནས་ཚུལ་ལྷོ་རྒྱ་ནག་གི་སྔ་དྲོའི་གསར་ཤོག་ཐོག་དེ་རིང་ཕྱི་ཚེས་༡༢་ཉིན་གནས་ཚུལ་སྤེལ་འདུག རྒྱ་ནག་རྒྱལ་ཡོངས་བདེ་འཇགས་ལས་ཁང་གི་བློན་ཆེན་གཞོན་པ་Ma Jianཡིས་ལྐོག་ཟ་རུལ་སུངས་བྱས་པའི་དོགས་གཞིའི་འོག་འཛིན་བཟུང་གིས་ད་ཆ་གཞུང་འབྲེལ་ཞིབ་བཤེར་བྱེད་བཞིན་ཡོད་པ་དང་། Ma Jian ནི་ཉེ་ཆར་ལྐོག་ས་རུལ་སུངས་ཀྱི་དོན་རྐྱེན་འོག་ཚུད་ནས་ཞིབ་བཤེར་བྱེད་བཞིན་པའི་རྒྱ་ནག་གི་སྲིད་འཛིན་ཟུར་པ་ཧུའུ་ཅིན་ཐོའོ་དང་འབྲེལ་བ་ཉེ་པོ་ཡོད་པའི་Ling Jihuaདང་ཧ་ཅང་གི་འབྲེལ་བ་ཆེན་པོ་ཡོད་པའི་དཔོན་རིགས་ཤིག་ཀྱང་ཡིན་པ་རེད། Ma Jian ཕྱི་ལོ་༢༠༠༦་ལོར་རྒྱ་ནག་རྒྱལ་ཡོངས་བདེ་འཇགས་ལྷན་ཁང་གི་འགན་འཛིན་གཞོན་པར་གནས་སྤར་མ་བྱས་གོང་དེ་སྔ་རྒྱ་ནག་བདེ་འཇགས་ལྷན་ཁང་གི་ཅུས་རིམ་པའི་འགན་འཛིན་ནས་བདེ་འཇགས་ལྷན་ཁང་གི་བློན་ཆེན་གཞོན་པའི་གོ་གནས་སུ་གནས་སྤར་བྱས་ཡོད་པ་རེད། ཉེ་བའི་ཆར་རྒྱ་ནག་གི་སྲིད་འཛིན་Xi Jinping ཡིས་ལྐོག་ཟ་རུལ་སུངས་ལ་རྒོལ་རྡུང་གི་ལས་འགུལ་ཚ་ཚ་འུར་འུར་སྤེལ་འགོ་ཚུགས་ནས་འདས་པའི་ལོ་གཅིག་གཉིས་ནང་རྒྱ་ནག་ནང་ལྐོག་ཟ་རུལ་སུངས་དང་། དབང་ཆ་སྒེར་སྤྱོད་བྱེད་མཁན་རྒྱ་ནག་གི་མཐོ་རིམ་དཔོན་རིགས་ཁག་ཅིག་དང་། དེ་ག་ནང་བཞིན་ཞིང་ཆེན་དང་ ས་གནས་རིམ་པའི་དཔོན་རིགས་སོགས་མང་པོ་ཞིག་འཛིན་བཟུང་དང་ཁྲིམས་སྦྱར་བྱེད་བཞིན་ཡོད་པ་རེད། <br /><br />གསར་འགོད་པ་དབྱངས་སྒྲོལ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>རྒྱ་ནག་རྒྱལ་ཡོངས་བདེ་འཇཊ་ལས་ཁང་གི་འགན་འཛིན་གཞོན་པ་Ma Jian ཟེར་བར་ལྐོག་ཟ་རུལ་སུངས་ཀྱི་དོན་རྐྱེན་འོག་བཀག་ཉར་ཞིབ་བཤེར་བྱེད་བཞིན་པ་རེད།</dc:subject>
+    
+    
+      <dc:subject>Senior Chinese Spy Chief Under Corruption Probe</dc:subject>
+    
+    <dc:date>2015-01-12T18:20:00Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/tibet/two-year-sentenced-experience-shared-01122015124117.html">
+    <title>སྡུག་སྦྱོང་ཚད་མེད་འོག་ལོ་གཉིས།</title>
+    <link>http://www.rfa.org/tibetan/tibet/two-year-sentenced-experience-shared-01122015124117.html</link>
+    <description>ལོ་གཉིས་རིང་བཙོན་འཇུག་གི་ཉེས་ཆས་འཁུར་དགོས་བྱུང་བའི་བོད་མི་ཞིག་གིས་རང་གི་མྱོང་ཚོར་ངོ་སྤྲོད་གནང་འདུག</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/tamlenggiletsen/tamlengzhalpar/tibetan-political-prisoner-04132012132840.html/DRAPCHPRISON-305.jpg"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/tibet/two-year-sentenced-experience-shared-01122015124117.html/T011215-KT.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>༄༅།    །བོད་དོན་ལས་འགུལ་ནང་བཞུགས་པའི་ཉེས་མིང་འོག    ལོ་གཉིས་རིང་བཙོན་འཇུག་གི་ཉེས་ཆས་འཁུར་དགོས་བྱུང་བའི་བོད་མི་ཞིག་གིས་རང་གི་མྱོང་ཚོར་ངོ་སྤྲོད་གནང་འདུག    དེའི་སྐོར་ང་ཚོའི་གསར་འགོད་པ་ཀུན་བཟང་བསྟན་འཛིན་ལགས་ཀྱིས་བཏང་བའི་གནས་ཚུལ་ལ་གསན་རོགས་གནང་།།</p>
+<p><img src="http://www.rfa.org/tibetan/tibet/china-tighten-security-for-tibetans-to-visit-lhasa-06072014111829.html/kunsangtenzin75.jpg" alt="" class="image-inline" title="" /><br />གསར་འགོད་པ་ཀུན་བཟང་བསྟན་འཛིན།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>tibet</dc:subject>
+    
+    
+      <dc:subject>tibetan</dc:subject>
+    
+    
+      <dc:subject>prison</dc:subject>
+    
+    
+      <dc:subject>sentenced</dc:subject>
+    
+    
+      <dc:subject>radio free asia</dc:subject>
+    
+    
+      <dc:subject>rfa</dc:subject>
+    
+    
+      <dc:subject>news</dc:subject>
+    
+    <dc:date>2015-01-12T17:44:04Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/society/tibetan-childrens-project-canada-01122015121412.html">
+    <title>ཁེ་ན་ཌའི་བོད་ཕྲུག་ལས་འཆར་ཚོགས་པ།</title>
+    <link>http://www.rfa.org/tibetan/society/tibetan-childrens-project-canada-01122015121412.html</link>
+    <description>ཁེ་ན་ཌའི་བོད་ཕྲུག་ལས་འཆར་ཚོགས་པ་ཞེས་པ་དེས་བོད་མི་རིགས་ཀྱི་ལར་ཞེན་དང་ལྷག་བསམ་གྱི་ཐོིག་ནས་བོིད་རིགས་ཉམ་ཐག་གི་སློབ་ཕྲུག་ཚོ་ལ་སློབ་ཡོན་རོགས་རམ་གནང་བཞིན་ཡོད་པ་རེད།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/society/tibetan-childrens-project-canada-01122015121412.html/image.jpeg"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/society/tibetan-childrens-project-canada-01122015121412.html/t011215-TN.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>༄༅༎དེ་རིང་གི་གཞིས་བྱེས་བོད་མི་ཟེར་བའི་ལེ་ཚན་ནང་ཁེ་ན་ཌའི་བོད་ཕྲུག་ལས་འཆར་ཚོགས་པ་ཞེས་པ་དེ་བཙན་བྱོལ་བོད་མི་ཁག་ཅིག་ནས་༧གོང་ས་རྒྱལ་བ་རིན་པོ་ཆེ་མཆོག་གི་དགོངས་གཞི་བཞིན་བཙུགས་ནས་བོད་མི་རིགས་ཀྱི་ལར་ཞེན་དང་ལྷག་བསམ་གྱི་ཐོིག་ནས་བོིད་རིགས་ཉམ་ཐག་གི་སློབ་ཕྲུག་ཚོ་ལ་སློབ་ཡོན་རོགས་རམ་གནང་བཞིན་པའི་སྐོར་ཚོགས་པ་དེའི་རྒྱུན་ལས་ཚ་མོ་ཚང་ཐུབ་བསྟན་སྨོན་ལམ་ལགས་སུ་ཚེ་དབང་ནོར་བུས་གནས་འདྲི་ཕྱོགས་སྒྲིག་ཞུས་པ་དེ་གསན་རོིགས་ཞུ།</p>
+<p><img src="http://www.rfa.org/tibetan/tibet/evidence-left-behind-by-self-immolators-05232014135014.html/tsewangnorbu75.jpg" alt="" class="image-inline" title="" /><br />གསར་འགོད་པ་ཚེ་དབང་ནོར་བུ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>tibet</dc:subject>
+    
+    
+      <dc:subject>tibetan</dc:subject>
+    
+    
+      <dc:subject>canada</dc:subject>
+    
+    
+      <dc:subject>children</dc:subject>
+    
+    
+      <dc:subject>project</dc:subject>
+    
+    
+      <dc:subject>radio free asia</dc:subject>
+    
+    
+      <dc:subject>rfa</dc:subject>
+    
+    
+      <dc:subject>news</dc:subject>
+    
+    <dc:date>2015-01-12T17:16:54Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/society/importance-of-mutual-respect-within-religion-01122015113340.html">
+    <title>ཕྱོགས་རིས་མེད་པ་ཞིག་དགོས་རྒྱུ་གལ་ཆེ།</title>
+    <link>http://www.rfa.org/tibetan/society/importance-of-mutual-respect-within-religion-01122015113340.html</link>
+    <description>བོད་དུ་དར་བའི་ཆོས་བརྒྱུད་སྒྲུབ་མཐའ་ཕྱོགས་རིས་མེད་པ་དགོས་རྒྱུ་གལ་ཆེ་ཡིན་པའི་སྐོར་༸གོང་ས་མཆོག་ནས་བཀའ་གནང་འདུག</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/dalai-lama/hh-dalai-lama-began-teaching-to-taiwanes-in-dharamsala-10062014105056.html/HH-began-teaching-to-taiwan-640.jpg"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/society/importance-of-mutual-respect-within-religion-01122015113340.html/t011215-TW.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>༄༅།    །ཐེངས་འདིའི་སྤྱི་ཚོགས་ཀྱི་གནད་དོན་གླེང་མོལ་ཞེས་པའི་ལེ་ཚན་གྱི་ནང་།    བོད་དུ་དར་བའི་ཆོས་བརྒྱུད་སྒྲུབ་མཐའ་ཕྱོགས་རིས་མེད་པ་དགོས་རྒྱུ་གལ་ཆེ་ཡིན་པའི་སྐོར་༸གོང་ས་མཆོག་ནས་བཀའ་གནང་བ་དེ་བསྟན་འཛིན་དབང་རྒྱལ་ལགས་ཀྱིས་ཕྱོགས་སྒྲིག་སྙན་སྒྲོན་གནང་གི་རེད།</p>
+<p><img src="http://www.rfa.org/tibetan/exile/Tenzinwangyal75.gif" alt="" class="image-inline" title="" /><br />གསར་འགོད་པ་བསྟན་འཛིན་དབང་རྒྱལ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    <dc:date>2015-01-12T16:38:21Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/world/profile-of-cuba-01122015113245.html">
+    <title>ཀུ་སྦ་ཡུལ་གྱི་ངོ་སྤྲོད།</title>
+    <link>http://www.rfa.org/tibetan/world/profile-of-cuba-01122015113245.html</link>
+    <description>ཨ་མེ་རི་ཀའི་ལྷོ་ཕྱོགས་སུ་ཆགས་པའི་ཀུ་སྦ་དམར་པོའི་ཡུལ་གྱི་ངོ་སྤྲོ་སྙིང་བསྡུས།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/world/profile-of-cuba-01122015113245.html/cuba.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/world/profile-of-cuba-01122015113245.html/t011215lt.mp3" type="audio/mpeg">
+</audio><p>༄༅༎ཐེངས་འདིའི་འཛམ་གླིང་ནང་གི་སྙན་གྲགས་ཅན་གྱི་མི་སྣ་དང་ས་གནས་ཞེས་པའི་ལེ་ཚན་གྱི་ནང་དུ་ཨ་མེ་རི་ཀའི་ལྷོ་ཕྱོགས་སུ་ཆགས་པའི་ཀུ་སྦ་དམར་པོའི་རིང་ལུགས་ཀྱི་ཡུལ་གྲུའི་ངོ་སྤྲོད་སྙིང་བསྡུས་ཤིག་ལྷུན་གྲུབ་ཚེ་རིང་ལགས་ནས་ཕྱོགས་སྒྲིག་ཞུས་པར་གསན་རོགས༎<br />གསར་འགོད་པ་ལྷུན་གྲུབ་ཚེ་རིང་།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>america</dc:subject>
+    
+    
+      <dc:subject>communist</dc:subject>
+    
+    
+      <dc:subject>international</dc:subject>
+    
+    
+      <dc:subject>world</dc:subject>
+    
+    
+      <dc:subject>lhundup tsering</dc:subject>
+    
+    
+      <dc:subject>lhundup tashishar</dc:subject>
+    
+    <dc:date>2015-01-12T16:35:15Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/world/influenza-spread-wide-in-america-01122015111034.html">
+    <title>ཨ་རིའི་ནང་ཆམ་རིམས་ཁྱབ་འཕེལ།</title>
+    <link>http://www.rfa.org/tibetan/world/influenza-spread-wide-in-america-01122015111034.html</link>
+    <description>འདི་ལོའི་ནམ་དུས་ཀྱི་ཆམ་རིམས་དེ་ཨ་རིའི་མངའ་སྡེ་མང་ཆེ་བའི་ནང་ཁྱབ་འཕེལ་བྱུང་བ།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/world/influenza-spread-wide-in-america-01122015111034.html/influenza.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/world/influenza-spread-wide-in-america-01122015111034.html/t011215nn.mp3" type="audio/mpeg">
+</audio><p>༄༅༎ཐེངས་འདིའི་འཕྲོད་བསྟེན་ལེ་ཚན་ནང།འདི་ལོའི་ནམ་དུས་ཀྱི་ཆམ་རིམས་དེ་ཨ་རིའི་མངའ་སྡེ་མང་ཆེ་བའི་ནང་ཁྱབ་འཕེལ་བྱུང་བ་མ་ཟད།ཕྲུ་གུ་༢༡ རྐྱེན་འདས་ཕྱིན་ཏེ་ཆམ་རིམས་སྡུག་པོ་བྱུང་བ་ལྟར་།ཆམ་རིམས་དེ་ཡིས་རྒྱལ་སྤྱིའི་ནང་ལའང་དཀའ་ངལ་དང་མི་འཆི་རྐྱེན་ཇི་ཙམ་ཡོང་གི་ཡོད་པའི་སྐོར་གཡུ་སྒྲོན་ལགས་ཀྱིས་ཕྱོགས་སྒྲིག་ཞུས་པ་ཞིག་གསན་རོགས་གནང།།<br /><img src="http://www.rfa.org/tibetan/society/NyimaNamling75.gif" alt="" class="image-inline" title="" />གསར་འགོད་པ་གཡུ་སྒྲོན།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>america</dc:subject>
+    
+    
+      <dc:subject>science</dc:subject>
+    
+    
+      <dc:subject>society</dc:subject>
+    
+    
+      <dc:subject>usa</dc:subject>
+    
+    
+      <dc:subject>world</dc:subject>
+    
+    
+      <dc:subject>flu</dc:subject>
+    
+    
+      <dc:subject>nyima namseling</dc:subject>
+    
+    <dc:date>2015-01-12T16:12:21Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/exile/gratitute-to-his-holiness-01122015110851.html">
+    <title>བཀའ་དྲིན་རྗེས་དྲན་གྱི་ཉིན་མོ།</title>
+    <link>http://www.rfa.org/tibetan/exile/gratitute-to-his-holiness-01122015110851.html</link>
+    <description>བྷེང་ལོར་གྲོང་ཁྱེར་དུ་བོད་མི་༣༠༠ལྷག་ཙམ་མཉམ་འཛོམས་ཐོག	༸གོང་ས་མཆོག་ལ་བཀའ་དྲིན་རྗེས་དྲན་གྱི་ཉིན་མོ་སྲུང་བརྩི་ཞུས་འདུག</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/exile/gratitute-to-his-holiness-01122015110851.html/Bangalore.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/exile/gratitute-to-his-holiness-01122015110851.html/t011215-SW.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<p>༄༅།    །བྷེང་ལོར་ས་གནས་བོད་ཀྱི་གཞོན་ནུ་ལྷན་ཚོགས་ཀྱི་གོ་སྒྲིག་འོག    ཁ་སང་རེས་གཟའ་ཉི་མའི་ཉིན་བོད་མི་༣༠༠ལྷག་ཙམ་མཉམ་འཛོམས་ཐོག    ༸གོང་ས་མཆོག་ལ་བཀའ་དྲིན་རྗེས་དྲན་གྱི་ཉིན་མོ་སྲུང་བརྩི་ཞུས་འདུག    ཞིབ་ཕྲ་ང་ཚོའི་གསར་འགོད་པ་བསོད་ནམས་དབང་འདུས་ལགས་ཀྱིས་སྙན་སྒྲོན་གནང་གི་རེད།</p>
+<p><img src="http://www.rfa.org/tibetan/sargyur/kartuk-dorjee-released-05292014141457.html/sonamwangdue75.jpg" alt="" class="image-inline" title="" /><br />གསར་འགོད་པ་བསོད་ནམས་དབང་འདུས།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>tibet</dc:subject>
+    
+    
+      <dc:subject>tibetan</dc:subject>
+    
+    
+      <dc:subject>his holiness</dc:subject>
+    
+    
+      <dc:subject>dalai lama</dc:subject>
+    
+    
+      <dc:subject>bangalore</dc:subject>
+    
+    
+      <dc:subject>india</dc:subject>
+    
+    <dc:date>2015-01-12T16:12:40Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/exile/long-life-puja-offered-to-sakya-trizin-01122015105306.html">
+    <title>༸གོང་མ་རིན་པོ་ཆེ་མཆོག་ལ་བརྟན་བཞུགས།</title>
+    <link>http://www.rfa.org/tibetan/exile/long-life-puja-offered-to-sakya-trizin-01122015105306.html</link>
+    <description>ཆོས་རྒྱལ་འཕགས་པའི་དགོངས་རྫོགས་དུས་ཆེན་ཉིན་འཁོན་རིགས་བསྟན་པའི་གཙུག་རྒྱན་༸དཔལ་ས་སྐྱ་གོང་མ་བདག་ཁྲི་རྡོ་རྗེ་འཆང་ཆེན་པོ་མཆོག་ལ་བརྟན་བཞུགས་བསྟར་འབུལ་ཞུས་ཡོད་པའི་གནས་ཚུལ།</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/exile/long-life-puja-offered-to-sakya-trizin-01122015105306.html/tenshuk-for-sakya-trizin.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/exile/long-life-puja-offered-to-sakya-trizin-
+
+01122015105306.html/t011215ksg.mp3" type="audio/mpeg">
+</audio><p>༄༅༎ཕྱི་ཟླ་༡ཚེས་༡༢རེས་གཟའ་ཟླ་བའི་ཉིན་ཆོས་རྒྱལ་འཕགས་པའི་དགོངས་རྫོགས་དུས་ཆེན་ཉིན་རྒྱ་གར་བྱང་ཕྱོགས་རཱཇ་པུར་ས་སྐྱའི་ཆོས་ཚོགས་སུ་འཁོན་རིགས་བསྟན་པའི་གཙུག་རྒྱན་༸དཔལ་ས་སྐྱ་གོང་མ་བདག་ཁྲི་རིན་པོ་ཆེ་མཆོག་ལ་འདུ་མང་ཡོངས་ནས་བརྟན་བཞུགས་བསྟར་འབུལ་ཞུས་ཡོད་པའི་སྐོར་ཨེ་ཤེ་ཡ་རང་དབང་རླུང་འཕྲིན་ཁང་གི་གསར་འགོད་པ་བཟོད་པ་རྒྱ་མཚོ་ལགས་ནས་གནས་ཚུལ་ཕྱོགས་སྒྲིག་ཞུས་པར་གསན་རོགས༎<br /><img src="http://www.rfa.org/tibetan/exile/20th-gyalyum-chenmo-memorial-gold-cup-is-going-smoothly-06072014134932.html/soepagyatso75.jpg" alt="" class="image-inline" title="" />གསར་འགོད་པ་བཟོད་པ་རྒྱ་མཚོ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>buddhism</dc:subject>
+    
+    
+      <dc:subject>buddhist</dc:subject>
+    
+    
+      <dc:subject>exile</dc:subject>
+    
+    
+      <dc:subject>india</dc:subject>
+    
+    
+      <dc:subject>religion</dc:subject>
+    
+    
+      <dc:subject>tibetan</dc:subject>
+    
+    
+      <dc:subject>sakya trizin</dc:subject>
+    
+    
+      <dc:subject>sakya</dc:subject>
+    
+    <dc:date>2015-01-12T15:55:00Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/sargyur/kerry-lauds-modi-01122015165401.html">
+    <title>ཨ་རྒྱ་གཉིས་བར་འབྲེལ་ལམ་ཐད་གྲོས་གཞི་དོན་ཚན་བཞི་བཏོན་པ།</title>
+    <link>http://www.rfa.org/tibetan/sargyur/kerry-lauds-modi-01122015165401.html</link>
+    <description>ཨ་རི་དང་རྒྱ་གར་གཉིས་འབྲེལ་ལམ་སྐུལ་འདེད་གཏོང་རྒྱུར་དོན་ཚན་བཞི་ཅན་གྱི་གྲོས་གཞི་ཞིག་བཏོན་གནང་འདུག  </description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/sargyur/kerry-lauds-modi-01122015165401.html/f47.JPG"></img><p>ཨ་རི་དང་རྒྱ་གར་གཉིས་འབྲེལ་ལམ་སྐུལ་འདེད་གཏོང་རྒྱུར་དོན་ཚན་བཞི་ཅན་གྱི་གྲོས་གཞི་ཞིག་བཏོན་གནང་འདུག  <br />དེ་ཡང་ཨ་རིའི་ཕྱི་སྲིད་དྲུང་ཆེ་John Kerryམཆོག་གིས་རྒྱ་གར་གྱི་སྲིད་བློན་Narendra Modiཡིས་རྒྱ་གར་གྱི་དཔལ་འབྱོར་ཡར་རྒྱས་གོང་འཕེལ་གཏོང་རྒྱུའི་ཆེད་དུ་ཕྱི་རྒྱལ་གྱི་མ་རྩ་འཛུགས་མཁན་འགུག་ཐབས་གནང་བཞིན་པར་བསྔགས་བརྗོད་གནང་བ་དང་། ཨ་རི་དང་རྒྱ་གར་གཉིས་ཀྱི་འབྲེལ་ལམ་གྱི་ནུས་ཤུགས་ཆེ་རུ་གཏོང་ཐབས་དང་སྲ་བརྟན་བཟོ་རྒྱུའི་དོན་དུ་གནམ་གཤིས་འགྱུར་ལྡོག་དང་བདེ་སྲུང་། ཞི་བདེའི་ཆེད་ཀྱི་རྡུལ་ཕྲན་ནུས་ཤུགས། དེ་བཞིན་དྲག་པོའི་འཇིགས་སྐུལ་རིང་ལུགས་ཚོགས་ཁག་ལ་འགོག་རྒོལ་ཐད་མཉམ་འབྲེལ་གནང་རྒྱུའི་ཆོད་སེམས་བརྟན་པོ་དགོས་པའི་གྲོས་གཞི་བཏོན་གནང་འདུག ཨ་རིའི་ཕྱི་སྲིད་དྲུང་ཆེ་John Kerryམཆོག་རྒྱ་གར་ནང་ཉིན་གཉིས་རིང་Gujaratམངའ་སྡེའི་ནང་། Gujaratམངའ་སྡེ་དེ་དཔལ་འབྱོར་ཡར་ཐོན་ཅན་ཞིག་བཟོ་རྒྱུའི་ཆེས་མཐོའི་ལྷན་ཚོགས་ལ་ཆེད་ཕེབས་གནང་ཡོད་པ་རེད། ད་དུང་John Kerryམཆོག་ནས་སྲིད་བློན་Modiའི་གཞུང་འཛིན་འོག་ཨ་མི་རི་ཀའི་ཁེ་གཉེར་ལས་ཁང་ཁག་གིས་རྒྱ་གར་ནང་མ་རྩ་འཛུགས་རྒྱུ་ཡིན་སྐོར་གསུངས་པ་མ་ཟད། མོ་དྷི་མཆོག་ནས་རྒྱ་གར་ལ་གློག་ཆུ་ཚོད་༢༤་རིང་མཁོ་སྤྲོད་གནང་རྒྱུའི་འཆར་སྣང་དེ་བཞིན་དོན་འཁྱོལ་ཡོང་རྒྱུར་ང་ཚོས་ལས་ཀ་བྱེད་ཀྱི་ཡིན་ལ་ལོ་འདིའི་ལོ་མཇུག་ལ་ཕ་རན་སིའི་རྒྱལ་ས་པེ་རིས་ནང་འཛམ་གླིང་གི་གནམ་གཤིས་འགྱུར་ལྡོག་གི་ཚོགས་ཆེན་སྐབས་རྒྱ་གར་གྱིས་ཀྱང་ལོ་རྒྱུས་མཚམས་རྟགས་ལྟ་བུའི་གྲོས་མཐུན་ཞིག་བཞག་རྒྱུའི་ཆེད་ལས་ཀ་བྱ་རྒྱུའི་ཆོད་སེམས་བརྟན་པོ་དགོས་སྐོར་ཡང་གསུངས་འདུག ཡང་ཁོང་གིས་གོང་ཞུས་དོན་ཚན་བཞི་པོ་དེ་དག་ཨ་མི་རི་ཀའི་སྲིད་འཛིན་ཨོ་བྷ་མ་མཆོག་ཟླ་བ་འདིའི་ཕྱི་ཚེས་༢༦ལ་རྒྱ་གར་གྱི་མང་གཙོའི་དུས་ཆེན་ཉིན་གྱི་སྐུ་མགྲོན་གཙོ་བོའི་ཚུལ་དུ་འཚམས་གཟིགས་ལ་ཕེབས་སྐབས་སྲིད་བློན་Modiལྷན་དུ་བཀའ་བསྡུར་གནང་རྒྱུ་ཡིན་པ་དང་། ཨོ་བྷ་མ་ནི་རྒྱ་གར་ལ་ཐེངས་མ་གཉིས་ཕེབས་མཁན་ཨ་རིའི་སྲིད་འཛིན་དང་པོ་དེ་ཡིན་སྟབས་དེས་ཡུལ་གྲུ་གཉིས་ཀྱི་འབྲེལ་ལམ་གལ་འགངས་ཆེན་པོར་རྩིས་ཡོད་པ་མཚོན་གྱི་ཡོད་སྐོར་ཡང་གསུངས་འདུག<br />དེ་བཞིན་འདི་ཚེས་༡༡ཉིན་ཨ་རིའི་ཕྱི་སྲིད་དྲུང་ཆེ་John Kerryདང་འབྲུག་ཡུལ་གྱི་སྲིད་བློན་ཚེ་རིང་སྟོབས་རྒྱལ་རྣམ་གཉིས་དབར་མཇལ་འཕྲད་གནང་ཡོད་པ་དང༌། མཇལ་འཕྲད་གྲུབ་པའི་རྗེས་གསར་འགོད་པས་ཨ་རིའི་ཕྱི་སྲིད་དྲུང་ཆེར་ད་ལམ་ཐེངས་དང་པོར་ཁོང་གིས་འབྲུག་ཡུལ་གྱི་སྲིད་བློན་མཉམ་མཇལ་འཕྲད་གནང་དགོས་པའི་རྒྱུ་མཚན་ཇི་ཡིན་བཀའ་འདྲི་ཞུས་པའི་ལན་དུ། ཨ་རིའི་ཕྱི་སྲིད་དྲུང་ཆེ་ John Kerryཡིས། འབྲུག་ཡུལ་ནི་ལྷོ་ཨེ་ཤེ་ཡའི་ནང་དམིགས་བསལ་ཁྱད་ཆོས་ལྡན་པའི་རྒྱལ་ཁབ་ཅིག་ཆགས་ཀྱི་ཡོད་པ་མ་ཟད། ཡུལ་དེའི་ནང་དམངས་གཙོའི་ལམ་ལུགས་འགོ་བཙུགས་ནས་དུས་ཡུན་རིང་པོ་འགྲོ་གི་མེད་སྟབས། དམངས་གཙོའི་ལམ་ལུགས་ཐོག་མུ་མཐུད་མདུན་བསྐྱོད་བྱེད་ཐུབ་པ་ཡོང་རྒྱུར་ང་ཚོའི་ཕྱོགས་ནས་དཔལ་འབྱོར་སོགས་ཀྱི་རོགས་རམ་ག་རེ་བྱ་རྒྱུ་ཡོད་པ་དང༌། དེ་བཞིན་རྒྱལ་ཁབ་གཉིས་ཀྱི་མི་སེར་དབར་ཕན་ཚུན་འབྲེལ་བ་འཛུགས་ཕྱོགས་བཅས་པའི་སྐོར་བཀའ་བསྡུར་གནང་བ་ཡིན་ཞེས་གསུངས་འདུག མཇལ་འཕྲད་དེ་ནི་ཨ་རིའི་ཕྱི་སྲིད་དྲུང་ཆེ་ཞིག་གིས་འབྲུག་ཡུལ་གྱི་སྲིད་བློན་མཇལ་འཕྲད་གནང་བ་ཐོག་མ་ཆགས་ཀྱི་ཡོད་འདུག<br /><br />གསར་འགོད་པ་བསོད་ནམས་ལྷ་མོ་དང་ངག་དབང་ཆོས་འཕེལ།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>ཨ་རི་དང་རྒྱ་གར་གཉིས་འབྲེལ་ལམ་སྐུལ་འདེད་གཏོང་རྒྱུར་དོན་ཚན་བཞི་ཅན་གྱི་གྲོས་གཞི་ཞིག་བཏོན་གནང་འདུག</dc:subject>
+    
+    
+      <dc:subject>Kerry lauds PM Modi, stresses four point agenda to boost ties</dc:subject>
+    
+    <dc:date>2015-01-12T09:55:00Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+  <item rdf:about="http://www.rfa.org/tibetan/exile/chithue-tour-sweater-sellers-01112015114113.html">
+    <title>བོད་མི་སུད་ཚོང་བར་འཚམས་གཟིགས།</title>
+    <link>http://www.rfa.org/tibetan/exile/chithue-tour-sweater-sellers-01112015114113.html</link>
+    <description>བོད་མི་མང་སྤྱི་འཐུས་གཉིས་ནས་བོད་མི་སུད་ཚོང་གནང་ཡུལ་དུ་རྟོགས་ཞིབ་འཚམགས་གཟིགས་སུ་ཕེབས་འདུག</description>
+    <content:encoded xmlns:content="http://purl.org/rss/1.0/modules/content/"><![CDATA[<img src="http://www.rfa.org/tibetan/exile/chithue-tour-sweater-sellers-01112015114113.html/chithue-hall.gif"></img><audio controls="controls">
+  <source src="http://www.rfa.org/tibetan/exile/chithue-tour-sweater-sellers-01112015114113.html/t011115ut.mp3" type="audio/mpeg">
+</audio><p>༄༅༎བོད་མི་མང་སྤྱི་འཐུས་པདྨ་འབྱུང་གནས་ལགས་དང་ཟླ་བ་ཚེ་རིང་ལགས་རྒྱ་གར་གྱི་གྲོང་ཁྱེར་ཁག་ཅིག་གི་ནང་དགུན་ཁའི་སུད་ཚོང་གནང་བཞིན་པའི་བོད་མིའི་གནས་སྟངས་དང་དཀའ་ངལ་རྟོགས་ཞིབ་གནང་ཆེད་འཚམས་གཟིགས་གནང་བཞིན་ཡོད་པའི་སྐོར་ཨེ་ཤེ་ཡ་རང་དབང་རླུང་འཕྲིན་ཁང་གི་གསར་འགོད་པ་ཨོ་རྒྱན་བསྟན་འཛིན་ལགས་ནས་གནས་ཚུལ་ཕྱོགས་སྒྲིག་ཞུས་པར་གསན་རོགས༎<br />གསར་འགོད་པ་ཨོ་རྒྱན་བསྟན་འཛིན།</p>]]></content:encoded>
+    <dc:publisher>Radio Free Asia</dc:publisher>
+    <dc:creator></dc:creator>
+    <dc:rights></dc:rights>
+    
+      <dc:subject>economy</dc:subject>
+    
+    
+      <dc:subject>exile</dc:subject>
+    
+    
+      <dc:subject>india</dc:subject>
+    
+    
+      <dc:subject>society</dc:subject>
+    
+    
+      <dc:subject>tibetan</dc:subject>
+    
+    <dc:date>2015-01-11T16:46:44Z</dc:date>
+    <dc:type>Story</dc:type>
+  </item>
+
+
+
+
+
+</rdf:RDF>

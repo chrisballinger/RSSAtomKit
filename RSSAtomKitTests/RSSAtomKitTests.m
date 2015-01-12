@@ -81,6 +81,14 @@
     [self runTestOnFeedName:@"CNN-World"];
 }
 
+/**
+ *  http://www.rfa.org/tibetan/RSS
+ */
+- (void)testRFATibetanFeed {
+    [self runTestOnFeedName:@"RFA-tibetan"];
+}
+
+
 - (void)runTestOnFeedName:(NSString*)feedName {
     NSString *feedPath = [[NSBundle bundleForClass:[self class]] pathForResource:feedName ofType:@"xml"];
     XCTAssertNotNil(feedPath);
