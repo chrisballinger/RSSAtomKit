@@ -8,6 +8,7 @@
 
 #import "RSSItem.h"
 #import "RSSItem+MediaRSS.h"
+#import "NSDate+InternetDateTime.h"
 
 @implementation RSSItem
 
@@ -21,14 +22,31 @@
 }
 
 - (void) parseFeedFromElement:(ONOXMLElement*)element {
-    switch (_feedType) {
-        case RSSFeedTypeRSS:
-            [self parseRSSFeedFromElement:element];
-            break;
-        default:
-            NSAssert(NO, @"Feed type currently unsupported.");
-            break;
+    
+    [self parseRSSFeedFromElement:element];
+    
+    if (self.feedType == RSSFeedTypeAtom) {
+        [self parseAtomFeedFromElement:element];
     }
+    
+}
+
+- (void) parseAtomFeedFromElement:(ONOXMLElement *)element
+{
+    ONOXMLElement *dateElement = [element firstChildWithTag:@"published"];
+    NSString *dateString = [dateElement stringValue];
+    if ([dateString length]) {
+        _publicationDate = [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC3339];
+    }
+    
+    ONOXMLElement *linkElement = [element firstChildWithXPath:[NSString stringWithFormat:@".//%@:link[@type = 'text/html']",kRSSFeedAtomPrefix]];
+    NSString *linkString = [linkElement valueForAttribute:@"href"];
+    if ([linkString length]) {
+        _linkURL = [NSURL URLWithString:linkString];
+    }
+    
+    ONOXMLElement *contentElement = [element firstChildWithXPath:[NSString stringWithFormat:@".//%@:content",kRSSFeedAtomPrefix]];
+    _itemDescription = [contentElement stringValue];
 }
 
 - (void) parseRSSFeedFromElement:(ONOXMLElement*)element {
@@ -42,7 +60,11 @@
     ONOXMLElement *descriptionElement = [element firstChildWithTag:@"description"];
     _itemDescription = [descriptionElement stringValue];
     ONOXMLElement *pubDateElement = [element firstChildWithTag:@"pubDate"];
-    _publicationDate = [pubDateElement dateValue];
+    NSString *dateString = [pubDateElement stringValue];
+    if ([dateString length]) {
+        _publicationDate = [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC822];
+    }
+    
     
     // Media RSS
     ONOXMLElement *thumbnailElement = [element firstChildWithTag:@"thumbnail" inNamespace:@"media"];
@@ -72,6 +94,10 @@
         case RSSFeedTypeRSS:
             return [self parseRSSItemsWithXPath:@"/rss/channel/item" feedType:feedType document:xmlDocument];
             break;
+        case RSSFeedTypeAtom:
+            return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:entry",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix] feedType:feedType document:xmlDocument];
+            break;
+        
         default:
             return nil;
             break;

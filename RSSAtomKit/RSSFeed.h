@@ -16,6 +16,9 @@ typedef NS_ENUM(NSUInteger, RSSFeedType) {
     RSSFeedTypeAtom // Atom 1.0
 };
 
+extern NSString *const kRSSFeedAtomPrefix;
+extern NSString *const kRSSFeedAtomNameSpace;
+
 @interface RSSFeed : MTLModel
 
 @property (nonatomic, readonly) RSSFeedType feedType;

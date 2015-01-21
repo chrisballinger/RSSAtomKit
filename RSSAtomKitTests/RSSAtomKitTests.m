@@ -88,6 +88,13 @@
     [self runTestOnFeedName:@"RFA-tibetan"];
 }
 
+/**
+ *  http://googleblog.blogspot.com/
+ */
+- (void)testGoogleAtomFeed {
+    [self runTestOnFeedName:@"google-atom"];
+}
+
 
 - (void)runTestOnFeedName:(NSString*)feedName {
     NSString *feedPath = [[NSBundle bundleForClass:[self class]] pathForResource:feedName ofType:@"xml"];
@@ -110,6 +117,7 @@
         XCTAssertNotNil(parsedFeed.linkURL);
         [items enumerateObjectsUsingBlock:^(RSSItem *item, NSUInteger idx, BOOL *stop) {
             XCTAssertNotNil(item.title);
+            XCTAssertNotNil(item.publicationDate);
             XCTAssertNotNil(item.itemDescription);
             XCTAssertNotNil(item.linkURL);
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
