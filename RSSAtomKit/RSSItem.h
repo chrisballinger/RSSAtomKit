@@ -25,6 +25,8 @@
 @property (nonatomic, strong, readonly) NSURL *thumbnailURL;
 @property (nonatomic, readonly) CGSize thumbnailSize;
 
+@property (nonatomic, strong, readonly) NSArray *mediaItems;
+
 - (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement;
 
 + (NSArray*) itemsWithFeedType:(RSSFeedType)feedType xmlDocument:(ONOXMLDocument*)xmlDocument;

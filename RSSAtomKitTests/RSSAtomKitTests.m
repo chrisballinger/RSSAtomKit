@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "RSSParser.h"
+#import "RSSMediaItem.h"
 #import "Expecta.h"
 #import "RSSFeed+Utilities.h"
 
@@ -43,60 +44,60 @@
  *  http://www.voanews.com/api/epiqq
  */
 - (void)testVoiceOfAmericaFeed {
-    [self runTestOnFeedName:@"VOA"];
+    [self runTestOnFeedName:@"VOA" expectedMediaItems:19];
 }
 
 /**
  *  http://www.theguardian.com/world/rss
  */
 - (void)testGuardianWorldFeed {
-    [self runTestOnFeedName:@"Guardian-World"];
+    [self runTestOnFeedName:@"Guardian-World" expectedMediaItems:0];
 }
 
 /**
  *  http://feeds.washingtonpost.com/rss/world
  */
 - (void)testWashingtonPostWorldFeed {
-    [self runTestOnFeedName:@"WashingtonPost-World"];
+    [self runTestOnFeedName:@"WashingtonPost-World" expectedMediaItems:0];
 }
 
 /**
  *  http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml
  */
 - (void)testNYTimesInternationalFeed {
-    [self runTestOnFeedName:@"NYTimes-International"];
+    [self runTestOnFeedName:@"NYTimes-International" expectedMediaItems:0];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_topstories.rss
  */
 - (void)testCNNTopStoriesFeed {
-    [self runTestOnFeedName:@"CNN-TopStories"];
+    [self runTestOnFeedName:@"CNN-TopStories" expectedMediaItems:0];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_world.rss
  */
 - (void)testCNNWorldFeed {
-    [self runTestOnFeedName:@"CNN-World"];
+    [self runTestOnFeedName:@"CNN-World" expectedMediaItems:0];
 }
 
 /**
  *  http://www.rfa.org/tibetan/RSS
  */
 - (void)testRFATibetanFeed {
-    [self runTestOnFeedName:@"RFA-tibetan"];
+    [self runTestOnFeedName:@"RFA-tibetan" expectedMediaItems:0];
 }
 
 /**
  *  http://googleblog.blogspot.com/
  */
 - (void)testGoogleAtomFeed {
-    [self runTestOnFeedName:@"google-atom"];
+    [self runTestOnFeedName:@"google-atom" expectedMediaItems:0];
 }
 
 
-- (void)runTestOnFeedName:(NSString*)feedName {
+- (void)runTestOnFeedName:(NSString*)feedName expectedMediaItems:(NSUInteger)expectedMediaItems {
     NSString *feedPath = [[NSBundle bundleForClass:[self class]] pathForResource:feedName ofType:@"xml"];
     XCTAssertNotNil(feedPath);
     NSData *feedData = [NSData dataWithContentsOfFile:feedPath];
@@ -115,13 +116,20 @@
         XCTAssertNotNil(parsedFeed.title);
         XCTAssertNotNil(parsedFeed.feedDescription);
         XCTAssertNotNil(parsedFeed.linkURL);
+        __block NSUInteger foundMediaItems = 0;
         [items enumerateObjectsUsingBlock:^(RSSItem *item, NSUInteger idx, BOOL *stop) {
             XCTAssertNotNil(item.title);
             XCTAssertNotNil(item.publicationDate);
             XCTAssertNotNil(item.itemDescription);
             XCTAssertNotNil(item.linkURL);
+            [item.mediaItems enumerateObjectsUsingBlock:^(RSSMediaItem *mediaItem, NSUInteger idx, BOOL *stop) {
+                foundMediaItems += 1;
+                XCTAssertNotNil(mediaItem.url);
+                XCTAssertNotNil(mediaItem.type);
+            }];
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
         }];
+        XCTAssertEqual(foundMediaItems, expectedMediaItems);
     } completionQueue:nil];
     EXP_expect(parsedFeed).willNot.beNil();
     EXP_expect(parsedItems).willNot.beNil();

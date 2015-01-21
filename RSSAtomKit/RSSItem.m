@@ -9,6 +9,7 @@
 #import "RSSItem.h"
 #import "RSSItem+MediaRSS.h"
 #import "NSDate+InternetDateTime.h"
+#import "RSSMediaItem.h"
 
 @implementation RSSItem
 
@@ -47,6 +48,12 @@
     
     ONOXMLElement *contentElement = [element firstChildWithXPath:[NSString stringWithFormat:@".//%@:content",kRSSFeedAtomPrefix]];
     _itemDescription = [contentElement stringValue];
+    
+    NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:[NSString stringWithFormat:@".//%@:link[@rel = 'enclosure' and @href",kRSSFeedAtomPrefix]];
+    if ([tempMediaItems count]) {
+        //Not sure if there's a feed out there with both but oh well we catch it
+        _mediaItems = [tempMediaItems arrayByAddingObjectsFromArray:self.mediaItems];
+    }
 }
 
 - (void) parseRSSFeedFromElement:(ONOXMLElement*)element {
@@ -72,8 +79,25 @@
         _thumbnailURL = [self media_URLForElement:thumbnailElement];
         _thumbnailSize = [self media_sizeForElement:thumbnailElement];
     }
+    
+    NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:@".//enclosure[@url]"];
+    
+    if ([tempMediaItems count]) {
+        _mediaItems = tempMediaItems;
+    }
 }
 
+- (NSArray *)mediaItemsFromElement:(ONOXMLElement *)element withXPath:(NSString *)xPath
+{
+    NSMutableArray *tempMediaItems = [NSMutableArray array];
+    [element enumerateElementsWithXPath:xPath usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
+        RSSMediaItem *item = [[RSSMediaItem alloc] initWithFeedType:self.feedType xmlElement:element];
+        if (item) {
+            [tempMediaItems addObject:item];
+        }
+    }];
+    return tempMediaItems;
+}
 
 
 #pragma mark Static Methods
