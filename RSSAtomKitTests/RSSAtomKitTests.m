@@ -51,7 +51,7 @@
  *  http://www.theguardian.com/world/rss
  */
 - (void)testGuardianWorldFeed {
-    [self runTestOnFeedName:@"Guardian-World" expectedMediaItems:0];
+    [self runTestOnFeedName:@"Guardian-World" expectedMediaItems:2];
 }
 
 /**
@@ -65,21 +65,21 @@
  *  http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml
  */
 - (void)testNYTimesInternationalFeed {
-    [self runTestOnFeedName:@"NYTimes-International" expectedMediaItems:0];
+    [self runTestOnFeedName:@"NYTimes-International" expectedMediaItems:17];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_topstories.rss
  */
 - (void)testCNNTopStoriesFeed {
-    [self runTestOnFeedName:@"CNN-TopStories" expectedMediaItems:0];
+    [self runTestOnFeedName:@"CNN-TopStories" expectedMediaItems:70];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_world.rss
  */
 - (void)testCNNWorldFeed {
-    [self runTestOnFeedName:@"CNN-World" expectedMediaItems:0];
+    [self runTestOnFeedName:@"CNN-World" expectedMediaItems:131];
 }
 
 /**
@@ -125,7 +125,6 @@
             [item.mediaItems enumerateObjectsUsingBlock:^(RSSMediaItem *mediaItem, NSUInteger idx, BOOL *stop) {
                 foundMediaItems += 1;
                 XCTAssertNotNil(mediaItem.url);
-                XCTAssertNotNil(mediaItem.type);
             }];
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
         }];

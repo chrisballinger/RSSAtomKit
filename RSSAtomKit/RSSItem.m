@@ -80,7 +80,12 @@
         _thumbnailSize = [self media_sizeForElement:thumbnailElement];
     }
     
+    //These have to happen with seperate XPath searches because some documents don't contain the media prefix and would error on the whole XPath otherwise
     NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:@".//enclosure[@url]"];
+    if (!tempMediaItems) {
+        tempMediaItems = @[];
+    }
+    tempMediaItems = [tempMediaItems arrayByAddingObjectsFromArray:[self mediaItemsFromElement:element withXPath:@".//media:content[@url]"]];
     
     if ([tempMediaItems count]) {
         _mediaItems = tempMediaItems;
