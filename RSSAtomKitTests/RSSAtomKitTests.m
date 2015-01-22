@@ -12,6 +12,7 @@
 #import "RSSMediaItem.h"
 #import "Expecta.h"
 #import "RSSFeed+Utilities.h"
+#import "RSSPerson.h"
 
 /**
  *  Runs tests on the following RSS feeds:
@@ -122,6 +123,11 @@
             XCTAssertNotNil(item.publicationDate);
             XCTAssertNotNil(item.itemDescription);
             XCTAssertNotNil(item.linkURL);
+            
+            if (item.author) {
+                XCTAssertNotNil(item.author.email);
+            }
+            
             [item.mediaItems enumerateObjectsUsingBlock:^(RSSMediaItem *mediaItem, NSUInteger idx, BOOL *stop) {
                 foundMediaItems += 1;
                 XCTAssertNotNil(mediaItem.url);

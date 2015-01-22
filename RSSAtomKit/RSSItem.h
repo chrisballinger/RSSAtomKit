@@ -10,6 +10,8 @@
 #import "RSSFeed.h"
 #import "Ono.h"
 
+@class RSSPerson;
+
 @import CoreGraphics.CGGeometry;
 
 @interface RSSItem : MTLModel
@@ -20,6 +22,7 @@
 @property (nonatomic, strong, readonly) NSString *itemDescription;
 @property (nonatomic, strong, readonly) NSDate *publicationDate;
 @property (nonatomic, strong, readonly) NSURL *linkURL;
+@property (nonatomic, strong, readonly) RSSPerson *author;
 
 // Media RSS
 @property (nonatomic, strong, readonly) NSURL *thumbnailURL;

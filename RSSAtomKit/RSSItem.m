@@ -10,6 +10,7 @@
 #import "RSSItem+MediaRSS.h"
 #import "NSDate+InternetDateTime.h"
 #import "RSSMediaItem.h"
+#import "RSSPerson.h"
 
 @implementation RSSItem
 
@@ -70,6 +71,15 @@
     NSString *dateString = [pubDateElement stringValue];
     if ([dateString length]) {
         _publicationDate = [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC822];
+    }
+    
+    ONOXMLElement *authorElement = [element firstChildWithXPath:@"./author"];
+    if (!authorElement) {
+        authorElement = [element firstChildWithXPath:[NSString stringWithFormat:@"./%@:author",kRSSFeedAtomPrefix]];
+    }
+    
+    if (authorElement) {
+        _author = [[RSSPerson alloc] initWithXMLElement:authorElement];
     }
     
     
