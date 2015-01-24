@@ -99,7 +99,8 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
     }
 }
 
-+ (NSArray *) feedsFromOPMLDocutment:(ONOXMLDocument*)xmlDocument error:(NSError**)error
++ (NSArray *) feedsFromOPMLDocument:(ONOXMLDocument *)xmlDocument
+                              error:(NSError **)error
 {
     NSMutableArray *feeds = [NSMutableArray array];
     [xmlDocument enumerateElementsWithXPath:@"//outline[@xmlUrl]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {

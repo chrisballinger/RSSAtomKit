@@ -61,7 +61,8 @@ extern NSString *const kRSSFeedAtomNameSpace;
  @param error any errors encountered parsing the document
  @return An initialized RSSFeed object
  */
-- (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error;
+- (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument
+                               error:(NSError**)error;
 
 /**
  Creates an array of feeds from an OPML document
@@ -70,6 +71,7 @@ extern NSString *const kRSSFeedAtomNameSpace;
  @param error any errers encountered parsing the document
  @return An array of RSSFeed objects derivied from the data in the OPML document
  */
-+ (NSArray *) feedsFromOPMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error;
++ (NSArray *) feedsFromOPMLDocument:(ONOXMLDocument*)xmlDocument
+                              error:(NSError**)error;
 
 @end
