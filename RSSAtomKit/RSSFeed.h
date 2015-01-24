@@ -29,4 +29,6 @@ extern NSString *const kRSSFeedAtomNameSpace;
 
 - (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error;
 
++ (NSArray *) feedsFromOPMLDocutment:(ONOXMLDocument*)xmlDocument error:(NSError**)error;
+
 @end

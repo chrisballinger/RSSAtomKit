@@ -41,6 +41,8 @@
     [super tearDown];
 }
 
+
+#pragma - mark RSS Tests
 /**
  *  http://www.voanews.com/api/epiqq
  */
@@ -90,6 +92,8 @@
     [self runTestOnFeedName:@"RFA-tibetan" expectedMediaItems:0];
 }
 
+#pragma - mark Atom Tests
+
 /**
  *  http://googleblog.blogspot.com/
  */
@@ -97,12 +101,46 @@
     [self runTestOnFeedName:@"google-atom" expectedMediaItems:0];
 }
 
+#pragma - mark OPML Tests
 
-- (void)runTestOnFeedName:(NSString*)feedName expectedMediaItems:(NSUInteger)expectedMediaItems {
-    NSString *feedPath = [[NSBundle bundleForClass:[self class]] pathForResource:feedName ofType:@"xml"];
+- (void)testGuardianOPML {
+    [self runtOPMLTestForName:@"test"];
+}
+
+#pragma - mark Utility Methods
+
+- (NSData *)dataForResource:(NSString *)name ofType:(NSString *)type
+{
+    NSString *feedPath = [[NSBundle bundleForClass:[self class]] pathForResource:name ofType:type];
     XCTAssertNotNil(feedPath);
     NSData *feedData = [NSData dataWithContentsOfFile:feedPath];
     XCTAssertNotNil(feedData);
+    return feedData;
+}
+
+- (void)runtOPMLTestForName:(NSString *)name
+{
+    XCTestExpectation *expectation = [self expectationWithDescription:[NSString stringWithFormat:@"OPML - %@",name]];
+    NSData *opmlData = [self dataForResource:name ofType:@"opml"];
+    [self.parser feedsFromOPMLData:opmlData completionBlock:^(NSArray *feeds, NSError *error) {
+        XCTAssertNotNil(feeds);
+        XCTAssertGreaterThan([feeds count], 0);
+        XCTAssertNil(error);
+        
+        [feeds enumerateObjectsUsingBlock:^(RSSFeed *feed, NSUInteger idx, BOOL *stop) {
+            XCTAssertNotNil(feed.title);
+            XCTAssertNotNil(feed.linkURL);
+        }];
+        
+        [expectation fulfill];
+    } completionQueue:nil];
+    [self waitForExpectationsWithTimeout:10 handler:^(NSError *error) {
+        XCTAssertNil(error);
+    }];
+}
+
+- (void)runTestOnFeedName:(NSString*)feedName expectedMediaItems:(NSUInteger)expectedMediaItems {
+    NSData *feedData = [self dataForResource:feedName ofType:@"xml"];
     __block RSSFeed *parsedFeed = nil;
     __block NSArray *parsedItems = nil;
     [self.parser feedFromXMLData:feedData completionBlock:^(RSSFeed *feed, NSArray *items, NSError *error) {

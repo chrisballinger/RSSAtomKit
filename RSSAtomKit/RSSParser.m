@@ -81,5 +81,43 @@
     });
 }
 
+- (void)feedsFromOPMLData:(NSData *)opmlData
+          completionBlock:(void (^)(NSArray *, NSError *))completionBlock
+
+          completionQueue:(dispatch_queue_t)completionQueue {
+    
+    NSParameterAssert(opmlData);
+    NSParameterAssert(completionBlock);
+    if (!opmlData || !completionBlock) {
+        return;
+    }
+    if (!completionQueue) {
+        completionQueue = dispatch_get_main_queue();
+    }
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        NSError *error = nil;
+        ONOXMLDocument *document = [ONOXMLDocument XMLDocumentWithData:opmlData error:&error];
+        if (error) {
+            dispatch_async(completionQueue, ^{
+                completionBlock(nil,error);
+            });
+            return;
+        }
+        
+        NSArray *feeds = [RSSFeed feedsFromOPMLDocutment:document error:&error];
+        if (error) {
+            dispatch_async(completionQueue, ^{
+                completionBlock(nil,error);
+            });
+            return;
+        }
+        
+        dispatch_async(completionQueue, ^{
+            completionBlock(feeds,nil);
+        });
+        
+    });
+}
+
 
 @end

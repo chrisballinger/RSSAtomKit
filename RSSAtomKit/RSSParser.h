@@ -40,4 +40,15 @@
          completionBlock:(void (^)(RSSFeed *feed, NSArray *items, NSError *error))completionBlock
          completionQueue:(dispatch_queue_t)completionQueue;
 
+/**
+ *  Parses opmlData into an array of RSSFeeds.
+ *
+ *  @param opmlData UTF-8 opml data to parse
+ *  @param completionBlock feeds or error
+ *  @param completionQueue if nil, defaults to main queue
+ */
+- (void) feedsFromOPMLData:(NSData*)opmlData
+           completionBlock:(void (^)(NSArray *feeds, NSError *error))completionBlock
+           completionQueue:(dispatch_queue_t)completionQueue;
+
 @end

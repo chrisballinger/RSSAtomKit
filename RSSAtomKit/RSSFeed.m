@@ -63,5 +63,34 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
     }
 }
 
+- (void)parseOPMLOutlineElement:(ONOXMLElement *)element
+{
+    if ([element.tag isEqualToString:@"outline"]) {
+        _title = [element valueForAttribute:@"title"];
+        if (![self.title length]) {
+            _title = [element valueForAttribute:@"text"];
+        }
+        _feedDescription = [element valueForAttribute:@"description"];
+        NSString *xmlURLString = [element valueForAttribute:@"xmlUrl"];
+        if ([xmlURLString length]) {
+            _linkURL = [NSURL URLWithString:xmlURLString];
+        }
+        
+    }
+}
+
++ (NSArray *) feedsFromOPMLDocutment:(ONOXMLDocument*)xmlDocument error:(NSError**)error
+{
+    NSMutableArray *feeds = [NSMutableArray array];
+    [xmlDocument enumerateElementsWithXPath:@"//outline[@xmlUrl]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
+        RSSFeed *feed = [[[self class] alloc] init];
+        [feed parseOPMLOutlineElement:element];
+        if (feed) {
+            [feeds addObject:feed];
+        }
+    }];
+    return feeds;
+}
+
 
 @end
