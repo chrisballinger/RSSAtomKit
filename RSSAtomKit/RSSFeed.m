@@ -39,7 +39,7 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
         _title = [titleElement stringValue];
         ONOXMLElement *linkElement = [channel firstChildWithTag:@"link"];
         NSString *linkString = [linkElement stringValue];
-        _linkURL = [NSURL URLWithString:linkString];
+        _htmlURL = [NSURL URLWithString:linkString];
         ONOXMLElement *descriptionElement = [channel firstChildWithTag:@"description"];
         _feedDescription = [descriptionElement stringValue];
         _feedType = RSSFeedTypeRSS;
@@ -50,9 +50,12 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
         _title = [titleElement stringValue];
         ONOXMLElement *subtitleElement = [root firstChildWithTag:@"subtitle"];
         _feedDescription = [subtitleElement stringValue];
-        ONOXMLElement *linkElement = [root firstChildWithTag:@"link"];
-        NSString *linkString = [linkElement valueForAttribute:@"href"];
-        _linkURL = [NSURL URLWithString:linkString];
+        ONOXMLElement *htmlLinkElement = [root firstChildWithXPath:[NSString stringWithFormat:@"./%@:link[@rel = 'alternate' and @type = 'text/html' and @href]",kRSSFeedAtomPrefix]];
+        NSString *htmlLinkString = [htmlLinkElement valueForAttribute:@"href"];
+        if ([htmlLinkString length]) {
+            _htmlURL = [NSURL URLWithString:htmlLinkString];
+        }
+        
         _feedType = RSSFeedTypeAtom;
     }
     else {
@@ -60,6 +63,18 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
             *error = [NSError errorWithDomain:@"RSSAtomKit" code:101 userInfo:@{NSLocalizedDescriptionKey: @"Invalid feed."}];
         }
         return;
+    }
+    
+    //Try on all feeds because many rss feeds have atom inside
+    ONOXMLElement *selfLinkElement = [root firstChildWithXPath:[NSString stringWithFormat:@"./%@:link[@rel = 'self' and @type = 'application/atom+xml' and @href]",kRSSFeedAtomPrefix]];
+    if (!selfLinkElement) {
+        //namespaceing is very strange 'atom10:link' but not declared. So instaead checking for any tag that contains 'link' with correct attributes
+        selfLinkElement = [channel firstChildWithXPath:@"./*[contains(local-name(), 'link')][@rel = 'self' and @type = 'application/rss+xml' and @href]"];
+    }
+    
+    NSString *xmlLInkString = [selfLinkElement valueForAttribute:@"href"];
+    if ([xmlLInkString length]) {
+        _xmlURL = [NSURL URLWithString:xmlLInkString];
     }
 }
 
@@ -73,7 +88,12 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
         _feedDescription = [element valueForAttribute:@"description"];
         NSString *xmlURLString = [element valueForAttribute:@"xmlUrl"];
         if ([xmlURLString length]) {
-            _linkURL = [NSURL URLWithString:xmlURLString];
+            _xmlURL = [NSURL URLWithString:xmlURLString];
+        }
+        
+        NSString *htmlURLString = [element valueForAttribute:@"htmlUrl"];
+        if (htmlURLString) {
+            _htmlURL = [NSURL URLWithString:htmlURLString];
         }
         
     }

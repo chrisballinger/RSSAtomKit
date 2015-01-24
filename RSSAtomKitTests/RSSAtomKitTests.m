@@ -129,7 +129,8 @@
         
         [feeds enumerateObjectsUsingBlock:^(RSSFeed *feed, NSUInteger idx, BOOL *stop) {
             XCTAssertNotNil(feed.title);
-            XCTAssertNotNil(feed.linkURL);
+            XCTAssertNotNil(feed.xmlURL);
+            XCTAssertNotNil(feed.htmlURL);
         }];
         
         [expectation fulfill];
@@ -154,7 +155,10 @@
         
         XCTAssertNotNil(parsedFeed.title);
         XCTAssertNotNil(parsedFeed.feedDescription);
-        XCTAssertNotNil(parsedFeed.linkURL);
+        XCTAssertNotNil(parsedFeed.htmlURL);
+        if(parsedFeed.xmlURL) {
+            NSLog(@"%@ - has self xmlUrl",parsedFeed.title);
+        }
         __block NSUInteger foundMediaItems = 0;
         [items enumerateObjectsUsingBlock:^(RSSItem *item, NSUInteger idx, BOOL *stop) {
             XCTAssertNotNil(item.title);
