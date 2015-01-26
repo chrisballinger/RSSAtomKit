@@ -104,7 +104,7 @@
             return;
         }
         
-        NSArray *feeds = [RSSFeed feedsFromOPMLDocutment:document error:&error];
+        NSArray *feeds = [RSSFeed feedsFromOPMLDocument:document error:&error];
         if (error) {
             dispatch_async(completionQueue, ^{
                 completionBlock(nil,error);
