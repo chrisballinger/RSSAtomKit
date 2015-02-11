@@ -10,6 +10,7 @@
 		639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F211A648CE500B3E23E /* RFA-tibetan.xml */; };
 		639B1F241A6495D000B3E23E /* google-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F231A6495D000B3E23E /* google-atom.xml */; };
 		63D27FDE1A707CDB00EC251A /* test.opml in Resources */ = {isa = PBXBuildFile; fileRef = 63D27FDD1A707CDB00EC251A /* test.opml */; };
+		63D58C231A8BFB8C003C5A2D /* search.opml in Resources */ = {isa = PBXBuildFile; fileRef = 63D58C221A8BFB8C003C5A2D /* search.opml */; };
 		ACEF483BDF922E9A9E86EA8E /* libPods-RSSAtomKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD8898978B2A7E9E7D17CFA /* libPods-RSSAtomKitTests.a */; };
 		D98E6C8C1A1AC10500C0A704 /* RSSAtomKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E6C8B1A1AC10500C0A704 /* RSSAtomKitTests.m */; };
 		D9E6574F1A232FB1000E6301 /* CNN-TopStories.xml in Resources */ = {isa = PBXBuildFile; fileRef = D9E657491A232FB1000E6301 /* CNN-TopStories.xml */; };
@@ -29,6 +30,7 @@
 		639B1F211A648CE500B3E23E /* RFA-tibetan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RFA-tibetan.xml"; path = "Feeds/RFA-tibetan.xml"; sourceTree = "<group>"; };
 		639B1F231A6495D000B3E23E /* google-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "google-atom.xml"; path = "Feeds/google-atom.xml"; sourceTree = "<group>"; };
 		63D27FDD1A707CDB00EC251A /* test.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test.opml; path = OPML/test.opml; sourceTree = "<group>"; };
+		63D58C221A8BFB8C003C5A2D /* search.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = search.opml; path = OPML/search.opml; sourceTree = "<group>"; };
 		B68C9453DC918E7986604E37 /* Pods-RSSAtomKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSAtomKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSAtomKitTests/Pods-RSSAtomKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D8573CC9DE106990FAD279 /* Pods-RSSAtomKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSAtomKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSAtomKitTests/Pods-RSSAtomKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		D98E6C871A1AC10500C0A704 /* RSSAtomKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSAtomKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 		63D27FDA1A707CAC00EC251A /* OPML */ = {
 			isa = PBXGroup;
 			children = (
+				63D58C221A8BFB8C003C5A2D /* search.opml */,
 				63D27FDD1A707CDB00EC251A /* test.opml */,
 			);
 			name = OPML;
@@ -200,6 +203,7 @@
 				D9E6574F1A232FB1000E6301 /* CNN-TopStories.xml in Resources */,
 				D9E657521A232FB1000E6301 /* NYTimes-International.xml in Resources */,
 				D9E657511A232FB1000E6301 /* Guardian-World.xml in Resources */,
+				63D58C231A8BFB8C003C5A2D /* search.opml in Resources */,
 				63D27FDE1A707CDB00EC251A /* test.opml in Resources */,
 				D9E657541A232FB1000E6301 /* WashingtonPost-World.xml in Resources */,
 				639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */,

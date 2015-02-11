@@ -103,8 +103,12 @@
 
 #pragma - mark OPML Tests
 
-- (void)testGuardianOPML {
+- (void)testBasicOPML {
     [self runtOPMLTestForName:@"test"];
+}
+
+- (void)testSearchOPML {
+    [self runtOPMLTestForName:@"search"];
 }
 
 #pragma - mark Utility Methods
