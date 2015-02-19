@@ -111,6 +111,10 @@
     [self runtOPMLTestForName:@"test_2" expectedFeeds:6];
 }
 
+- (void)test3BasicOPML {
+    [self runtOPMLTestForName:@"test_3" expectedFeeds:100];
+}
+
 - (void)testSearchOPML {
     [self runtOPMLTestForName:@"search" expectedFeeds:19];
 }

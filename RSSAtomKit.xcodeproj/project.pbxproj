@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		634AF9001A969FF000BBD372 /* test_1.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FE1A969FF000BBD372 /* test_1.opml */; };
 		634AF9011A969FF000BBD372 /* test_2.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FF1A969FF000BBD372 /* test_2.opml */; };
+		634AF9031A96A59600BBD372 /* test_3.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF9021A96A59600BBD372 /* test_3.opml */; };
 		639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F211A648CE500B3E23E /* RFA-tibetan.xml */; };
 		639B1F241A6495D000B3E23E /* google-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F231A6495D000B3E23E /* google-atom.xml */; };
 		63D58C231A8BFB8C003C5A2D /* search.opml in Resources */ = {isa = PBXBuildFile; fileRef = 63D58C221A8BFB8C003C5A2D /* search.opml */; };
@@ -30,6 +31,7 @@
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		634AF8FE1A969FF000BBD372 /* test_1.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_1.opml; path = OPML/test_1.opml; sourceTree = "<group>"; };
 		634AF8FF1A969FF000BBD372 /* test_2.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_2.opml; path = OPML/test_2.opml; sourceTree = "<group>"; };
+		634AF9021A96A59600BBD372 /* test_3.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_3.opml; path = OPML/test_3.opml; sourceTree = "<group>"; };
 		639B1F211A648CE500B3E23E /* RFA-tibetan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RFA-tibetan.xml"; path = "Feeds/RFA-tibetan.xml"; sourceTree = "<group>"; };
 		639B1F231A6495D000B3E23E /* google-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "google-atom.xml"; path = "Feeds/google-atom.xml"; sourceTree = "<group>"; };
 		63D58C221A8BFB8C003C5A2D /* search.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = search.opml; path = OPML/search.opml; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				63D58C221A8BFB8C003C5A2D /* search.opml */,
 				634AF8FE1A969FF000BBD372 /* test_1.opml */,
 				634AF8FF1A969FF000BBD372 /* test_2.opml */,
+				634AF9021A96A59600BBD372 /* test_3.opml */,
 			);
 			name = OPML;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */,
 				D9E657531A232FB1000E6301 /* VOA.xml in Resources */,
 				634AF9001A969FF000BBD372 /* test_1.opml in Resources */,
+				634AF9031A96A59600BBD372 /* test_3.opml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
