@@ -30,12 +30,23 @@
  *  Fetches and parses the feed at feedURL into an RSSFeed object
  *  and array of RSSItems.
  *
- *  @param xmlDocument     feed to parse
+ *  @param feedURL feed url to fetch and parse
  *  @param completionBlock feed & items, or error
  *  @param completionQueue if nil, defaults to main queue
  */
 - (void) parseFeedFromURL:(NSURL*)feedURL
           completionBlock:(void (^)(RSSFeed *feed, NSArray *items, NSError *error))completionBlock
           completionQueue:(dispatch_queue_t)completionQueue;
+
+/**
+ Fetches and prarses the OPML document at the url location into a NSArray of RSSFeeds
+ 
+ @param opmlURL opml document url to fetch and parse
+ @param completionBlock feeds or error
+ @param completionQueue if nil, defaults to main queue
+ */
+- (void) parseFeedsFromOPMLURL:(NSURL*)opmlURL
+               completionBlock:(void (^)(NSArray *feeds, NSError *error))completionBlock
+               completionQueue:(dispatch_queue_t)completionQueue;
 
 @end

@@ -39,16 +39,15 @@
 }
 
 - (instancetype) init {
-    if (self = [self initWithSessionConfiguration:nil]) {
-    }
-    return self;
+    return [self initWithSessionConfiguration:nil];
 }
 
+#pragma - mark Public Methods
 /**
  *  Fetches and parses the feed at feedURL into an RSSFeed object
  *  and array of RSSItems.
  *
- *  @param xmlDocument     feed to parse
+ *  @param feedURL feed url to fetch and parse
  *  @param completionBlock feed & items, or error
  *  @param completionQueue if nil, defaults to main queue
  */
@@ -63,25 +62,73 @@
     if (!completionQueue) {
         completionQueue = dispatch_get_main_queue();
     }
-    NSURLRequest *request = [NSURLRequest requestWithURL:feedURL];
+    
     RSSParser *parser = self.parser;
-    NSURLSessionDataTask *dataTask = [self.sessionManager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+    [self fetchData:feedURL completion:^(NSURLResponse *response, NSData *responseData, NSError *error) {
         if (error) {
             dispatch_async(completionQueue, ^{
                 completionBlock(nil, nil, error);
             });
-            return;
+        } else {
+            [parser feedFromXMLData:responseData completionBlock:completionBlock completionQueue:completionQueue];
         }
-        NSAssert([responseObject isKindOfClass:[NSData class]], @"responseObject must be NSData!");
-        if (![responseObject isKindOfClass:[NSData class]]) {
+    }];
+}
+
+/**
+ Fetches and prarses the OPML document at the url location into a NSArray of RSSFeeds
+ 
+ @param opmlURL opml document url to fetch and parse
+ @param completionBlock feeds or error
+ @param completionQueue if nil, defaults to main queue
+ */
+- (void) parseFeedsFromOPMLURL:(NSURL*)opmlURL
+               completionBlock:(void (^)(NSArray *feeds, NSError *error))completionBlock
+               completionQueue:(dispatch_queue_t)completionQueue
+{
+    NSParameterAssert(opmlURL);
+    NSParameterAssert(completionBlock);
+    if (!opmlURL || !completionBlock) {
+        return;
+    }
+    if (!completionQueue) {
+        completionQueue = dispatch_get_main_queue();
+    }
+    
+    __block RSSParser *parser = self.parser;
+    [self fetchData:opmlURL completion:^(NSURLResponse *response, NSData *responseData, NSError *error) {
+        if (error) {
             dispatch_async(completionQueue, ^{
-                completionBlock(nil, nil, [NSError errorWithDomain:@"RSSAtomKit" code:100 userInfo:@{NSLocalizedDescriptionKey: @"responseObject must be NSData!"}]);
+                completionBlock(nil,error);
             });
-            return;
+        } else {
+            [parser feedsFromOPMLData:responseData completionBlock:completionBlock completionQueue:completionQueue];
         }
-        [parser feedFromXMLData:responseObject completionBlock:completionBlock completionQueue:completionQueue];
+    }];
+}
+
+#pragma - mark Private Methods
+
+- (void)fetchData:(NSURL *)url completion:(void (^)(NSURLResponse *response, NSData *responseData, NSError *error))completion {
+    if (!completion) {
+        return;
+    }
+     NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSURLSessionDataTask *dataTask = [self.sessionManager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+        
+        if (error) {
+            completion(response,nil,error);
+        } else {
+            NSAssert([responseObject isKindOfClass:[NSData class]], @"responseObject must be NSData!");
+            if ([responseObject isKindOfClass:[NSData class]]) {
+                completion(response,responseObject,error);
+            } else {
+                completion(response,nil,[NSError errorWithDomain:@"RSSAtomKit" code:100 userInfo:@{NSLocalizedDescriptionKey: @"responseObject must be NSData!"}]);
+            }
+        }
     }];
     [dataTask resume];
 }
+                                           
 
 @end
