@@ -103,12 +103,16 @@
 
 #pragma - mark OPML Tests
 
-- (void)testBasicOPML {
-    [self runtOPMLTestForName:@"test"];
+- (void)test1BasicOPML {
+    [self runtOPMLTestForName:@"test_1" expectedFeeds:13];
+}
+
+- (void)test2BasicOPML {
+    [self runtOPMLTestForName:@"test_2" expectedFeeds:6];
 }
 
 - (void)testSearchOPML {
-    [self runtOPMLTestForName:@"search"];
+    [self runtOPMLTestForName:@"search" expectedFeeds:19];
 }
 
 #pragma - mark Utility Methods
@@ -122,19 +126,19 @@
     return feedData;
 }
 
-- (void)runtOPMLTestForName:(NSString *)name
+- (void)runtOPMLTestForName:(NSString *)name expectedFeeds:(NSUInteger)numberOfFeeds
 {
     XCTestExpectation *expectation = [self expectationWithDescription:[NSString stringWithFormat:@"OPML - %@",name]];
     NSData *opmlData = [self dataForResource:name ofType:@"opml"];
     [self.parser feedsFromOPMLData:opmlData completionBlock:^(NSArray *feeds, NSError *error) {
         XCTAssertNotNil(feeds);
-        XCTAssertGreaterThan([feeds count], 0);
+        XCTAssertGreaterThan([feeds count], 0, @"No feeds found");
+        XCTAssertEqual([feeds count], numberOfFeeds, @"Did not find all the feeds");
         XCTAssertNil(error);
         
         [feeds enumerateObjectsUsingBlock:^(RSSFeed *feed, NSUInteger idx, BOOL *stop) {
             XCTAssertNotNil(feed.title);
             XCTAssertNotNil(feed.xmlURL);
-            XCTAssertNotNil(feed.htmlURL);
         }];
         
         [expectation fulfill];

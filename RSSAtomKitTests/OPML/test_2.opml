@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<opml version="1.0">
+	<head>
+		<title>feedOnFeeds.xml</title>
+		<dateCreated>Thu, 12 Sep 2003 23:35:52 GMT</dateCreated>
+		<dateModified>Fri, 12 Sep 2003 23:45:37 GMT</dateModified>
+		<ownerName>NewsForHumans</ownerName>
+		<ownerEmail>newsfor@news4humans.com</ownerEmail>
+		<link>http://news4humans.com/feedonfeeds.opml</link>
+	</head>
+<body>
+	<outline text="Technology News">
+		<outline text="Mobile News"  type="link" xmlUrl="http://news4humans.com/feeds/mobile.xml" dateCreated="Thu, 12 Sep 2003 23:35:52 GMT"/>
+		<outline text="Syndication News"  type="link" xmlUrl="http://news4humans.com/feeds/syndication.xml" dateCreated="Thu, 12 Sep 2003 23:35:52 GMT"/>
+	</outline>
+	<outline text="World News">
+		<outline text="Politics"  type="link" xmlUrl="http://news4humans.com/feeds/politics.xml" dateCreated="Thu, 12 Sep 2003 23:35:52 GMT"/>
+		<outline text="Sports"  type="link" xmlUrl="http://news4humans.com/feeds/sports.xml" dateCreated="Thu, 12 Sep 2003 23:35:52 GMT"/>
+	</outline>
+	<outline text="Various">
+		<outline text="Weather"  type="link" xmlUrl="http://news4humans.com/feeds/weather.xml" dateCreated="Thu, 12 Sep 2003 23:35:52 GMT"/>
+		<outline text="Entertainment"  type="link" xmlUrl="http://news4humans.com/feeds/ent.xml" dateCreated="Thu, 12 Sep 2003 23:35:52 GMT"/>
+	</outline>
+</body>
+</opml>
