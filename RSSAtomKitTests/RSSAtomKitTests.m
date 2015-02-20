@@ -6,7 +6,6 @@
 //  Copyright (c) 2014 Chris Ballinger. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "RSSParser.h"
 #import "RSSMediaItem.h"

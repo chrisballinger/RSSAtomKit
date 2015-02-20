@@ -10,6 +10,8 @@
 #import "RSSFeed.h"
 #import "Ono.h"
 
+@import UIKit;
+
 @class RSSPerson;
 
 /**
