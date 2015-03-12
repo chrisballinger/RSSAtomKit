@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "RSSFeed.h"
 #import "RSSItem.h"
+#import "RSSMediaItem.h"
 
 @interface RSSParser : NSObject
 
 @property (nonatomic, strong, readonly) Class feedClass;
 @property (nonatomic, strong, readonly) Class itemClass;
+@property (nonatomic, strong, readonly) Class mediaItemClass;
 
 /**
  *  You can register a custom subclass of RSSFeed.
@@ -28,6 +30,13 @@
  *  @param modelClass RSSItem subclass
  */
 - (void) registerItemClass:(Class)itemClass;
+
+/**
+ *  You can register a custom subclass of RSSMediaItem.
+ *
+ *  @param modelClass RSSMediaItem subclass
+ */
+- (void) registerMediaItemClass:(Class)mediaItemClass;
 
 /**
  *  Parses xmlData into an RSSFeed object and array of RSSItems.

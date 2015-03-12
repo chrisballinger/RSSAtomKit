@@ -15,6 +15,7 @@
     if (self = [super init]) {
         _feedClass = [RSSFeed class];
         _itemClass = [RSSItem class];
+        _mediaItemClass = [RSSMediaItem class];
     }
     return self;
 }
@@ -38,6 +39,17 @@
 - (void) registerItemClass:(Class)itemClass {
     if ([itemClass isSubclassOfClass:[RSSItem class]]) {
         _itemClass = itemClass;
+    }
+}
+
+/**
+ *  You can register a custom subclass of RSSMediaItem.
+ *
+ *  @param modelClass RSSMediaItem subclass
+ */
+- (void) registerMediaItemClass:(Class)mediaItemClass {
+    if ([mediaItemClass isSubclassOfClass:[RSSMediaItem class]]) {
+        _mediaItemClass = mediaItemClass;
     }
 }
 
@@ -74,7 +86,7 @@
                 completionBlock(nil, nil, error);
             });
         }
-        NSArray *items = [self.itemClass itemsWithFeedType:feed.feedType xmlDocument:document];
+        NSArray *items = [self.itemClass itemsWithFeedType:feed.feedType xmlDocument:document mediaItemClass:self.mediaItemClass];
         dispatch_async(completionQueue, ^{
             completionBlock(feed, items, nil);
         });

@@ -11,6 +11,14 @@
 
 @implementation RSSMediaItem
 
+- (instancetype) initWithURL:(NSURL *)url
+{
+    if (self = [self init]) {
+        _url = url;
+    }
+    return self;
+}
+
 - (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement
 {
     if (self = [self init]) {

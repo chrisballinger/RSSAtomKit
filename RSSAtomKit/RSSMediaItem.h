@@ -6,7 +6,7 @@
 //
 //
 
-#import "MTLModel.h"
+#import "MTLModel+NSCoding.h"
 #import "RSSFeed.h"
 @class ONOXMLElement;
 
@@ -15,6 +15,8 @@
 @property (nonatomic, strong, readonly) NSURL *url;
 @property (nonatomic, strong, readonly) NSString *type;
 @property (nonatomic, readonly) NSUInteger length;
+
+- (instancetype) initWithURL:(NSURL *)url;
 
 - (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement;
 

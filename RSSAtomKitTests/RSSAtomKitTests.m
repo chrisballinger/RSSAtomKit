@@ -176,6 +176,7 @@
             XCTAssertNotNil(item.publicationDate);
             XCTAssertNotNil(item.itemDescription);
             XCTAssertNotNil(item.linkURL);
+            XCTAssertTrue([item.linkURL.absoluteString length] > 0,@"URL has no length");
             
             if (item.author) {
                 XCTAssertNotNil(item.author.email);
@@ -184,6 +185,7 @@
             [item.mediaItems enumerateObjectsUsingBlock:^(RSSMediaItem *mediaItem, NSUInteger idx, BOOL *stop) {
                 foundMediaItems += 1;
                 XCTAssertNotNil(mediaItem.url);
+                XCTAssertTrue([mediaItem.url absoluteString] > 0, @"Link has no length");
             }];
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
         }];

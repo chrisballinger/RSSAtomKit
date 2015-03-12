@@ -15,25 +15,24 @@
 @implementation RSSItem
 
 
-- (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement {
+- (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement mediaItemClass:(Class)mediaItemClass {
     if (self = [super init]) {
         _feedType = feedType;
-        [self parseFeedFromElement:xmlElement];
+        [self parseFeedFromElement:xmlElement mediaItemClass:mediaItemClass];
     }
     return self;
 }
 
-- (void) parseFeedFromElement:(ONOXMLElement*)element {
+- (void) parseFeedFromElement:(ONOXMLElement*)element mediaItemClass:(Class)mediaItemClass {
     
-    [self parseRSSFeedFromElement:element];
+    [self parseRSSFeedFromElement:element mediaItemClass:mediaItemClass];
     
     if (self.feedType == RSSFeedTypeAtom) {
-        [self parseAtomFeedFromElement:element];
+        [self parseAtomFeedFromElement:element mediaItemClass:mediaItemClass];
     }
-    
 }
 
-- (void) parseAtomFeedFromElement:(ONOXMLElement *)element
+- (void) parseAtomFeedFromElement:(ONOXMLElement *)element mediaItemClass:(Class)mediaItemClass
 {
     ONOXMLElement *dateElement = [element firstChildWithTag:@"published"];
     NSString *dateString = [dateElement stringValue];
@@ -50,20 +49,29 @@
     ONOXMLElement *contentElement = [element firstChildWithXPath:[NSString stringWithFormat:@".//%@:content",kRSSFeedAtomPrefix]];
     _itemDescription = [contentElement stringValue];
     
-    NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:[NSString stringWithFormat:@".//%@:link[@rel = 'enclosure' and @href",kRSSFeedAtomPrefix]];
+    NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:[NSString stringWithFormat:@".//%@:link[@rel = 'enclosure' and @href",kRSSFeedAtomPrefix] mediaItemClass:(Class)mediaItemClass];
     if ([tempMediaItems count]) {
         //Not sure if there's a feed out there with both but oh well we catch it
         _mediaItems = [tempMediaItems arrayByAddingObjectsFromArray:self.mediaItems];
     }
 }
 
-- (void) parseRSSFeedFromElement:(ONOXMLElement*)element {
+- (void) parseRSSFeedFromElement:(ONOXMLElement*)element mediaItemClass:(Class)mediaItemClass{
     ONOXMLElement *titleElement = [element firstChildWithTag:@"title"];
     _title = [titleElement stringValue];
-    ONOXMLElement *linkElement = [element firstChildWithTag:@"link"];
-    NSString *linkString = [linkElement stringValue];
-    if (linkString) {
-        _linkURL = [NSURL URLWithString:linkString];
+    
+    //Picks up on both Atom and RSS methods for links <link> and <atom:link> prefer rss way
+    __block NSString *stringURL = nil;
+    [[element childrenWithTag:@"link"] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        ONOXMLElement *linkElement = (ONOXMLElement *)obj;
+        stringURL = [linkElement stringValue];
+        if ([stringURL length]) {
+            *stop = YES;
+        }
+    }];
+    
+    if (stringURL) {
+        _linkURL = [NSURL URLWithString:stringURL];
     }
     ONOXMLElement *descriptionElement = [element firstChildWithTag:@"description"];
     _itemDescription = [descriptionElement stringValue];
@@ -91,22 +99,22 @@
     }
     
     //These have to happen with seperate XPath searches because some documents don't contain the media prefix and would error on the whole XPath otherwise
-    NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:@".//enclosure[@url]"];
+    NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:@".//enclosure[@url]" mediaItemClass:(Class)mediaItemClass];
     if (!tempMediaItems) {
         tempMediaItems = @[];
     }
-    tempMediaItems = [tempMediaItems arrayByAddingObjectsFromArray:[self mediaItemsFromElement:element withXPath:@".//media:content[@url]"]];
+    tempMediaItems = [tempMediaItems arrayByAddingObjectsFromArray:[self mediaItemsFromElement:element withXPath:@".//media:content[@url]" mediaItemClass:mediaItemClass]];
     
     if ([tempMediaItems count]) {
         _mediaItems = tempMediaItems;
     }
 }
 
-- (NSArray *)mediaItemsFromElement:(ONOXMLElement *)element withXPath:(NSString *)xPath
+- (NSArray *)mediaItemsFromElement:(ONOXMLElement *)element withXPath:(NSString *)xPath mediaItemClass:(Class)mediaItemClass
 {
     NSMutableArray *tempMediaItems = [NSMutableArray array];
     [element enumerateElementsWithXPath:xPath usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
-        RSSMediaItem *item = [[RSSMediaItem alloc] initWithFeedType:self.feedType xmlElement:element];
+        RSSMediaItem *item = [[mediaItemClass alloc] initWithFeedType:self.feedType xmlElement:element];
         if (item) {
             [tempMediaItems addObject:item];
         }
@@ -119,29 +127,34 @@
 
 + (NSArray*) parseRSSItemsWithXPath:(NSString*)XPath
                            feedType:(RSSFeedType)feedType
-                           document:(ONOXMLDocument*)document {
+                           document:(ONOXMLDocument*)document
+                     mediaItemClass:(Class)mediaItemClass {
     NSMutableArray *items = [NSMutableArray array];
     [document enumerateElementsWithXPath:XPath usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
-        RSSItem *item = [[[self class] alloc] initWithFeedType:feedType xmlElement:element];
+        RSSItem *item = [[[self class] alloc] initWithFeedType:feedType xmlElement:element mediaItemClass:mediaItemClass];
         [items addObject:item];
     }];
     return items;
 }
 
-+ (NSArray*) itemsWithFeedType:(RSSFeedType)feedType xmlDocument:(ONOXMLDocument*)xmlDocument {
++ (NSArray*) itemsWithFeedType:(RSSFeedType)feedType xmlDocument:(ONOXMLDocument*)xmlDocument mediaItemClass:(Class)mediaItemClass
+{
     switch (feedType) {
         case RSSFeedTypeRSS:
-            return [self parseRSSItemsWithXPath:@"/rss/channel/item" feedType:feedType document:xmlDocument];
+            return [self parseRSSItemsWithXPath:@"/rss/channel/item" feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
             break;
         case RSSFeedTypeAtom:
-            return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:entry",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix] feedType:feedType document:xmlDocument];
+            return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:entry",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix] feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
             break;
-        
+            
         default:
             return nil;
             break;
-    }
-    return nil;
+    }     
+}
+
++ (NSArray*) itemsWithFeedType:(RSSFeedType)feedType xmlDocument:(ONOXMLDocument*)xmlDocument {
+    return [self itemsWithFeedType:feedType xmlDocument:xmlDocument mediaItemClass:[RSSMediaItem class]];
 }
 
 @end
