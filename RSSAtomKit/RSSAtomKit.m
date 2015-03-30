@@ -31,6 +31,7 @@
                                                         @"application/rss+xml",
                                                         @"application/atom+xml",
                                                         @"text/x-opml",
+                                                        @"application/opml",
                                                         nil];
         self.sessionManager.responseSerializer = serializer;
         _parser = [[RSSParser alloc] init];

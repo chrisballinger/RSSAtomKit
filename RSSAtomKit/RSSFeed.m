@@ -86,6 +86,8 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
             _title = [element valueForAttribute:@"text"];
         }
         _feedDescription = [element valueForAttribute:@"description"];
+        if (_feedDescription == nil)
+            _feedDescription = @"";
         NSString *xmlURLString = [element valueForAttribute:@"xmlUrl"];
         if ([xmlURLString length]) {
             _xmlURL = [NSURL URLWithString:xmlURLString];
