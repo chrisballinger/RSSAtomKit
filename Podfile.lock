@@ -20,7 +20,6 @@ PODS:
   - AFNetworking/UIKit (2.5.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Expecta (0.3.2)
   - Mantle (1.5.4):
     - Mantle/extobjc (= 1.5.4)
   - Mantle/extobjc (1.5.4)
@@ -29,23 +28,18 @@ PODS:
     - AFNetworking (~> 2.5)
     - Mantle (~> 1.5)
     - Ono (~> 1.1)
-  - Specta (0.2.1)
 
 DEPENDENCIES:
-  - Expecta
   - RSSAtomKit (from `./`)
-  - Specta (~> 0.2.1)
 
 EXTERNAL SOURCES:
   RSSAtomKit:
-    :path: ./
+    :path: "./"
 
 SPEC CHECKSUMS:
-  AFNetworking: 8bee59492a6ff15d69130efa4d0dc67e0094a52a
-  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
-  Mantle: d5fbaf30fbc58031223af13812c060e15934a1fe
-  Ono: 2c9f6c8c50af1b40e988ff85a3f200574ee445cd
-  RSSAtomKit: a689044708487c394d9ef4348571f8fd1d6c4d0f
-  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+  AFNetworking: 10e85a00bb0f475124e4ff2677bf15693b2c1523
+  Mantle: 60acd0cd363e27d945bda0a6b8e90577112d28f3
+  Ono: f8c2b610f28f40d411b0d75130e77fd78b92e4e1
+  RSSAtomKit: 81636ed61cf61508c272877c88847d83235304c9
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.36.4

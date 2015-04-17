@@ -9,7 +9,6 @@
 #import <XCTest/XCTest.h>
 #import "RSSParser.h"
 #import "RSSMediaItem.h"
-#import "Expecta.h"
 #import "RSSFeed+Utilities.h"
 #import "RSSPerson.h"
 
@@ -32,7 +31,6 @@
 - (void)setUp {
     [super setUp];
     self.parser = [[RSSParser alloc] init];
-    [Expecta setAsynchronousTestTimeout:5];
 }
 
 - (void)tearDown {
@@ -155,6 +153,7 @@
     NSData *feedData = [self dataForResource:feedName ofType:@"xml"];
     __block RSSFeed *parsedFeed = nil;
     __block NSArray *parsedItems = nil;
+    XCTestExpectation *expectation = [self expectationWithDescription:[NSString stringWithFormat:@"Feed - %@",feedName]];
     [self.parser feedFromXMLData:feedData completionBlock:^(RSSFeed *feed, NSArray *items, NSError *error) {
         if (error) {
             XCTFail(@"Error for %@: %@", feedName, error);
@@ -190,9 +189,14 @@
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
         }];
         XCTAssertEqual(foundMediaItems, expectedMediaItems);
+        [expectation fulfill];
     } completionQueue:nil];
-    EXP_expect(parsedFeed).willNot.beNil();
-    EXP_expect(parsedItems).willNot.beNil();
+    
+    [self waitForExpectationsWithTimeout:5 handler:^(NSError *error) {
+        if (error) {
+            NSLog(@"Timeout Error");
+        }
+    }];
 }
 
 

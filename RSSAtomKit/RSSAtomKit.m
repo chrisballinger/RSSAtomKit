@@ -24,24 +24,37 @@
  */
 - (instancetype)initWithSessionConfiguration:(NSURLSessionConfiguration *)configuration {
     if (self = [super init]) {
-        _sessionManager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:configuration];
-        AFHTTPResponseSerializer *serializer = [AFHTTPResponseSerializer serializer];
-        serializer.acceptableContentTypes  = [NSSet setWithObjects:@"application/xml",
-                                                        @"text/xml",
-                                                        @"application/rss+xml",
-                                                        @"application/atom+xml",
-                                                        @"text/x-opml",
-                                                        @"application/opml",
-                                                        nil];
-        self.sessionManager.responseSerializer = serializer;
+        self.urlSessionConfiguration = configuration;
         _parser = [[RSSParser alloc] init];
     }
     return self;
-    
 }
 
 - (instancetype) init {
     return [self initWithSessionConfiguration:nil];
+}
+
+- (void)setUrlSessionConfiguration:(NSURLSessionConfiguration *)urlSessionConfiguration
+{
+    if (![urlSessionConfiguration isEqual:self.urlSessionConfiguration]) {
+        [self.sessionManager.session invalidateAndCancel];
+        _sessionManager = nil;
+        _sessionManager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:urlSessionConfiguration];
+        AFHTTPResponseSerializer *serializer = [AFHTTPResponseSerializer serializer];
+        serializer.acceptableContentTypes  = [NSSet setWithObjects:
+                                              @"application/xml",
+                                              @"text/xml",
+                                              @"application/rss+xml",
+                                              @"application/atom+xml",
+                                              @"text/x-opml",
+                                              nil];
+        self.sessionManager.responseSerializer = serializer;
+    }
+}
+
+- (NSURLSessionConfiguration *)urlSessionConfiguration
+{
+    return self.sessionManager.session.configuration;
 }
 
 #pragma - mark Public Methods
