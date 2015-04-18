@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>TechCrunch</title>
+	<atom:link href="http://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://techcrunch.com</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Sat, 18 Apr 2015 00:06:31 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='techcrunch.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>http://1.gravatar.com/blavatar/d9ea925a71f82f06a1e6224298f7fe80?s=96&#038;d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png</url>
+		<title>TechCrunch</title>
+		<link>http://techcrunch.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://techcrunch.com/osd.xml" title="TechCrunch" />
+	<atom:link rel='hub' href='http://techcrunch.com/?pushpress=hub'/>
+	<item>
+		<title>How The Facebook Bubble Is Driving Online Startups Into The Arms Of Offline Advertising</title>
+		<link>http://techcrunch.com/2015/04/17/how-the-facebook-bubble-is-driving-online-startups-into-the-arms-of-offline-advertising/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/how-the-facebook-bubble-is-driving-online-startups-into-the-arms-of-offline-advertising/#comments</comments>
+		<pubDate>Sat, 18 Apr 2015 00:00:16 +0000</pubDate>
+		<dc:creator><![CDATA[Morgan Hermand-Waiche]]></dc:creator>
+				<category><![CDATA[Advertising Tech]]></category>
+		<category><![CDATA[Column]]></category>
+		<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1143092</guid>
+		<description><![CDATA[<img width="498" height="331" src="https://tctechcrunch2011.files.wordpress.com/2012/06/bubble-popping.jpg?w=498" class="attachment-large wp-post-image" alt="bubble-popping" />&nbsp;Facebook advertising played a big part in my startup&#8217;s rapid growth. So big in fact that in our first two years of operations, all other online advertising platforms combined did not provide as big a growth contribution to the business as Facebook singlehandedly did. And yet, over the past nine months, I&#8217;ve been making every effort possible to divert our 8-figure annual&hellip; <a href="http://techcrunch.com/2015/04/17/how-the-facebook-bubble-is-driving-online-startups-into-the-arms-of-offline-advertising/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/how-the-facebook-bubble-is-driving-online-startups-into-the-arms-of-offline-advertising/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2012/06/bubble-popping.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2012/06/bubble-popping.jpg" type="image/jpeg" medium="image"><media:title type="html">How%20The%20Facebook%20Bubble%20Is%20Driving%20Online%20Startups%20Into%20The%20Arms%20Of%20Offline%26nbsp%3BAdvertising</media:title></media:content><twitter> <![CDATA[ morganhermand ]]> </twitter>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2012/06/bubble-popping.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2012/06/bubble-popping.jpg?w=150" medium="image">
+			<media:title type="html">bubble-popping</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">CP</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>This DIY Raspberry Pi Laptop Is Perfect For Your Weekend Machinations</title>
+		<link>http://techcrunch.com/2015/04/17/this-diy-raspberry-pi-laptop-is-perfect-for-your-weekend-machinations/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/this-diy-raspberry-pi-laptop-is-perfect-for-your-weekend-machinations/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 22:44:03 +0000</pubDate>
+		<dc:creator><![CDATA[John Biggs]]></dc:creator>
+				<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[wireless keyboard]]></category>
+		<category><![CDATA[laser]]></category>
+		<category><![CDATA[HDMI]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146086</guid>
+		<description><![CDATA[<img width="620" height="465" src="https://tctechcrunch2011.files.wordpress.com/2015/04/fcewbw8i88lmaic-medium.jpg?w=620" class="attachment-large wp-post-image" alt="FCEWBW8I88LMAIC.MEDIUM" />&nbsp;My favorite DIY projects are ones that an idiot like myself can do in a few days. To wit, this Raspberry Pi laptop that lets you create a portable computer with keyboard and mouse with only a few parts.
+The project uses the PiJuice battery module and a 5-inch TFT module. In this project you simply cut or print a case for the screen &#8211; this one uses laser cut wood &#8211; and an HDMI&#8230; <a href="http://techcrunch.com/2015/04/17/this-diy-raspberry-pi-laptop-is-perfect-for-your-weekend-machinations/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/this-diy-raspberry-pi-laptop-is-perfect-for-your-weekend-machinations/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/fcewbw8i88lmaic-medium.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/fcewbw8i88lmaic-medium.jpg" type="image/jpeg" medium="image"><media:title type="html">This%20DIY%20Raspberry%20Pi%20Laptop%20Is%20Perfect%20For%20Your%20Weekend%26nbsp%3BMachinations</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/fcewbw8i88lmaic-medium.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/fcewbw8i88lmaic-medium.jpg?w=150" medium="image">
+			<media:title type="html">FCEWBW8I88LMAIC.MEDIUM</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/c0a943f484a32e62ed3bc81dd0dd25da?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">john</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Ad Startup FameBit&#8217;s Long Tail Of Creators Grows To More Than 9K YouTubers</title>
+		<link>http://techcrunch.com/2015/04/17/ad-startup-famebits-long-tail-of-creators-grows-to-more-than-9k-youtubers/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/ad-startup-famebits-long-tail-of-creators-grows-to-more-than-9k-youtubers/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 21:57:03 +0000</pubDate>
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+				<category><![CDATA[Advertising Tech]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[FameBit]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146297</guid>
+		<description><![CDATA[<img width="680" height="347" src="https://tctechcrunch2011.files.wordpress.com/2015/04/famebit.jpg?w=680" class="attachment-large wp-post-image" alt="famebit" />&nbsp;We hear more and more about the big stars of YouTube, but what about the creators who haven&#8217;t quite reached superstar status? Well, if they&#8217;re looking to connect with advertisers, startup FameBit aims to help. Co-founder and CEO David Kierzkowski told me that most multi-channel networks &#8212; which help YouTube content creators build a business around their videos &#8212; are&hellip; <a href="http://techcrunch.com/2015/04/17/ad-startup-famebits-long-tail-of-creators-grows-to-more-than-9k-youtubers/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/ad-startup-famebits-long-tail-of-creators-grows-to-more-than-9k-youtubers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/famebit.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/famebit.jpg" type="image/jpeg" medium="image"><media:title type="html">Ad%20Startup%20FameBit%26%238217%3Bs%20Long%20Tail%20Of%20Creators%20Grows%20To%20More%20Than%209K%26nbsp%3BYouTubers</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/famebit.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/famebit.jpg?w=150" medium="image">
+			<media:title type="html">famebit</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/72b358648f4587cc2a11895c32b8e979?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">anthha</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/famebit-chart.jpg?w=680" medium="image">
+			<media:title type="html">famebit chart</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>15 TechCrunch Stories You Don&#8217;t Want To Miss This Week</title>
+		<link>http://techcrunch.com/2015/04/17/15-techcrunch-stories-you-dont-want-to-miss-this-week-7/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/15-techcrunch-stories-you-dont-want-to-miss-this-week-7/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 21:50:45 +0000</pubDate>
+		<dc:creator><![CDATA[Anna Escher]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Etsy]]></category>
+		<category><![CDATA[slack]]></category>
+		<category><![CDATA[Roundup]]></category>
+		<category><![CDATA[Pixar]]></category>
+		<category><![CDATA[SpaceX]]></category>
+		<category><![CDATA[star wars]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146037</guid>
+		<description><![CDATA[<img width="680" height="383" src="https://tctechcrunch2011.files.wordpress.com/2014/08/tc-weekly-roundup.jpg?w=680" class="attachment-large wp-post-image" alt="TC-weekly-roundup" />&nbsp;This week&#8217;s tech headlines saw Etsy&#8217;s IPO, the Falcon 9 rocket launch, and an abundance of funding news. These are our best stories of the week (4/11-17). <a href="http://techcrunch.com/2015/04/17/15-techcrunch-stories-you-dont-want-to-miss-this-week-7/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/15-techcrunch-stories-you-dont-want-to-miss-this-week-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2014/08/tc-weekly-roundup.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2014/08/tc-weekly-roundup.jpg" type="image/jpeg" medium="image"><media:title type="html">15%20TechCrunch%20Stories%20You%20Don%26%238217%3Bt%20Want%20To%20Miss%20This%26nbsp%3BWeek</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2014/08/tc-weekly-roundup.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2014/08/tc-weekly-roundup.jpg?w=150" medium="image">
+			<media:title type="html">TC-weekly-roundup</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/d05e13c21f96d9b303b2b6001ef12dfd?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">annaescher</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/screen-shot-2015-04-14-at-4-09-23-pm1.png" medium="image">
+			<media:title type="html">screen-shot-2015-04-14-at-4-09-23-pm</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/bb8-rollin.gif" medium="image">
+			<media:title type="html">bb8 rollin</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Disney&#8217;s New 3D Printer Prototype Makes Huggable Things Out Of Fabric Instead Of Hard Plastic</title>
+		<link>http://techcrunch.com/2015/04/17/disneys-new-3d-printer-prototype-makes-huggable-things-out-of-fabric-instead-of-hard-plastic/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/disneys-new-3d-printer-prototype-makes-huggable-things-out-of-fabric-instead-of-hard-plastic/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 21:12:43 +0000</pubDate>
+		<dc:creator><![CDATA[Greg Kumparak]]></dc:creator>
+				<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[3d printing]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146324</guid>
+		<description><![CDATA[<img width="480" height="250" src="https://tctechcrunch2011.files.wordpress.com/2015/04/fb.png?w=480" class="attachment-large wp-post-image" alt="fb" />&nbsp;We&#8217;ve seen lots and lots of 3D printers over the last few years, and they almost all have one thing in common: the objects they print are hard* and mostly rigid.
+What if you wanted to print something soft, instead? Something you can hug, or snuggle with, or hand to your kid without fear of them jabbing it in their eye?
+Disney is on it. <a href="http://techcrunch.com/2015/04/17/disneys-new-3d-printer-prototype-makes-huggable-things-out-of-fabric-instead-of-hard-plastic/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/disneys-new-3d-printer-prototype-makes-huggable-things-out-of-fabric-instead-of-hard-plastic/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/fb.png?w=210&#038;h=158&#038;crop=1" />
+
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/fb.png?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/fb.png?w=150" medium="image">
+			<media:title type="html">fb</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/86f75cc66896ab9b0602715f082803d6?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gregkumparak</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/mr-bunnington-the-third.gif" medium="image">
+			<media:title type="html">mr bunnington the third</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/fb.png" medium="image">
+			<media:title type="html">fb</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Promise Of Invisibles</title>
+		<link>http://techcrunch.com/2015/04/17/the-promise-of-invisibles/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/the-promise-of-invisibles/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 21:00:18 +0000</pubDate>
+		<dc:creator><![CDATA[Forest Young]]></dc:creator>
+				<category><![CDATA[Column]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Wearables]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1143089</guid>
+		<description><![CDATA[<img width="680" height="617" src="https://tctechcrunch2011.files.wordpress.com/2015/04/invisible-e1429110943145.jpg?w=680" class="attachment-large wp-post-image" alt="invisible" />&nbsp;Flight or invisibility? The age-old question about which superpower one would choose unveils a preference for either showboating or stealth. When the same lens is applied to wearable technology, the question becomes rhetorical. We do not want to be overshadowed or defined by our devices. Rather, we want to retain a sense of agency. Technology should serve as a secret helper. Enter&hellip; <a href="http://techcrunch.com/2015/04/17/the-promise-of-invisibles/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/the-promise-of-invisibles/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/invisible-e1429110943145.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/invisible-e1429110943145.jpg" type="image/jpeg" medium="image"><media:title type="html">The%20Promise%20Of%26nbsp%3BInvisibles</media:title></media:content><twitter> <![CDATA[ ten_ten ]]> </twitter>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/invisible-e1429110943145.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/invisible-e1429110943145.jpg?w=150" medium="image">
+			<media:title type="html">invisible</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">CP</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/01-misfit-shine-sxswi.jpg" medium="image">
+			<media:title type="html">Amy Puliafito, Communications at Misfit, showcases the Swarovski Shine at SXSW Interactive 2015 (Photo by Forest Young)</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Taplet Lets You Pull HD Photos From Any Video With A Single Tap</title>
+		<link>http://techcrunch.com/2015/04/17/taplet-lets-you-pull-hd-photos-from-any-video-with-a-single-tap/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/taplet-lets-you-pull-hd-photos-from-any-video-with-a-single-tap/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 20:57:26 +0000</pubDate>
+		<dc:creator><![CDATA[Jordan Crook]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Media]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[taplet]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146330</guid>
+		<description><![CDATA[<img width="680" height="587" src="https://tctechcrunch2011.files.wordpress.com/2015/04/screenshot-2015-04-17-16-54-22.png?w=680" class="attachment-large wp-post-image" alt="Screenshot 2015-04-17 16.54.22" />&nbsp;The iPhone has offered the ability to take photos at the same time as you record video, but capturing photos from video that has already been captured isn&#8217;t quite so straightforward. Taplet aims to solve that. The company, with $1 million in seed funding, has created an app that lets users upload HD video and then tap the perfect moments to pull HD videos. Currently, the easiest way to&hellip; <a href="http://techcrunch.com/2015/04/17/taplet-lets-you-pull-hd-photos-from-any-video-with-a-single-tap/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/taplet-lets-you-pull-hd-photos-from-any-video-with-a-single-tap/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/screenshot-2015-04-17-16-54-22.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/screenshot-2015-04-17-16-54-22.png" type="image/png" medium="image"><media:title type="html">Taplet%20Lets%20You%20Pull%20HD%20Photos%20From%20Any%20Video%20With%20A%20Single%26nbsp%3BTap</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/screenshot-2015-04-17-16-54-22.png?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/screenshot-2015-04-17-16-54-22.png?w=150" medium="image">
+			<media:title type="html">Screenshot 2015-04-17 16.54.22</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/123a4c264172746af556b0c74c72b308?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">jordanrcrook</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/home.png?w=73" medium="image">
+			<media:title type="html">Home</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/library.png?w=73" medium="image">
+			<media:title type="html">Library</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/preview.png?w=73" medium="image">
+			<media:title type="html">Preview</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/record.png?w=73" medium="image">
+			<media:title type="html">Record</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/share.png?w=73" medium="image">
+			<media:title type="html">Share</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/tap.png?w=73" medium="image">
+			<media:title type="html">Tap</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>A Conversation With DemocracyOS, The YC Non-Profit That Built A Latin American Political Party</title>
+		<link>http://techcrunch.com/2015/04/17/democracyos-2/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/democracyos-2/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 20:41:49 +0000</pubDate>
+		<dc:creator><![CDATA[Kim-Mai Cutler]]></dc:creator>
+				<category><![CDATA[Government]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Egypt]]></category>
+		<category><![CDATA[cuba]]></category>
+		<category><![CDATA[america's army]]></category>
+		<category><![CDATA[Argentina]]></category>
+		<category><![CDATA[Venezuela]]></category>
+		<category><![CDATA[United States]]></category>
+		<category><![CDATA[syria]]></category>
+		<category><![CDATA[Mexico]]></category>
+		<category><![CDATA[ukraine]]></category>
+		<category><![CDATA[spain]]></category>
+		<category><![CDATA[San Francisco]]></category>
+		<category><![CDATA[Chile]]></category>
+		<category><![CDATA[latin america]]></category>
+		<category><![CDATA[president]]></category>
+		<category><![CDATA[Beijing]]></category>
+		<category><![CDATA[lawyer]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Y Combinator]]></category>
+		<category><![CDATA[open source software]]></category>
+		<category><![CDATA[democracyos]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1145531</guid>
+		<description><![CDATA[<img width="680" height="383" src="https://tctechcrunch2011.files.wordpress.com/2015/04/democracyos.jpg?w=680" class="attachment-large wp-post-image" alt="democracyos" />&nbsp;One of the stranger things that Y Combinator has supported &#8212; among the many more interesting things they&#8217;ve started to back like prosthetic legs, macrobiotic research and Uber-for-marijuana startups &#8212; is a non-profit that built an entire political party in Buenos Aires, Argentina. DemocracyOS is a software platform that allows regular voters to debate and forward policy ideas.&hellip; <a href="http://techcrunch.com/2015/04/17/democracyos-2/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/democracyos-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/democracyos.jpg?w=210&#038;h=158&#038;crop=1" />
+
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/democracyos.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/democracyos.jpg?w=150" medium="image">
+			<media:title type="html">democracyos</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/c4dad53149dd9c712936e1b27c1c1e9f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">kimmaicutler</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/screen-shot-2015-04-17-at-12-58-30-pm.png?w=680" medium="image">
+			<media:title type="html">Screen Shot 2015-04-17 at 12.58.30 PM</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>CrunchWeek: Yahoo+Foursquare, Etsy&#8217;s IPO Goes Boom, And Slack Raises Another Chunk Of Capital</title>
+		<link>http://techcrunch.com/2015/04/17/crunchweek-yahoofoursquare-etsys-ipo-goes-boom-and-slack-raises-another-chunk-of-capital/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/crunchweek-yahoofoursquare-etsys-ipo-goes-boom-and-slack-raises-another-chunk-of-capital/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 20:26:13 +0000</pubDate>
+		<dc:creator><![CDATA[Alex Wilhelm,Colleen Taylor,Sarah Buhr]]></dc:creator>
+				<category><![CDATA[Drama]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146255</guid>
+		<description><![CDATA[<img width="680" height="510" src="https://tctechcrunch2011.files.wordpress.com/2015/02/crunchweek-4-3.jpg?w=680" class="attachment-large wp-post-image" alt="crunchweek-4-3" />&nbsp;We hope you accomplished enough this week. If not, you won&#8217;t be saving your productivity this Friday afternoon, so we&#8217;re here to CrunchWeek with you.
+This time around Sarah Buhr, Colleen Taylor and Alex Wilhelm riff through the latest Yahoo and Foursquare rumors, Etsy&#8217;s mind-bending initial public offering, and Slack&#8217;s massive new capital raise. <a href="http://techcrunch.com/2015/04/17/crunchweek-yahoofoursquare-etsys-ipo-goes-boom-and-slack-raises-another-chunk-of-capital/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/crunchweek-yahoofoursquare-etsys-ipo-goes-boom-and-slack-raises-another-chunk-of-capital/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/02/crunchweek-4-3.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://pthumbnails.5min.com/10375487/518774305_18_1279_727.jpg" type="image/jpeg" medium="image"><media:title type="html">CrunchWeek%3A%20Yahoo%2BFoursquare%2C%20Etsy%26%238217%3Bs%20IPO%20Goes%20Boom%2C%20And%20Slack%20Raises%20Another%20Chunk%20Of%26nbsp%3BCapital</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/02/crunchweek-4-3.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/02/crunchweek-4-3.jpg?w=150" medium="image">
+			<media:title type="html">crunchweek-4-3</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/a3a71bf0d3d22efa0db4b77936a066b8?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">alexjameswilhelm</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Gillmor Gang LIVE 04.17.15</title>
+		<link>http://techcrunch.com/2015/04/17/gillmor-gang-live-04-17-15/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/gillmor-gang-live-04-17-15/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 20:02:39 +0000</pubDate>
+		<dc:creator><![CDATA[Steve Gillmor]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[benedict evans]]></category>
+		<category><![CDATA[Robert Scoble]]></category>
+		<category><![CDATA[Keith Teare]]></category>
+		<category><![CDATA[Kevin Marks]]></category>
+		<category><![CDATA[john taschek]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146254</guid>
+		<description><![CDATA[<img width="680" height="383" src="https://tctechcrunch2011.files.wordpress.com/2014/02/gg-test-pattern-sepia3.jpg?w=680" class="attachment-large wp-post-image" alt="Gillmor Gang Artcard" />&nbsp;Gillmor Gang &#8211; Robert Scoble, John Taschek, Keith Teare, Kevin Marks, and Steve Gillmor. LIVE recording session has concluded for today.
+Join a live chat session amongst Gang members and viewers here
+Gillmor Gang on Facebook
+Our sister show, G3, on Facebook
+G3&#8217;s archives on Ustream <a href="http://techcrunch.com/2015/04/17/gillmor-gang-live-04-17-15/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/gillmor-gang-live-04-17-15/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2014/02/gg-test-pattern-sepia3.jpg?w=210&#038;h=158&#038;crop=1" />
+
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2014/02/gg-test-pattern-sepia3.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2014/02/gg-test-pattern-sepia3.jpg?w=150" medium="image">
+			<media:title type="html">GG test pattern sepia3</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/e819990a43a5972b40593cdc6896eef9?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">steve</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Microsoft Promises &#8216;Universal&#8217; Office App For Phones Running Windows 10 This Month</title>
+		<link>http://techcrunch.com/2015/04/17/microsoft-promises-universal-office-app-for-phones-running-windows-10-this-month/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/microsoft-promises-universal-office-app-for-phones-running-windows-10-this-month/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 17:29:10 +0000</pubDate>
+		<dc:creator><![CDATA[Alex Wilhelm]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Windows 10]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146236</guid>
+		<description><![CDATA[<img width="680" height="480" src="https://tctechcrunch2011.files.wordpress.com/2015/01/windows-10.png?w=680" class="attachment-large wp-post-image" alt="windows 10" />&nbsp;Microsoft promised this morning to release by the end of April a set of Office applications that it calls &#8220;Universal&#8221; for smartphones running Windows 10. The company has a two-prong productivity strategy in place for Windows: Office 2016 for desktop use, and, for all other Windows 10 experiences, its touch-focused Office Universal apps. The latter apps, according to Microsoft,&hellip; <a href="http://techcrunch.com/2015/04/17/microsoft-promises-universal-office-app-for-phones-running-windows-10-this-month/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/microsoft-promises-universal-office-app-for-phones-running-windows-10-this-month/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/01/windows-10.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/01/windows-10.png" type="image/png" medium="image"><media:title type="html">Microsoft%20Promises%20%26%238216%3BUniversal%26%238217%3B%20Office%20App%20For%20Phones%20Running%20Windows%2010%20This%26nbsp%3BMonth</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/01/windows-10.png?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/01/windows-10.png?w=150" medium="image">
+			<media:title type="html">windows 10</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/a3a71bf0d3d22efa0db4b77936a066b8?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">alexjameswilhelm</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/word.png?w=382" medium="image">
+			<media:title type="html">word</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Trio Lets You Mash Up Your Own Media With GIFs, Vines, Music And More</title>
+		<link>http://techcrunch.com/2015/04/17/trio-lets-you-mash-up-your-own-media-with-gifs-vines-music-and-more/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/trio-lets-you-mash-up-your-own-media-with-gifs-vines-music-and-more/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 17:26:25 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Trio]]></category>
+		<category><![CDATA[mashups]]></category>
+		<category><![CDATA[GIFs]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146188</guid>
+		<description><![CDATA[<img width="680" height="452" src="https://tctechcrunch2011.files.wordpress.com/2015/04/trio.jpg?w=680" class="attachment-large wp-post-image" alt="trio" />&nbsp;If you spend entirely too much time creating, searching for and sharing the best GIFs and Vines with your friends, then you might get a kick out of a new mobile application called Trio. The app allows you to mash up media in order to create unique &#8220;remixes&#8221; that combine photos, videos, GIFs and music pulled from a variety of public sources, as well as from your own Camera Roll. <a href="http://techcrunch.com/2015/04/17/trio-lets-you-mash-up-your-own-media-with-gifs-vines-music-and-more/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/trio-lets-you-mash-up-your-own-media-with-gifs-vines-music-and-more/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/trio.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/trio.jpg" type="image/jpeg" medium="image"><media:title type="html">Trio%20Lets%20You%20Mash%20Up%20Your%20Own%20Media%20With%20GIFs%2C%20Vines%2C%20Music%20And%26nbsp%3BMore</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/trio.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/trio.jpg?w=150" medium="image">
+			<media:title type="html">trio</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahintampa</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/trio-screenshots.png?w=680" medium="image">
+			<media:title type="html">Trio screenshots</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>How A Founder Can Think Like An Investor At The First Outside Round Of Funding</title>
+		<link>http://techcrunch.com/2015/04/17/how-a-founder-can-think-like-an-investor-at-their-first-outside-round-of-funding/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/how-a-founder-can-think-like-an-investor-at-their-first-outside-round-of-funding/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 17:00:22 +0000</pubDate>
+		<dc:creator><![CDATA[Paul Bennetts]]></dc:creator>
+				<category><![CDATA[Column]]></category>
+		<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1143085</guid>
+		<description><![CDATA[<img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2015/04/chesssurrender.jpg?w=680" class="attachment-large wp-post-image" alt="chesssurrender" />&nbsp;The mean case can cost a founder up to $200k in self-funded investment and up to 24 months before they are ready to test outside funding. It is a nontrivial investment, in both capital and time, to test a hypothesis of product-market fit.  And in many instances, a founder can fail to give themselves enough time and runway to reach product-market fit. <a href="http://techcrunch.com/2015/04/17/how-a-founder-can-think-like-an-investor-at-their-first-outside-round-of-funding/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/how-a-founder-can-think-like-an-investor-at-their-first-outside-round-of-funding/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/chesssurrender.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/chesssurrender.jpg" type="image/jpeg" medium="image"><media:title type="html">How%20A%20Founder%20Can%20Think%20Like%20An%20Investor%20At%20The%20First%20Outside%20Round%20Of%26nbsp%3BFunding</media:title></media:content><twitter> <![CDATA[ paul_bennetts ]]> </twitter>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/chesssurrender.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/chesssurrender.jpg?w=150" medium="image">
+			<media:title type="html">chesssurrender</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">CP</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Coin, The One Credit Card To Rule Them All, Is Finally Shipping</title>
+		<link>http://techcrunch.com/2015/04/17/coin-the-one-credit-card-to-rule-them-all-is-finally-shipping/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/coin-the-one-credit-card-to-rule-them-all-is-finally-shipping/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 16:02:11 +0000</pubDate>
+		<dc:creator><![CDATA[Jordan Crook]]></dc:creator>
+				<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[coin]]></category>
+		<category><![CDATA[Kanishk Parashar]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146128</guid>
+		<description><![CDATA[<img width="680" height="510" src="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-14-21.jpg?w=680" class="attachment-large wp-post-image" alt="2015-04-17 11.14.21" />&nbsp;The Coin (promising to let you combine all your credit/debit/loyalty cards into a single piece of tech) has delayed for so long that you might have forgotten that you ordered one. In November of 2013, the YC-backed company blew past its $50,000 pre-order goal in forty minutes, but despite a promise of summer 2014 shipping, the company has yet to ship a product that wasn&#8217;t in beta.&hellip; <a href="http://techcrunch.com/2015/04/17/coin-the-one-credit-card-to-rule-them-all-is-finally-shipping/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/coin-the-one-credit-card-to-rule-them-all-is-finally-shipping/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-14-21.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-14-21.jpg" type="image/jpeg" medium="image"><media:title type="html">Coin%2C%20The%20One%20Credit%20Card%20To%20Rule%20Them%20All%2C%20Is%20Finally%26nbsp%3BShipping</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-14-21.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-14-21.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-17 11.14.21</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/123a4c264172746af556b0c74c72b308?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">jordanrcrook</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-16-12-13-38.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-16 12.13.38</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-16-12-25-59.png?w=84" medium="image">
+			<media:title type="html">2015-04-16 12.25.59</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-16-14-42-46.png?w=84" medium="image">
+			<media:title type="html">2015-04-16 14.42.46</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-13-59-2.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-17 11.13.59-2</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-14-211.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-17 11.14.21</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-15-16.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-17 11.15.16</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-16-15.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-17 11.16.15</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-16-34.jpg?w=150" medium="image">
+			<media:title type="html">2015-04-17 11.16.34</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-18-54.png?w=84" medium="image">
+			<media:title type="html">2015-04-17 11.18.54</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-24-31.png?w=84" medium="image">
+			<media:title type="html">2015-04-17 11.24.31</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-24-39.png?w=84" medium="image">
+			<media:title type="html">2015-04-17 11.24.39</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-25-18.png?w=84" medium="image">
+			<media:title type="html">2015-04-17 11.25.18</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/2015-04-17-11-26-26.png?w=84" medium="image">
+			<media:title type="html">2015-04-17 11.26.26</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Twitter Makes It Easier For Developers To Add Timelines To Mobile Apps</title>
+		<link>http://techcrunch.com/2015/04/17/twitter-makes-it-easier-for-developers-to-add-timelines-to-mobile-apps/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/twitter-makes-it-easier-for-developers-to-add-timelines-to-mobile-apps/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 15:16:56 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Developer]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[Twitter Fabric]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146165</guid>
+		<description><![CDATA[<img width="457" height="529" src="https://tctechcrunch2011.files.wordpress.com/2015/04/twitterkit-timeline-citymapper-cropped.png?w=457" class="attachment-large wp-post-image" alt="twitterkit-timeline-citymapper-cropped" />&nbsp;Twitter this week rolled out new features to its mobile developer platform, Fabric, aimed at expanding access to Twitter timelines from third-party applications. With an update to Twitter Kit, the platform component that lets developers authenticate users via Twitter and showcase tweet embeds within apps, developers are now also able to integrate Twitter timelines within their iOS or&hellip; <a href="http://techcrunch.com/2015/04/17/twitter-makes-it-easier-for-developers-to-add-timelines-to-mobile-apps/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/twitter-makes-it-easier-for-developers-to-add-timelines-to-mobile-apps/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/twitterkit-timeline-citymapper-cropped.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/twitterkit-timeline-citymapper-cropped.png" type="image/png" medium="image"><media:title type="html">Twitter%20Makes%20It%20Easier%20For%20Developers%20To%20Add%20Timelines%20To%20Mobile%26nbsp%3BApps</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/twitterkit-timeline-citymapper-cropped.png?w=130" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/twitterkit-timeline-citymapper-cropped.png?w=130" medium="image">
+			<media:title type="html">twitterkit-timeline-citymapper-cropped</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahintampa</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/twitterkit-timeline-regal-cropped.png" medium="image">
+			<media:title type="html">twitterkit-timeline-regal-cropped</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Three Weeks After Launch, Vessel Gets Another $57.5 Million In Funding Led By IVP</title>
+		<link>http://techcrunch.com/2015/04/17/big-money-for-small-videos/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/big-money-for-small-videos/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 15:00:49 +0000</pubDate>
+		<dc:creator><![CDATA[Ryan Lawler]]></dc:creator>
+				<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Vessel]]></category>
+		<category><![CDATA[jason kilar]]></category>
+		<category><![CDATA[IVP]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1145948</guid>
+		<description><![CDATA[<img width="680" height="450" src="https://tctechcrunch2011.files.wordpress.com/2015/03/vessel_productshot_wallcombo.png?w=680" class="attachment-large wp-post-image" alt="vessel_productshot_wallcombo" />&nbsp;Former Hulu CEO Jason Kilar has an ambitious plan for transforming the way we think about online video. His new startup Vessel is taking some of the same basic concepts that were successful in getting people to pay to watch streaming versions of their favorite TV shows on Hulu and applying it to YouTube videos. But hey, reinventing the digital video space isn&#8217;t cheap! There are all sorts&hellip; <a href="http://techcrunch.com/2015/04/17/big-money-for-small-videos/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/big-money-for-small-videos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/03/vessel_productshot_wallcombo.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/03/vessel_productshot_wallcombo.png" type="image/png" medium="image"><media:title type="html">Three%20Weeks%20After%20Launch%2C%20Vessel%20Gets%20Another%20%2457.5%20Million%20In%20Funding%20Led%20By%26nbsp%3BIVP</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/03/vessel_productshot_wallcombo.png?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/03/vessel_productshot_wallcombo.png?w=150" medium="image">
+			<media:title type="html">vessel_productshot_wallcombo</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/3c5a6332c8200dfda8d15c74ebcc06d1?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">ryanlawler</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Naspers Drops Off $40 Million For Brazilian Mobile Conglomerate Movile</title>
+		<link>http://techcrunch.com/2015/04/17/naspers-drops-off-40-million-for-brazilian-mobile-conglomerate-movile/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/naspers-drops-off-40-million-for-brazilian-mobile-conglomerate-movile/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 14:30:44 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Shieber]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[latin america]]></category>
+		<category><![CDATA[movile]]></category>
+		<category><![CDATA[OLX]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Rocket Internet]]></category>
+		<category><![CDATA[flipkart]]></category>
+		<category><![CDATA[Tencent]]></category>
+		<category><![CDATA[food]]></category>
+		<category><![CDATA[food delivery]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1141728</guid>
+		<description><![CDATA[<img width="680" height="452" src="https://tctechcrunch2011.files.wordpress.com/2015/04/468265643_fec5123aa2_o.jpg?w=680" class="attachment-large wp-post-image" alt="468265643_fec5123aa2_o" />&nbsp;The on-demand delivery market has now raised more money in the first four months of 2015 than it did in all of 2014, and the latest beneficiary is the Brazilian mobile application and content developer Movile. The company has received a $40 million commitment from the South African technology investor and media company, Naspers . <a href="http://techcrunch.com/2015/04/17/naspers-drops-off-40-million-for-brazilian-mobile-conglomerate-movile/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/naspers-drops-off-40-million-for-brazilian-mobile-conglomerate-movile/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/468265643_fec5123aa2_o.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/468265643_fec5123aa2_o.jpg" type="image/jpeg" medium="image"><media:title type="html">Naspers%20Drops%20Off%20%2440%20Million%20For%20Brazilian%20Mobile%20Conglomerate%26nbsp%3BMovile</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/468265643_fec5123aa2_o.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/468265643_fec5123aa2_o.jpg?w=150" medium="image">
+			<media:title type="html">468265643_fec5123aa2_o</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5633afc3b452c34446afd2ae0174cf86?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">shieberj</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/screen-shot-2015-04-17-at-9-50-10-am.png?w=680" medium="image">
+			<media:title type="html">Screen Shot 2015-04-17 at 9.50.10 AM</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Amazon Shuts Down TestDrive, The Appstore Feature That Let You Try Apps Before Downloading</title>
+		<link>http://techcrunch.com/2015/04/17/amazon-shuts-down-testdrive-the-appstore-feature-that-let-you-try-apps-before-downloading/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/amazon-shuts-down-testdrive-the-appstore-feature-that-let-you-try-apps-before-downloading/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 14:05:59 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[amazon appstore]]></category>
+		<category><![CDATA[developers]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146139</guid>
+		<description><![CDATA[<img width="630" height="432" src="https://tctechcrunch2011.files.wordpress.com/2011/03/amazon-appstore-bubble-buster-test-drive.png?w=630" class="attachment-large wp-post-image" alt="Amazon Appstore - Bubble Buster Test Drive" />&nbsp;Amazon is shutting down TestDrive, one of the differentiating features of the Amazon Appstore which allowed consumers to test out new applications ahead of purchase. The feature was introduced back in March 2011 alongside the launch of the Appstore itself, where it then utilized a browser-based emulated instance of Android running in the cloud. This let consumers control an application&hellip; <a href="http://techcrunch.com/2015/04/17/amazon-shuts-down-testdrive-the-appstore-feature-that-let-you-try-apps-before-downloading/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/amazon-shuts-down-testdrive-the-appstore-feature-that-let-you-try-apps-before-downloading/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2011/03/amazon-appstore-bubble-buster-test-drive.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2011/03/amazon-appstore-bubble-buster-test-drive.png" type="image/png" medium="image"><media:title type="html">Amazon%20Shuts%20Down%20TestDrive%2C%20The%20Appstore%20Feature%20That%20Let%20You%20Try%20Apps%20Before%26nbsp%3BDownloading</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2011/03/amazon-appstore-bubble-buster-test-drive.png?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2011/03/amazon-appstore-bubble-buster-test-drive.png?w=150" medium="image">
+			<media:title type="html">Amazon Appstore - Bubble Buster Test Drive</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahintampa</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/6a0148c71fb71b970c016766a8b606970b-800wi.png?w=203" medium="image">
+			<media:title type="html">6a0148c71fb71b970c016766a8b606970b-800wi</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Google Says &#8220;Vast Majority&#8221; Of Ads On Its Platforms Will Be Encrypted By June 30</title>
+		<link>http://techcrunch.com/2015/04/17/google-ads-https/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/google-ads-https/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 14:05:08 +0000</pubDate>
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+				<category><![CDATA[Advertising Tech]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Google]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146145</guid>
+		<description><![CDATA[<img width="680" height="453" src="https://tctechcrunch2011.files.wordpress.com/2015/03/2856173673_27b7e5e521_o.jpg?w=680" class="attachment-large wp-post-image" alt="Google" />&nbsp;Google has been gradually moving all of its online services to HTTPS encryption &#8212; you may even remember the excitement wayyyy back in 2008, when Gmail switched to HTTPS. In a blog post published this morning, the company says that it&#8217;s now working to switch its advertising over as well. Specifically, it says YouTube ads and Google search ads for &#8220;a vast majority of&hellip; <a href="http://techcrunch.com/2015/04/17/google-ads-https/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/google-ads-https/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/03/2856173673_27b7e5e521_o.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/03/2856173673_27b7e5e521_o.jpg" type="image/jpeg" medium="image"><media:title type="html">Google%20Says%20%26%238220%3BVast%20Majority%26%238221%3B%20Of%20Ads%20On%20Its%20Platforms%20Will%20Be%20Encrypted%20By%20June%26nbsp%3B30</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/03/2856173673_27b7e5e521_o.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/03/2856173673_27b7e5e521_o.jpg?w=150" medium="image">
+			<media:title type="html">Google logo</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/72b358648f4587cc2a11895c32b8e979?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">anthha</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>With Quickie, Make A Quick 5-Second Video Call With Your Friends</title>
+		<link>http://techcrunch.com/2015/04/17/with-quickie-make-a-quick-5-second-video-call-with-your-friends/?ncid=rss</link>
+		<comments>http://techcrunch.com/2015/04/17/with-quickie-make-a-quick-5-second-video-call-with-your-friends/#comments</comments>
+		<pubDate>Fri, 17 Apr 2015 12:28:40 +0000</pubDate>
+		<dc:creator><![CDATA[Romain Dillet]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Quickie]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1146083</guid>
+		<description><![CDATA[<img width="680" height="454" src="https://tctechcrunch2011.files.wordpress.com/2015/04/14000100118_de4d5b4628_o.jpg?w=680" class="attachment-large wp-post-image" alt="14000100118_de4d5b4628_o" />&nbsp;Meet Quickie, a nifty little iOS app to make 1-on-1 video calls that automatically end after a few seconds. You might use Quickie to tell a joke to a friend or say good morning to your partner for example. Sending a text message won&#8217;t be as personal as a phone or video call, but calls are a strong commitment in our busy lives. &#8220;The idea came from frustration with phone calls that&hellip; <a href="http://techcrunch.com/2015/04/17/with-quickie-make-a-quick-5-second-video-call-with-your-friends/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2015/04/17/with-quickie-make-a-quick-5-second-video-call-with-your-friends/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/14000100118_de4d5b4628_o.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/14000100118_de4d5b4628_o.jpg" type="image/jpeg" medium="image"><media:title type="html">With%20Quickie%2C%20Make%20A%20Quick%205-Second%20Video%20Call%20With%20Your%26nbsp%3BFriends</media:title></media:content>
+		<media:thumbnail url="https://tctechcrunch2011.files.wordpress.com/2015/04/14000100118_de4d5b4628_o.jpg?w=150" />
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/14000100118_de4d5b4628_o.jpg?w=150" medium="image">
+			<media:title type="html">14000100118_de4d5b4628_o</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/2e71de62bf8a99d74a58f1546494fe82?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">romaindillet</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2015/04/quickie.png" medium="image">
+			<media:title type="html">Quickie</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

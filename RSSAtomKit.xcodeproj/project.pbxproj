@@ -14,6 +14,9 @@
 		634AF9031A96A59600BBD372 /* test_3.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF9021A96A59600BBD372 /* test_3.opml */; };
 		639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F211A648CE500B3E23E /* RFA-tibetan.xml */; };
 		639B1F241A6495D000B3E23E /* google-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F231A6495D000B3E23E /* google-atom.xml */; };
+		63B384511AE1DA6B005869A2 /* techcrunch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63B384501AE1DA6B005869A2 /* techcrunch.xml */; };
+		63B384531AE1DB62005869A2 /* boinboing.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63B384521AE1DB62005869A2 /* boinboing.xml */; };
+		63B384551AE1DC41005869A2 /* 538.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63B384541AE1DC41005869A2 /* 538.xml */; };
 		63D58C231A8BFB8C003C5A2D /* search.opml in Resources */ = {isa = PBXBuildFile; fileRef = 63D58C221A8BFB8C003C5A2D /* search.opml */; };
 		ACEF483BDF922E9A9E86EA8E /* libPods-RSSAtomKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD8898978B2A7E9E7D17CFA /* libPods-RSSAtomKitTests.a */; };
 		D98E6C8C1A1AC10500C0A704 /* RSSAtomKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E6C8B1A1AC10500C0A704 /* RSSAtomKitTests.m */; };
@@ -38,6 +41,9 @@
 		634AF9021A96A59600BBD372 /* test_3.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_3.opml; path = OPML/test_3.opml; sourceTree = "<group>"; };
 		639B1F211A648CE500B3E23E /* RFA-tibetan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RFA-tibetan.xml"; path = "Feeds/RFA-tibetan.xml"; sourceTree = "<group>"; };
 		639B1F231A6495D000B3E23E /* google-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "google-atom.xml"; path = "Feeds/google-atom.xml"; sourceTree = "<group>"; };
+		63B384501AE1DA6B005869A2 /* techcrunch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = techcrunch.xml; path = Feeds/techcrunch.xml; sourceTree = "<group>"; };
+		63B384521AE1DB62005869A2 /* boinboing.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = boinboing.xml; path = Feeds/boinboing.xml; sourceTree = "<group>"; };
+		63B384541AE1DC41005869A2 /* 538.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = 538.xml; path = Feeds/538.xml; sourceTree = "<group>"; };
 		63D58C221A8BFB8C003C5A2D /* search.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = search.opml; path = OPML/search.opml; sourceTree = "<group>"; };
 		B68C9453DC918E7986604E37 /* Pods-RSSAtomKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSAtomKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSSAtomKitTests/Pods-RSSAtomKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8D8573CC9DE106990FAD279 /* Pods-RSSAtomKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSAtomKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSAtomKitTests/Pods-RSSAtomKitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +152,9 @@
 				639B1F231A6495D000B3E23E /* google-atom.xml */,
 				63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */,
 				63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */,
+				63B384501AE1DA6B005869A2 /* techcrunch.xml */,
+				63B384521AE1DB62005869A2 /* boinboing.xml */,
+				63B384541AE1DC41005869A2 /* 538.xml */,
 			);
 			name = Feeds;
 			sourceTree = "<group>";
@@ -211,8 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				634AF9011A969FF000BBD372 /* test_2.opml in Resources */,
+				63B384551AE1DC41005869A2 /* 538.xml in Resources */,
 				D9E657501A232FB1000E6301 /* CNN-World.xml in Resources */,
 				63482A4C1AE1AE7100D8AEED /* soylentNews-rdf.xml in Resources */,
+				63B384531AE1DB62005869A2 /* boinboing.xml in Resources */,
 				639B1F241A6495D000B3E23E /* google-atom.xml in Resources */,
 				D9E6574F1A232FB1000E6301 /* CNN-TopStories.xml in Resources */,
 				D9E657521A232FB1000E6301 /* NYTimes-International.xml in Resources */,
@@ -221,6 +232,7 @@
 				D9E657541A232FB1000E6301 /* WashingtonPost-World.xml in Resources */,
 				63482A4B1AE1AE7100D8AEED /* soylentNews-atom.xml in Resources */,
 				639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */,
+				63B384511AE1DA6B005869A2 /* techcrunch.xml in Resources */,
 				D9E657531A232FB1000E6301 /* VOA.xml in Resources */,
 				634AF9001A969FF000BBD372 /* test_1.opml in Resources */,
 				634AF9031A96A59600BBD372 /* test_3.opml in Resources */,

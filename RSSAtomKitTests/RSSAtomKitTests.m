@@ -89,6 +89,27 @@
     [self runTestOnFeedName:@"RFA-tibetan" feedItems:15 expectedTotalMediaItems:0 hasDescription:YES];
 }
 
+/**
+ *  http://techcrunch.com/feed/
+ */
+- (void)testTechcrunchFeed {
+    [self runTestOnFeedName:@"techcrunch" feedItems:20 expectedTotalMediaItems:89 hasDescription:YES];
+}
+
+/**
+ *  http://boingboing.net/feed
+ */
+- (void)testBoingBoingFeed {
+    [self runTestOnFeedName:@"boinboing" feedItems:30 expectedTotalMediaItems:0 hasDescription:YES];
+}
+
+/**
+ *  http://fivethirtyeight.com/features/feed/
+ */
+- (void)test538Feed {
+    [self runTestOnFeedName:@"538" feedItems:20 expectedTotalMediaItems:88 hasDescription:YES];
+}
+
 #pragma - mark Atom Tests
 
 /**
