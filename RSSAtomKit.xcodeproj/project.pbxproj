@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63482A4B1AE1AE7100D8AEED /* soylentNews-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */; };
+		63482A4C1AE1AE7100D8AEED /* soylentNews-rdf.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */; };
 		634AF9001A969FF000BBD372 /* test_1.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FE1A969FF000BBD372 /* test_1.opml */; };
 		634AF9011A969FF000BBD372 /* test_2.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FF1A969FF000BBD372 /* test_2.opml */; };
 		634AF9031A96A59600BBD372 /* test_3.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF9021A96A59600BBD372 /* test_3.opml */; };
@@ -29,6 +31,8 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "soylentNews-atom.xml"; path = "Feeds/soylentNews-atom.xml"; sourceTree = "<group>"; };
+		63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "soylentNews-rdf.xml"; path = "Feeds/soylentNews-rdf.xml"; sourceTree = "<group>"; };
 		634AF8FE1A969FF000BBD372 /* test_1.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_1.opml; path = OPML/test_1.opml; sourceTree = "<group>"; };
 		634AF8FF1A969FF000BBD372 /* test_2.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_2.opml; path = OPML/test_2.opml; sourceTree = "<group>"; };
 		634AF9021A96A59600BBD372 /* test_3.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_3.opml; path = OPML/test_3.opml; sourceTree = "<group>"; };
@@ -138,8 +142,10 @@
 				D9E6574C1A232FB1000E6301 /* NYTimes-International.xml */,
 				D9E6574D1A232FB1000E6301 /* VOA.xml */,
 				639B1F211A648CE500B3E23E /* RFA-tibetan.xml */,
-				639B1F231A6495D000B3E23E /* google-atom.xml */,
 				D9E6574E1A232FB1000E6301 /* WashingtonPost-World.xml */,
+				639B1F231A6495D000B3E23E /* google-atom.xml */,
+				63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */,
+				63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */,
 			);
 			name = Feeds;
 			sourceTree = "<group>";
@@ -206,12 +212,14 @@
 			files = (
 				634AF9011A969FF000BBD372 /* test_2.opml in Resources */,
 				D9E657501A232FB1000E6301 /* CNN-World.xml in Resources */,
+				63482A4C1AE1AE7100D8AEED /* soylentNews-rdf.xml in Resources */,
 				639B1F241A6495D000B3E23E /* google-atom.xml in Resources */,
 				D9E6574F1A232FB1000E6301 /* CNN-TopStories.xml in Resources */,
 				D9E657521A232FB1000E6301 /* NYTimes-International.xml in Resources */,
 				D9E657511A232FB1000E6301 /* Guardian-World.xml in Resources */,
 				63D58C231A8BFB8C003C5A2D /* search.opml in Resources */,
 				D9E657541A232FB1000E6301 /* WashingtonPost-World.xml in Resources */,
+				63482A4B1AE1AE7100D8AEED /* soylentNews-atom.xml in Resources */,
 				639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */,
 				D9E657531A232FB1000E6301 /* VOA.xml in Resources */,
 				634AF9001A969FF000BBD372 /* test_1.opml in Resources */,

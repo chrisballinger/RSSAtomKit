@@ -19,6 +19,9 @@ typedef NS_ENUM(NSUInteger, RSSFeedType) {
 extern NSString *const kRSSFeedAtomPrefix;
 extern NSString *const kRSSFeedAtomNameSpace;
 
+extern NSString *const kRSSFedRSSPrefix;
+extern NSString *const kRSSFeddRSSNameSpace;
+
 @interface RSSFeed : MTLModel
 
 /**

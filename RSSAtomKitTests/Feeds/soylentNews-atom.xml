@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feed
+ xmlns="http://www.w3.org/2005/Atom"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xml:lang="en-us"
+>
+
+<title>SoylentNews</title>
+<id>https://soylentnews.org//</id>
+<link href="https://soylentnews.org//"/>
+<link rel="self" href="https://soylentnews.org//index.atom"/>
+<subtitle>SoylentNews is people</subtitle>
+<rights>Copyright 2014, SoylentNews</rights>
+<updated>2015-04-17T21:00:08+00:00</updated>
+<author>
+ <name>SoylentNews</name>
+ <email>admin@soylentnews.org</email>
+</author>
+<category term="SoylentNews Main"/>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<logo>http://soylentnews.org/images/logo.png</logo>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/1347229&amp;from=rss</id>
+<title>YouTube Videos Being Used to Track Water Table Via Graffiti in Saudi Arabian Caves</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/1347229&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="mailto:spowell@climafy.com">Phoenix666</a> writes:</p><p>Residents have been using Dahl Hith, a water-filled cave outside Riyadh, Saudi Arabia, to cool off for years.  They have also left graffiti on the cave walls.  Now that smartphones have multiplied and people have used them to upload videos of their excursions to YouTube, <a href="http://www.bbc.com/news/science-environment-32324232">researchers have started using the writing as reference points to track the water table</a> in the region:</p><blockquote><div><p>They use the writing as reference points to estimate the position of the water table.</p><p>Some of these scribbles have dates in them; and some of the videos themselves incorporate time information.</p><p>All of this data has allowed the team to reconstruct past conditions in Dahl Hith.</p><p>"Since smartphones have become so popular and deliver quite good video quality - such data becomes useable. A few years ago, some people would have criticised it as 'grey data', and said 'you shouldn't use it'. But since there is no other data, you need to be creative," said Nils Michelsen, from the Institute for Applied Geosciences, TU Darmstadt, Germany.</p><p>He has been presenting his team's work at the <a href="http://www.egu2015.eu/">European Geosciences Union (EGU) General Assembly in Vienna, Austria</a>.</p><p>The cave study is another example in what is becoming a significant trend - the trawling of social media for scientifically valuable information.</p></div></blockquote><p>It's a creative use of the medium, and unexpected.  It's slightly reminiscent, too, of the fellow a few years back who <a href="http://petewarden.com/2010/02/06/how-to-split-up-the-us/">mined Facebook to discern migration patterns</a> and interest regions in the United States.  Are there other, unexpected externalities of social media or mobile technology Soylentils have come across?</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/17/1347229&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T20:55:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="science"/>
+<slash:department>you-are-in-a-maze-of-little-twisting-passages,-all-different</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:hit_parade>0,0,0,0,0,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/1245222&amp;from=rss</id>
+<title>New York Times Columnist Falls Prey to Signal Repeater Car Burglary</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/1245222&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="mailto:spowell@climafy.com">Phoenix666</a> writes:</p><p>A NY Times columnist had his car stolen by kids who were possibly <a href="http://arstechnica.com/cars/2015/04/new-york-times-columnist-falls-prey-to-signal-repeater-car-burglary/">using a repeater to rebroadcast his key fob</a>:</p><blockquote><div><p>Keyless entry systems typically only communicate with their remote fobs over the distance of a few feet, but he thinks that the gadget is capable of extending this range, fooling the car into thinking that the remote is within range even though it was actually in Bilton's House, about 50 feet away. He arrived at this theory after he consulted with Boris Danev, a Swiss-based security expert:</p><p>"It's a bit like a loudspeaker, so when you say hello over it, people who are 100 meters away can hear the word, 'hello,'" Mr. Danev said. "You can buy these devices anywhere for under $100." He said some of the lower-range devices cost as little as $17 and can be bought online on sites like eBay, Amazon and Craigslist.</p></div></blockquote><p>Sounds creative and easy.  Maybe those clubs aren't so silly after all.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/17/1245222&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T19:04:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="security"/>
+<slash:department>[tin]-foil-your-fob</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>15</slash:comments>
+<slash:hit_parade>15,15,10,8,2,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/1238231&amp;from=rss</id>
+<title>GNU Hurd 0.6 Released, Still x86, Still 32-bit</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/1238231&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Phoronix <a href="http://www.phoronix.com/scan.php?page=news_item&amp;px=GNU-Hurd-0.6-Released">reports</a> that version 0.6 of GNU Hurd has been released. Before getting too excited about GNU Hurd, it's still bound to x86 32-bit and doesn't offer any compelling new features.</p><p>GNU Hurd 0.6 has "numerous cleanups and stylistic fixes" to the code-base, the message dispatching code in Hurd servers is now better, there's support for protected payloads of GNU March 1.5+, libz/libz2 are used as the decompressors to replace gz/bz2, the native fakeroot has improved, the performance of the integer hashing library has improved, and the init server has been split into the start-up server and a SysVinit-style program. The procfs and random translators were also merged.</p><p>More details on the new GNU Hurd release can be found via the <a href="http://permalink.gmane.org/gmane.os.hurd.bugs/27135">0.6 release announcement</a> issued by Thomas Schwinge.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/17/1238231&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T17:11:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="software"/>
+<slash:department>whole-bunch-of-hairy-beasts</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>24</slash:comments>
+<slash:hit_parade>24,23,19,15,7,3,2</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/1236248&amp;from=rss</id>
+<title>WikiLeaks Publishes "The Sony Archives"</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/1236248&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~takyon/"&gt;takyon&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;WikiLeaks has &lt;a href="https://wikileaks.org/sony/press/"&gt;published&lt;/a&gt; "The Sony Archives," a searchable database containing 30,287 &lt;a href="https://wikileaks.org/sony/docs/"&gt;documents&lt;/a&gt; and 173,132 &lt;a href="https://wikileaks.org/sony/emails/"&gt;emails&lt;/a&gt; leaked from Sony Pictures Entertainment (SPE). The WikiLeaks press release portrays the archive as newsworthy and in the public interest:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;WikiLeaks editor-in-chief Julian Assange said: "This archive shows the inner workings of an influential multinational corporation. It is newsworthy and at the centre of a geo-political conflict. It belongs in the public domain. WikiLeaks will ensure it stays there."&lt;br&gt; &lt;br&gt;Sony is a member of the MPAA and a strong lobbyist on issues around internet policy, piracy, trade agreements and copyright issues. The emails show the back and forth on lobbying and political efforts, not only with the MPAA but with politicians directly. In November 2013 WikiLeaks published a secret draft of the &lt;a href="https://wikileaks.org/tpp"&gt;Trans-Pacific Partnership (TPP) IP Chapter&lt;/a&gt;. The Sony Archives show &lt;a href="https://wikileaks.org/sony/emails/emailid/108915"&gt;SPE's internal reactions&lt;/a&gt;, including discussing the impact with Michael Froman, the US Trade Representative. It also references the case against Megaupload and the extradition of its founder Kim DotCom from New Zealand as part of SPE's war on piracy.&lt;br&gt; &lt;br&gt;The connections and alignments between Sony Pictures Entertainment and the US Democratic Party are detailed through the archives, including SPE's CEO Lynton attending dinner with President Obama at Martha's Vineyard and Sony employees being part of fundraising dinners for the Democratic Party. There are emails &lt;a href="https://wikileaks.org/sony/emails/emailid/135225"&gt;setting up a collective&lt;/a&gt; within the corporation to get around the 5,000 USD limit on corporate campaign donations to give 50,000 USD to get the Democratic New York Governor Andrew Cuomo elected as "&lt;a href="https://wikileaks.org/sony/emails/emailid/49813"&gt;Thanks to Governor Cuomo, we have a great production incentive environment in NY and a strong piracy advocate that’s actually done more than talk about our problems.&lt;/a&gt;"&lt;br&gt; &lt;br&gt;Sony Pictures Entertainment CEO Michael Lynton is on the board of trustees of RAND Corporation, an organisation specialising in research and development for the United States military and intelligence sector. The Sony Archives show the flow of contacts and information between these two major US industries, whether it is RAND wanting to invite George Clooney and Kevin Spacey to events, or Lynton offering contact to Valerie Jarrett (a close advisor to Obama) or RAND desiring a partnership with IMAX for digital archiving. With this close tie to the military-industrial complex it is no surprise that Sony reached out to RAND for advice regarding its North Korea film The Interview. RAND provided an analyst specialised in North Korea and suggested Sony &lt;a href="https://wikileaks.org/sony/emails/emailid/12886"&gt;reach out to the State Department and the NSA&lt;/a&gt; regarding North Korea's complaints about the upcoming film. The Sony documents also show Sony being in possession of a brochure for an NSA-evaluated online cloud security set-up called &lt;a href="https://wikileaks.org/sony/docs/05/docs/Cloud/INTEGRITY%20Private%20Cloud%20Solution%20Profile%20May%202011.pdf"&gt;INTEGRITY&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;Additional coverage at &lt;a href="http://www.bbc.com/news/world-us-canada-32343268"&gt;BBC&lt;/a&gt; and &lt;a href="http://www.latimes.com/entertainment/envelope/cotown/la-et-ct-wikileaks-sony-hack-20150416-story.html"&gt;LA Times&lt;/a&gt;. Sony has condemned the document dump:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;"The attackers used the dissemination of stolen information to try to harm SPE and its employees, and now WikiLeaks regrettably is assisting them in that effort," said a Sony Pictures spokesperson in a statement. "We vehemently disagree with WikiLeaks' assertion that this material belongs in the public domain and will continue to fight for the safety, security, and privacy of our company and its more than 6,000 employees."&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/17/1236248&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T15:22:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="news"/>
+<slash:department>SPE-should-copyright-it</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>16</slash:comments>
+<slash:hit_parade>16,16,16,13,3,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/1128204&amp;from=rss</id>
+<title>Real Vegan Cheese: Coming From a Yeast to You</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/1128204&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~takyon/">takyon</a> writes:</p><p>Wired has a <a href="http://www.wired.com/2015/04/diy-biotech-vegan-cheese/">profile</a> of <a href="https://realvegancheese.org/">"Real Vegan Cheese"</a>, a product emerging from <a href="https://counterculturelabs.org/">Counter Culture Labs</a> in Oakland, California. The <a href="https://wiki.hackerspaces.org/List_of_Hacker_Spaces">DIY/biotech lab</a> is using genetically modified yeast cells to produce 11 proteins normally found in cow's milk, which can then be used to create synthetic cheese.</p><p>The genetic engineering approach to cheese has been enabled by the rapidly falling cost of DNA synthesis. It now costs less than $0.25 per base pair to obtain a custom DNA sequence which can be delivered by mail. Why make vegan cheese using yeast? Cheesemaking is an artisanal process with centuries of history and one of the earliest examples of human-directed microbiology. Existing plant-based vegan cheeses can't reproduce the casein proteins needed to achieve a passable cheese. However, Real Vegan Cheese will not use animal fat or lactose.</p><p>The process is not limited to bovine cheese:</p><blockquote><div><p>When I visit the lab, I discover the cheese team includes a biologist, a bioethicist, a retired clinical psychologist, an accountant, and a former Apple marketer. "This to me is a natural extension of computer culture," says Maria Chavez, the ex-Apple employee and a leader of the vegan cheese project. "What is bigger to hack than our bodies and our environment? It's one of the last big frontiers. The possibilities are exciting."</p><p>The possibilities include not just vegan cow cheese, but, well, vegan human cheese. The same basic process for synthesizing cow's milk applies to milk from any other mammal. You just need different genes. Cheese made from engineered human breast milk may not sound like a top seller at the deli counter. But the team says it can serve a practical purpose: Human milk cheese could offer an option to people who have allergies to non-human dairy products. (Chavez said the group has put its experiments with human milk on hold due to Food and Drug Administration concerns about possible autoimmune reactions.)</p></div></blockquote><p>The team is also attempting to create a <a href="https://en.wikipedia.org/wiki/Narwhal">narwhal</a> cheese, after achieving the <a href="https://www.indiegogo.com/projects/real-vegan-cheese">stretch goal</a> on Indiegogo. The recipe and <a href="https://wiki.realvegancheese.org/index.php/Shared_Laboratory_Notebook">experiments</a> involved will be released as "open source"; the DNA sequence(s) will be submitted to <a href="http://parts.igem.org/Main_Page">iGEM's Registry of Standard Biological Parts</a>.</p><p>Critics of <a href="http://www.npr.org/blogs/thesalt/2014/10/03/353024980/gmos-are-old-hat-synthetically-modified-food-is-the-new-frontier">synthetic foods</a> worry about the use of GMOs and the lightly regulated nature of biotechnology labs and hackerspaces. The Real Vegan Cheese team notes that the cheese itself isn't a GMO, only the yeast is. Other recent forays into synthetic food include Muufri's <a href="http://www.businessinsider.com/muufri-test-tube-milk-2014-10">synthetic milk</a>, and Evolva's <a href="http://www.evolva.com/products">vanilla/vanillin and saffron substitutes</a>.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/17/1128204&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T13:34:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>making-the-hippies-happy</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>45</slash:comments>
+<slash:hit_parade>45,45,40,36,9,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/1015231&amp;from=rss</id>
+<title>Top VC Firm Says Techies Need to Get Along With Government</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/1015231&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;A Venture Capital firm &lt;a href="http://www.wired.com/2015/04/a16z-ted-ullyot/"&gt;says techies need to get along&lt;/a&gt; with government:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;From Airbnb to Uber, some of Silicon Valley’s most successful companies have been fighting regulators since their inception. Now, one of the tech industry’s most respected venture capital firms wants to help both sides of the battle make nice with each other.&lt;br&gt; &lt;br&gt;Andreessen Horowitz announced today that it’s launching a new policy and regulatory affairs unit, and that it has appointed Ted Ullyot, Facebook’s former general counsel, to lead the shop. Ullyot, who worked at both the White House and the Department of Justice before coming to the Valley, will be tasked with helping the firm’s portfolio companies see eye to eye with the government regulators with whom they’re increasingly butting heads.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;Well, what do techies say, agree with the VC or string them up by their toes and poke them with sticks?  Inquiring minds want to know...&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/17/1015231&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T11:43:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="techonomics"/>
+<slash:department>bow-to-our-capitalist-overlords</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>27</slash:comments>
+<slash:hit_parade>27,27,21,20,9,3,2</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/0226212&amp;from=rss</id>
+<title>New Trailer Emerges of Star Wars: The Force Awakens</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/0226212&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="mailto:gordon.shure@gmail.com">Robotron</a> writes:</p><p>A trailer spanning about 90 seconds <a href="http://www.theguardian.com/film/2015/apr/16/star-wars-jj-abrams-the-force-awakens">has emerged</a> for the upcoming new Star Wars movie. Featuring footage of Han Solo and Chewbacca, together with shots of a grand scope reminiscent of <i>Star Wars: A New Hope</i>, the trailer appears to depict a film quite closely aligned with the first Star Wars trilogy of yore. The anticipation was huge and reactions generally positive, with <a href="http://mashable.com/2015/04/16/star-wars-trailer-twitter-reactions/">several high profile fans</a> posting exuberant reactions minutes after seeing the trailer.</p><p>
+Could this be the redemption of the Star Wars franchise?</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/17/0226212&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T09:55:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="news"/>
+<slash:department>we-got-high-apple-pie-in-the-sky-hopes</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>29</slash:comments>
+<slash:hit_parade>29,29,25,24,14,6,2</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/17/0214220&amp;from=rss</id>
+<title>If You're Sweaty, Think Happy!</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/17/0214220&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;New research suggests &lt;a href="http://www.sciencedaily.com/releases/2015/04/150416084348.htm"&gt;our emotional state can be transmitted to others&lt;/a&gt; through our sweat:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Humans may be able to communicate positive emotions like happiness through the smell of our sweat, according to new research published in &lt;em&gt;Psychological Science&lt;/em&gt;, a journal of the Association for Psychological Science. The research indicates that we produce chemical compounds, or chemosignals, when we experience happiness that are detectable by others who smell our sweat.&lt;br&gt;...&lt;br&gt;For the second part of the study, the researchers recruited 36 Caucasian females, with no psychological disorder, respiratory disease, or other illness. The researchers note that only females were included in this part of the study as women generally have both a better sense of smell and a greater sensitivity to emotional signals than men do. The study was double-blind, such that neither the researcher nor the participant knew which sweat sample the participant would be exposed to at the time of the experiment.&lt;br&gt;...&lt;br&gt;Facial expression data revealed that women who were exposed to "fear sweat" showed greater activity in the medial frontalis muscle, a common feature of fear expressions. And women who were exposed to "happy sweat" showed more facial muscle activity indicative of a Duchenne smile, a common component of happiness expressions. There was no observable association, however, between the women's facial responses and their explicit ratings of how pleasant and intense the sweat was.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;So those dirty socks you were wearing when you won that epic Ultimate Frisbee finale?  Hold onto those--they could help you get snuggles.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/17/0214220&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T08:34:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>women-love-our-sweat</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>10</slash:comments>
+<slash:hit_parade>10,9,7,6,2,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/2332202&amp;from=rss</id>
+<title>Pew Report on Privacy Habits After the Snowden Leaks </title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/2332202&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="https://soylentnews.org/~kadal"&gt;kadal&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;This is a little old but doesn't seem to have been discussed here. The Pew Research Center has released a &lt;a href="http://www.pewinternet.org/2015/03/16/Americans-Privacy-Strategies-Post-Snowden/"&gt;report&lt;/a&gt; on privacy strategies adopted by Americans after the Snowden leaks started.&lt;/p&gt;&lt;p&gt;&lt;div class="quote"&gt;&lt;p&gt; The analysis in this report is based on a Pew Research Center survey conducted between November 26, 2014 and January 3, 2015 among a sample of 475 adults, 18 years of age or older.&lt;/p&gt;&lt;/div&gt;&lt;p&gt; Concern about the surveillance programs is in the 30% range.&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;ul&gt; &lt;li&gt;39% say they are “very concerned” or “somewhat concerned” about government monitoring of their activity on search engines.&lt;/li&gt;&lt;li&gt;38% say they are “very concerned” or “somewhat concerned” about government monitoring of their activity on their email messages.&lt;/li&gt;&lt;li&gt;37% express concern about government monitoring of their activity on their cell phone.&lt;/li&gt;&lt;li&gt;31% are concerned about government monitoring of their activity on social media sites, such as Facebook or Twitter.&lt;/li&gt;&lt;li&gt;29% say they are concerned about government monitoring of their activity on their mobile apps.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;A fraction of users have changed their behaviour.&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;ul&gt; &lt;li&gt;18% of the Americans who are aware of the surveillance programs say they have changed the way they use their email accounts “somewhat” or a “great deal.”&lt;/li&gt;&lt;li&gt;17% say they have changed the way they use search engines.&lt;/li&gt;&lt;li&gt;15% say they have changed the way they use social media.&lt;/li&gt;&lt;li&gt;15% say they have changed the way they use their cell phones.&lt;/li&gt;&lt;li&gt;13% say they have changed the way they use mobile apps.&lt;/li&gt;&lt;li&gt;13% say they have changed the way they use text messages.&lt;/li&gt;&lt;li&gt;9% say they have changed the way they use their landline phone.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;Spreading information about the programs seems to help change behaviour&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Those who are more likely to have changed their behaviors include the people who have heard “a lot” about government surveillance (38% say they have changed a great deal/somewhat in at least one of these activities), those who are at least somewhat concerned about the programs (41% have changed at least one activity), and those who are concerned about government monitoring of their use of social media, search engines, cell phones, apps, and email.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;The full 37 page PDF is available &lt;a href="http://www.pewinternet.org/files/2015/03/PI_AmericansPrivacyStrategies_0316151.pdf"&gt;to everyone&lt;/a&gt; and Bruce Schneier has also written some good &lt;a href="https://www.schneier.com/blog/archives/2015/03/survey_of_ameri.html"&gt;commentary&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/2332202&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T07:27:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="security"/>
+<slash:department>paranoia-makes-sense-if-everyone-is-out-to-get-you</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>18</slash:comments>
+<slash:hit_parade>18,18,14,11,5,3,2</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/2059213&amp;from=rss</id>
+<title>Physicists Spy on Random Motion of Electrons with Defective Diamonds</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/2059213&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Scientists have found a way to &lt;a href="http://arstechnica.com/science/2015/04/diamonds-are-a-physicists-best-friend/"&gt;study finer details of electron motion&lt;/a&gt; through a material using flawed diamonds:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;researchers studied Johnson noise, otherwise known as white noise. In a metal, there is a sea of electrons that is free to travel around in constant motion—the fact that the temperature is above absolute zero is enough to keep electrons in motion. Because of this motion, the density of electrons varies slightly from place to place at any given time. These fluctuations create small attractive and repulsive forces that drive electrons to attempt to neutralize the fields. In doing so, they create new density fluctuations and fields in an endlessly repeating cycle.&lt;br&gt;...&lt;br&gt;How could you possibly observe this behavior in detail? Using impure diamonds, as it turns out. I've discussed nitrogen vacancies in diamond in the past. Essentially, a carbon atom likes to be surrounded by four other carbon atoms. Nitrogen, on the other hand, only likes to have three atoms around it. If nitrogen is substituted for one of the carbon atoms, it cruelly rejects one of its neighbors. The electron proffered by the carbon atom is left stranded between a cold and uninviting nitrogen atom and a carbon atom that would sooner be rid of it. The nature of these surroundings gives the electron a very well-defined energy level structure, creating what is called an NV- center.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;The technique is thought to have practical relevance for the design and fabrication of semiconductor circuits.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/2059213&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T06:06:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>defective-diamonds-are-a-geeks-best-friend</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>2</slash:comments>
+<slash:hit_parade>2,2,1,1,0,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/2050243&amp;from=rss</id>
+<title>Microsoft Relishes its Role as Accuser in Antitrust Suit Against Google</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/2050243&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="http://hughpickens.com/"&gt;Hugh Pickens&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Danny Hakim reports at the NYT that as European antitrust regulators formally accuse Google of abusing its dominance, &lt;a href="http://www.nytimes.com/2015/04/16/technology/microsoft-once-an-antitrust-target-is-now-googles-regulatory-scold.html"&gt;Microsoft is relishing playing a behind-the-scenes role of scold instead of victim&lt;/a&gt;. Microsoft has founded or funded a cottage industry of splinter groups to go after Google. The most prominent, the Initiative for a Competitive Online Marketplace, or Icomp, has waged a relentless public relations campaign promoting grievances against Google. It conducted a study that &lt;a href="http://www.i-comp.org/blog/2013/icomp-announces-results-of-new-eye-tracking-study/"&gt;suggested changes made by Google to appease regulators were largely window dressing&lt;/a&gt;. “Microsoft is doing its best to create problems for Google,” says Manfred Weber, the chairman of the European People’s Party, the center-right party that is the largest voting bloc in the European Parliament. “It’s interesting. Ten years ago Microsoft was a big and strong company. Now they are the underdog.”&lt;br&gt; &lt;br&gt;
+
+According to Hakim, Microsoft and Google are the &lt;a href="https://en.wikipedia.org/wiki/Cain_and_Abel"&gt;Cain and Abel&lt;/a&gt; of American technology, locked in the kind of struggle that often takes place when a new giant threatens an older one. Microsoft was frustrated after American regulators at the Federal Trade Commission didn’t act on a &lt;a href="http://blogs.microsoft.com/on-the-issues/2013/01/03/the-ftc-and-google-a-missed-opportunity/"&gt;similar antitrust investigation against Google in 2013, calling it a “missed opportunity.”&lt;/a&gt; It has taken the fight to the state level, along with a number of other opponents of Google. Microsoft alleges that Google's anti-competitive practices include &lt;a href="http://www.theguardian.com/technology/2011/mar/31/microsoft-google-anti-trust-complaint"&gt;stopping Bing from indexing content on Google-owned YouTube&lt;/a&gt;; blocking Microsoft Windows smartphones from "operating properly" with YouTube; blocking access to content owned by book publishers; and limiting the flow of ad campaign information back to advertisers, making it more expensive to run ads with rivals. "Over the past year, a growing number of advertisers, publishers, and consumers have expressed to us their concerns about the search market in Europe," says Brad Smith, Microsoft's general counsel. "They've &lt;a href="http://blogs.microsoft.com/on-the-issues/2011/03/30/adding-our-voice-to-concerns-about-search-in-europe/"&gt;urged us to share our knowledge of the search market with competition officials&lt;/a&gt;."&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/2050243&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T04:45:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="news"/>
+<slash:department>time-for-payback</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>17</slash:comments>
+<slash:hit_parade>17,16,8,4,1,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/1932231&amp;from=rss</id>
+<title>Gravity Payments: CEO Takes Cut and Makes $70k/year New Minimum Salary</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/1932231&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline">coagen (#debianfork on irc.freenode.net) writes:</p><p>"Is anyone else freaking out right now? I'm kind of freaking out." said Dan Price, the CEO of Seattle-based Gravity Payments, as he announced that the new minimum salary for current employees will be raised to $70,000 a year. Price is taking a pay cut from $1 million to $70,000 and spending an appreciable amount of the company's profit to raise annual salaries from the current average of $48,000.</p><p>From the <a href="http://mobile.nytimes.com/2015/04/14/business/owner-of-gravity-payments-a-credit-card-processor-is-setting-a-new-minimum-wage-70000-a-year.html">article</a>:</p><blockquote><div><p>The United States has one of the world's largest pay gaps, with chief executives earning nearly 300 times what the average worker makes, according to some economists' estimates. That is much higher than the 20-to-1 ratio recommended by Gilded Age magnates like J. Pierpont Morgan and the 20th century management visionary Peter Drucker.</p><p>[...] Under a financial overhaul passed by Congress in 2010, the Securities and Exchange Commission was supposed to require all publicly held companies to disclose the ratio of C.E.O. pay to the median pay of all other employees, but it has so far failed to put it in effect. Corporate executives have vigorously opposed the idea, complaining it would be cumbersome and costly to implement.</p><p>[...] The <a href="http://www.pnas.org/content/107/38/16489.full">happiness research</a> behind Mr. Price's announcement on Monday came from Angus Deaton and Daniel Kahneman, a Nobel Prize-winning psychologist. They found that what they called emotional well-being — defined as "the emotional quality of an individual's everyday experience, the frequency and intensity of experiences of joy, stress, sadness, anger, and affection that make one's life pleasant or unpleasant" — rises with income, but only to a point. And that point turns out to be about $75,000 a year.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/1932231&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T03:30:00+00:00</updated>
+<author>
+ <name>takyon</name>
+</author>
+<category term="business"/>
+<slash:department>minimum-wage-maximum-happiness</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>21</slash:comments>
+<slash:hit_parade>21,21,14,10,5,3,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/1917212&amp;from=rss</id>
+<title>Cable-Cutters Continue Their Trend</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/1917212&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Netflix shares &lt;a href="http://www.bbc.com/news/business-32324301"&gt;rose 13% in after-hours trading&lt;/a&gt; after the company announced it had added 5 million subscribers in the first quarter of 2015:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;That brings the total global subscribers to the service to 62.3 million.&lt;/p&gt;&lt;p&gt;Netflix also said revenue increased by 23% from the same period a year earlier to $1.57bn (£1.06bn).&lt;br&gt;...&lt;br&gt;Shares in Netflix have risen by nearly 40% since the start of this year.&lt;/p&gt;&lt;p&gt;However, the company has faced &lt;a href="http://variety.com/2015/digital/news/netflix-stock-unattractive-with-growing-pressure-from-hbo-amazon-hulu-analysts-1201453545/"&gt;increasing threats as companies such as Hulu and HBO&lt;/a&gt; have sought to commission their own, original on demand content to compete with Netflix [shows] like House of Cards and Orange is the New Black.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;The last couple of years have seen other companies like Hulu, HBO, and now CBS following suit. If ESPN or other sports players do the same the cable industry could end with a bang, not a whimper.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/1917212&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-17T02:25:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="techonomics"/>
+<slash:department>as-soon-as-my-bandwidth-increases</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>28</slash:comments>
+<slash:hit_parade>28,28,24,17,3,1,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/146259&amp;from=rss</id>
+<title>Protester Lands Single-Passenger Gyrocopter on US Capitol Lawn</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/146259&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="mailto:spowell@climafy.com">Phoenix666</a> writes:</p><p>A protester <a href="http://arstechnica.com/tech-policy/2015/04/protester-lands-single-passenger-gyrocopter-on-us-capitol-lawn/">landed a one-man gyrocopter</a> on the Capitol lawn in Washington D.C. to deliver letters to Congress urging real campaign finance reform:</p><blockquote><div><p>A 61-year-old Florida mailman was arrested Wednesday after he landed a gyrocopter on the US Capitol west lawn. The gyrocopter was carrying the pilot and 535 stamped letters for members of Congress urging "real reform" to campaign finance laws.</p><p>Doug Hughes told the Tampa Bay Times ahead of the afternoon stunt that he notified authorities "well over an hour in advance of getting to the no-fly zone, so they know who I am and what I'm doing."</p></div></blockquote><p>Bloomberg has <a href="https://www.bloomberg.com/politics/articles/2015-04-16/doug-hughes-the-campaign-finance-reformer-nobody-knew">this analysis</a> of the aftermath, and Tampa Bay Times has <a href="http://www.tampabay.com/news/politics/elections/ruskin-mailman-tries-flying-to-capitol-in-gyrocopter-to-deliver-campaign/2225584">video</a> of the incident from multiple angles. Hughes live streamed his flight on a blog entitled <a href="http://thedemocracyclub.org/?p=28">The Democracy Club</a>. Ben Montgomery, a reporter from the Tampa Bay Times, knew about the planned flight for months and traveled to D.C. to witness it, but only informed the Capitol Police and Secret Service after Hughes was in the air. Hughes contacted Montgomery after Secret Service questioned him in 2014. The FAA is investigating the incident.</p><p>How long before copycats start doing the same at the personal addresses of Congressmen, Supreme Court Justices, and others?</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/146259&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-17T00:30:00+00:00</updated>
+<author>
+ <name>takyon</name>
+</author>
+<category term="news"/>
+<slash:department>unrestricted-protestspace</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>38</slash:comments>
+<slash:hit_parade>38,37,35,34,13,4,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/1350232&amp;from=rss</id>
+<title>Nokia Intends to Buy Alcatel-Lucent</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/1350232&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~kaszz/">kaszz</a> writes:</p><p>Nokia has announced its intention to <a href="https://www.theverge.com/2015/4/15/8418709/nokia-alcatel-lucent-merge">acquire the telecoms equipment company Alcatel-Lucent for 15.6 billion EUR</a> (US$16.6bn). The new company will be called Nokia and have its headquarters in Finland, but will retain Alcatel-Lucent's Bell Labs name for its R&amp;D activities. The deal has to be approved by Nokia shareholders.</p><p>Nokia has also announced a "strategic review" of its HERE mapping business, which evolved from its acquisition of Navteq back in 2007 for $8.1 billion. It will reportedly <a href="http://www.theregister.co.uk/2015/04/16/nokia_to_take_6bn_bath_on_navteq/">sell the mapping division</a> for $2 billion. That price is at the low end of what was <a href="http://www.theregister.co.uk/2015/04/11/nokia_may_tell_struggling_here_maps_division_to_get_lost_ndash_report/">previously rumored</a>.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/1350232&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T23:10:00+00:00</updated>
+<author>
+ <name>takyon</name>
+</author>
+<category term="business"/>
+<slash:department>buy-high-sell-low</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>12</slash:comments>
+<slash:hit_parade>12,12,10,9,2,1,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/1342233&amp;from=rss</id>
+<title> New Jersey Legislator Who Sponsored Anti-Swatting Bill Gets Swatted</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/1342233&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline">An Anonymous Coward writes:</p><p>A New Jersey state legislator who is sponsoring a bill against <a href="http://en.wikipedia.org/wiki/Swatting">swatting</a>, has <a href="http://arstechnica.com/tech-policy/2015/04/nj-legislator-who-sponsored-anti-swatting-bill-gets-swatted/">himself been swatted</a>:</p><blockquote><div><p>According to <a href="http://www.nj.com/politics/index.ssf/2015/04/nj_lawmaker_who_wants_to_combat_dangerous_swatting.html">a report by NJ.com</a>, Moriarty received a phone call at his home on Saturday from a police officer asking if everything was okay; the assemblyman was then informed that someone had anonymously called in a report of a shooting at the home. He was then told to describe his clothing and step outside, where he saw a crowd of officers armed with "helmets, flak jackets and rifles."</p></div></blockquote><p>There was no mention if the legislator questioned the over-militarizing of the police or no-knock raids...</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/1342233&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T21:42:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="news"/>
+<slash:department>just-desserts</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>46</slash:comments>
+<slash:hit_parade>46,46,36,35,17,10,7</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/123258&amp;from=rss</id>
+<title>US and China Working Together on Law Enforcement</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/123258&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~davester666/">davester666</a> submitted:</p><p>The US Department of Homeland Security <a href="http://www.dhs.gov/news/2015/04/12/fact-sheet-meeting-between-us-secretary-homeland-security-jeh-johnson-and-chinas">released a fact sheet</a> of a first time meeting between State Councilor and Minister of Public Security of the People's Republic of China (PRC) Guo Shengkun and U.S. Secretary of Homeland Security Jeh Johnson "to discuss homeland security and law enforcement cooperation." Areas where they pledged to work together included cyberterrorism, repatriation and fugitive issues, intellectual property, and counter-terrorism.</p><p>When reporting on this, <a href="http://www.theguardian.com/world/2015/apr/11/us-homeland-security-corrupt-chinese-officials-fleeing-abroad">The Guardian</a> focused mostly on the fugitive and repatriation issues:</p><blockquote><div><p>Chinese public security authorities said the US supported Chinese programmes dubbed "Sky Net" and "Operation Fox Hunt", which are meant to coordinate a campaign to track down suspected corrupt officials who have fled overseas and to recover their assets.
+
+The Chinese government has given the US a priority list of Chinese officials suspected of corruption and who are believed to have fled there, state media has reported.</p></div></blockquote><p>One might speculate that this program could be easily abused to add political refugees to the list of "corrupt" officials as well. This seems it could be a slippery slope for the US from an ideological standpoint.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/123258&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T19:59:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="security"/>
+<slash:department>one-world-tyranny</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>21</slash:comments>
+<slash:hit_parade>21,21,16,13,3,1,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/1137204&amp;from=rss</id>
+<title>Bouncing Robots Could Replace Rovers on Future NASA Missions</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/1137204&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~Adrian+Harvey/">Adrian Harvey</a> writes:</p><p>Researchers at UCB and NASA have developed prototypes of robots that can survive a crashdown at 30mph and then operate by deforming to make the robot roll. <a href="http://www.computerworld.com/article/2910326/new-robot-bounces-could-replace-rovers-on-nasa-missions.html">ComputerWorld reports includes a video of the robots moving</a>.</p><p>These <a href="https://en.wikipedia.org/wiki/Tensegrity">tensegrity</a> (or floating compression) structures are not that new and Buckminster Fuller drew on them in creating some of his architecture. But there has been <a href="https://www.google.com/?gws_rd=ssl#q=tensegrity+structures+model">a lot</a> of <a href="http://www.sciencedirect.com/science/article/pii/S0020768309001802">research</a> <a href="http://www.scielo.br/scielo.php?pid=S1679-78252014000400005">recently</a> on <a href="http://www.sciencedirect.com/science/article/pii/S0020768311003970">algorithms</a> to find and model these structures, making the design of robots with particular charactistics a lot simpler.</p><p>From the ComputerWorld article:</p><blockquote><div><p>"We've decided that these structures are so strong that they can actually withstand the landing at 30 miles an hour without any additional support," said Adrian Agogino, a scientist working at NASA Ames research center. "So no additional airbags, no additional landing support. This entire thing could actually land on Titan and then, as an active structure, could roll around like a rover."
+
+Researchers have thought about using such so-called tensegrity structures for some time, but have lacked complex computer algorithms that can model how they work, but that's now available and the results are encouraging, said Agogino.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/1137204&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T18:03:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>robots-bouncing-just-like-checks</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>5</slash:comments>
+<slash:hit_parade>5,5,5,5,3,2,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0345258&amp;from=rss</id>
+<title>WINVote Voting Machines Used in Virginia Elections are Shockingly Insecure</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0345258&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~hash14/">hash14</a> writes:</p><p>The Virginia election commission, which is responsible for certifying whether machines are fit to be used in elections, has <a href="http://arstechnica.com/tech-policy/2015/04/meet-the-e-voting-machine-so-easy-to-hack-it-will-take-your-breath-away/">decertified</a> the Advanced Voting Solutions WINVote and for many very good reasons. Amongst the many security flaws in this product are:
+
+</p><ul>
+<li>
+Weak administrator passwords such as "admin" or "abcde"
+</li><li>
+Use of an embedded version of Windows XP which hasn't been updated since 2004
+</li><li>
+Use of WEP for Wifi encryption
+</li><li>
+An absence of any firewall
+</li></ul><p>
+
+Worse still, this machine has been used in actual elections and its lack of any logging or record-keeping means that we'll never know if its weaknesses were used to manipulate the outcome of an election. As a proof of concept, security researchers successfully demonstrated accessing the machine and manipulating the recorded vote counts.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/0345258&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T16:22:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="hardware"/>
+<slash:department>Bzzzt!-Bzzzt!</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>35</slash:comments>
+<slash:hit_parade>35,35,22,22,12,7,3</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0323203&amp;from=rss</id>
+<title>Rocket Lab Unveils "Electric" Rocket Engine</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0323203&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~Adrian+Harvey/">Adrian Harvey</a> writes:</p><p>The New Zealand based commercial space company <a href="http://rocketlab.co.nz/">Rocket Lab</a> has unveiled their new rocket engine <a href="http://www.nzherald.co.nz/business/news/article.cfm?c_id=3&amp;objectid=11432396">which the media is describing as battery-powered</a>.  It still uses fuel, of course, but has an entirely new propulsion cycle which uses electric motors to drive its turbopumps.</p><p>To add to the interest over the design, it uses 3D printing for all its primary components.  First launch is expected this year, with commercial operations commencing in 2016.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/0323203&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T14:42:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="science"/>
+<slash:department>no-sign-of-dilithium-crystals</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>16</slash:comments>
+<slash:hit_parade>16,16,16,14,4,1,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0317256&amp;from=rss</id>
+<title>Downsides to Filing your IRS Tax Forms Electronically</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0317256&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~anubi/">anubi</a> writes:</p><p>If you filed your IRS (US Internal Revenue Service) income tax forms through someone else, and that list gets into the hands of phishers, do you think you could detect it?</p><p> <a href="http://gizmodo.com/the-number-of-people-who-fall-for-phishing-emails-is-st-1697725476">A lot of people fall for this.</a> Hard.  Gizmodo reports:</p><blockquote><div><p>A lot of people are falling for them: A study of 150,000 phishing emails by Verizon partners found that 23 percent of recipients open phishing messages, and 11 percent open attachments. Is that not crazy? One in 10 people opens an attachment when they have no idea what they’re opening.</p><p>And it happens fast: It takes an average of 82 seconds from the time a phishing campaign is launched, until the first sucker bites. And this isn’t just phishing in people’s Gmail accounts. It’s happening on sensitive business and government accounts where the targets should theoretically know better.</p></div></blockquote><p> <a href="http://www.wired.com/2015/04/email-phishing-attacks-take-just-minutes-hook-recipients/">Another article in Wired </a> is reporting:</p><blockquote><div><p>Typically, it takes months if not years to uncover a breach. In 2012, for example, FireEye reported that the average cyber-espionage attack continued unabated for 458 days before the victim discovered the hack.</p></div></blockquote><p>[More after the break.]</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/0317256&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T12:55:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="security"/>
+<slash:department>gone-phishin'</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>36</slash:comments>
+<slash:hit_parade>36,36,29,21,7,3,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0243221&amp;from=rss</id>
+<title>International Space Station Finally Gets Real Coffee</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0243221&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Imagine starting your day without any coffee. Starbucks, Dunkin' Donuts, Tim Hortons and vany other chains thrive on our coffee addiction. Add to that the fact that many of us have already had a cup or two even before venturing out to get a cup from one of those chains. Well, an Anonymous Coward has written in to tell us of some hard-working folks who had to give up real coffee for <em>months</em> at a time!</p><blockquote><div><p>For years, the hard-working astronauts aboard the ISS had to begin their day with freeze-dried, reconstituted coffee served in plastic pouches. Now, this gross injustice <a href="http://www.theatlantic.com/technology/archive/2015/04/coffee-in-space-the-iss-is-getting-a-fancy-new-espresso-machine/390444/">may finally be remedied</a>. The resupply mission scheduled to be launched today (Tuesday) will carry a new model of space espresso maker. Manufactured by Lavazza and the Italian aerospace firm Argotec, the machine is specially designed for microgravity operation, and uses off-the-shelf Lavazza coffee packets.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/0243221&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T11:15:00+00:00</updated>
+<author>
+ <name>martyb</name>
+</author>
+<category term="science"/>
+<slash:department>look-what's-brewing-on-the-ISS</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>57</slash:comments>
+<slash:hit_parade>57,57,45,42,18,5,3</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0230222&amp;from=rss</id>
+<title>Airliners Could be Vulnerable to Hacking</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0230222&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~kaszz/">kaszz</a> writes:</p><p>U.S. Government Accountability Office (GAO) warns that <a href="http://www.reuters.com/article/2015/04/14/us-usa-airlines-gao-idUSKBN0N52HL20150414">the computers that control and monitor the aircraft isn't protected enough</a> by on-board firewalls intended to protect avionics from hackers. These could be breached if flight control and entertainment systems use the same wiring and routers had they in turn, been connected to the on-board WiFi. The GAO report authors stated that the affected planes include <a href="https://www.aiaa.org/Detail.aspx?id=27769">the Boeing 787 Dreamliner, the Airbus A350 and A380.</a> All have advanced cockpits that are wired into the same WiFi system used by passengers.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/16/0230222&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-16T09:29:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="security"/>
+<slash:department>who'd-have-thought-this-would-ever-happen</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>25</slash:comments>
+<slash:hit_parade>25,25,19,16,7,4,3</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0227202&amp;from=rss</id>
+<title>Getting to the Core of Dino Extinction</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0227202&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Scientists are preparing to &lt;a href="http://www.sciencetimes.com/articles/5641/20150413/getting-to-the-core-of-extinction-researchers-return-to-crater-that-caused-millions-of-dinosaurs-to-die.htm"&gt;drill 5,000 ft. down&lt;/a&gt; in the center of the Chicxulub Crater to recover 15 million years of information:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;The $10 million mission in collaboration with the European Consortium for Ocean Research Drilling and the International Continental Scientific Drilling Program, will offer the researchers an unprecedented view, made possible courtesy of new technology. "The Chicxulub impact crater has been a remarkable scientific opportunity for the 20 years since it's been discovered" researcher with the project and the University of Texas, Austin, Sean Gulick says. And this new opportunity to unearth the core, may provide far more answers than researchers could have ever imagined. "We think that the peak ring is the record of the material that rebounded and splashed outward [after the impact]."&lt;br&gt;...&lt;br&gt;The researchers believe that their models have created an accurate view of the conditions surrounding the impact and the crater, however, soon they will have rock-hard evidence to back their claims. They believe that aside from providing a view into the death of millions of species that more recent layers of rock could reveal just how long it took for life to return to the area&amp;mdash;an important, yet missing, layer to our past.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;Project leaders have not commented on whether their headquarters will in fact be &lt;a href="http://www.senorfrogscancun.com/"&gt;Señor Frog's&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/0227202&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-16T07:19:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>looking-in-big-holes</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>5</slash:comments>
+<slash:hit_parade>5,5,3,3,1,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0025231&amp;from=rss</id>
+<title>Prosecutors Suspect Man Hacked Lottery Computers to Score Winning Ticket</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0025231&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~AnonTechie/"&gt;AnonTechie&lt;/a&gt; writes in with an article from &lt;a href="http://arstechnica.com/tech-policy/2015/04/prosecutors-suspect-man-hacked-lottery-computers-to-score-winning-ticket/"&gt;Ars Technica&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Prosecutors say they have evidence indicating the former head of computer security for a state lottery association tampered with lottery computers prior to him buying a ticket that won a $14.3 million jackpot, according to a media report.&lt;br&gt; &lt;br&gt;Eddie Raymond Tipton, 51, may have inserted a thumbdrive into a highly locked-down computer that's supposed to generate the random numbers used to determine lottery winners, &lt;a href="http://www.desmoinesregister.com/story/news/2015/04/11/prosecutors-evidence-indicates-lottery-vendor-employee-tampered-equipment/25629733/"&gt;The Des Moines Register&lt;/a&gt; reported, citing court documents filed by prosecutors. At the time, Tipton was the information security director of the &lt;a href="http://www.musl.com/"&gt;Multi-State Lottery Association&lt;/a&gt; ), and he was later videotaped purchasing a Hot Lotto ticket that went on to fetch the winning $14.3 million payout.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/0025231&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-16T05:18:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="random"/>
+<slash:department>you-feeling-lucky?</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>39</slash:comments>
+<slash:hit_parade>39,39,29,25,10,8,4</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/0015239&amp;from=rss</id>
+<title>Interesting Usage Statistics for Desktop Linux in Malta</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/0015239&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt;"gewg_" writes:&lt;/p&gt;&lt;p&gt;According to &lt;a href="http://gs.statcounter.com/#desktop-os-MT-monthly-201403-201504"&gt;StatCounter&lt;/a&gt;, in September 2014, Linux usage in Malta was 1 percent. By October, usage was over 4 percent. There was a peak after Christmas and current numbers are around 5 percent.&lt;br&gt; &lt;br&gt;Blogger and Linux advocate &lt;a href="http://mrpogson.com/2015/04/13/dramatic-takeoff-of-gnulinux-on-the-desktop-in-malta/#post-25028"&gt;Robert Pogson has charted the numbers&lt;/a&gt;. He says:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Malta is one of those places where the small size allows one to see significant migrations to GNU/Linux desktop in their full glory. Notice the ascendance of GNU/Linux in the same week that school started that year. The peak usage was on Thursday, 2015-Jan-8 at 6.83% a day or two after the Christmas break ended. Even use on weekends showed dramatic growth.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/0015239&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-16T03:29:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="os"/>
+<slash:department>does-homework-suck-less-with-Linux?</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>24</slash:comments>
+<slash:hit_parade>24,24,14,12,6,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/16/004243&amp;from=rss</id>
+<title>A Singapore Math Problem Goes Viral: When Is Cheryl’s Birthday?</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/16/004243&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="http://hughpickens.com/"&gt;Hugh Pickens&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;A couple of months ago, it was a color-changing dress that blew out the neural circuits of the Internet. Now Kenneth Chang reports in the NYT that a problem from a math olympiad test for math-savvy high school-age students in Singapore is &lt;a href="http://www.nytimes.com/2015/04/15/science/answer-to-the-singapore-math-problem-cheryl-birthday.html"&gt;making the rounds on the internet that has perplexed puzzle problem solvers&lt;/a&gt; as they grapple with the simple question: "So when is Cheryl's birthday?"&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Albert and Bernard just met Cheryl. “When’s your birthday?” Albert asked Cheryl.&lt;br&gt;
+
+Cheryl thought a second and said, “I’m not going to tell you, but I’ll give you some clues.” She wrote down a list of 10 dates:&lt;br&gt;
+
+May 15 — May 16 — May 19&lt;br&gt;
+
+June 17 — June 18&lt;br&gt;
+
+July 14 — July 16&lt;br&gt;
+
+August 14 — August 15 — August 17&lt;br&gt;
+
+“My birthday is one of these,” she said.&lt;br&gt;
+
+Then Cheryl whispered in Albert’s ear the month — and only the month — of her birthday. To Bernard, she whispered the day, and only the day. &lt;br&gt;
+
+“Can you figure it out now?” she asked Albert.&lt;br&gt;
+
+Albert: I don’t know when your birthday is, but I know Bernard doesn’t know, either.&lt;br&gt;
+
+Bernard: I didn’t know originally, but now I do.&lt;br&gt;
+
+Albert: Well, now I know, too!&lt;br&gt;
+
+When is Cheryl’s birthday?&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;
+
+Logical puzzles like this are common in Singapore. The &lt;a href="https://en.wikipedia.org/wiki/Singapore_math"&gt;Singapore math curriculum, which has a strong focus on logic-based problem solving&lt;/a&gt;, has been so successful that it's been adopted around the world. According to Terrance F. Ross, US students have made strides in math proficiency in recent years, but they still lag behind many of their peers internationally, falling at the middle of the pack in global rankings. In the same PISA report the U.S. placed 35th out of 64 countries in math. "And even though the "Cheryl's Birthday" question may be atypical of the average Singaporean classroom, perhaps it's still worth asking: &lt;a href="http://www.theatlantic.com/education/archive/2015/04/the-math-question-that-went-viral/390411/"&gt;Are you smarter than a (Singaporean) 10th-grader?&lt;/a&gt;"&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/16/004243&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-16T01:24:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="news"/>
+<slash:department>it-seemed-like-the-logical-thing-to-do-at-the-time</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>131</slash:comments>
+<slash:hit_parade>131,128,75,58,29,16,9</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/2126212&amp;from=rss</id>
+<title>Evidence of Briny Liquid Water Found on Mars</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/2126212&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~takyon/"&gt;takyon&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;The NASA Curiosity rover has found &lt;a href="http://www.nature.com/ngeo/journal/vaop/ncurrent/full/ngeo2412.html"&gt;evidence&lt;/a&gt; [abstract] of "night-time transient liquid brines in the uppermost 5 cm of the subsurface that then evaporate after sunrise".&lt;br&gt; &lt;br&gt;The &lt;a href="http://www.jpl.nasa.gov/news/news.php?feature=4549"&gt;observations&lt;/a&gt; point to a &lt;a href="http://www.bbc.com/news/science-environment-32287609"&gt;daily water cycle&lt;/a&gt; supported by &lt;a href="https://en.wikipedia.org/wiki/Perchlorate"&gt;perchlorate salts&lt;/a&gt; in the soil. Mars should be too cold to support liquid water on its surface, but the briny water has a lower freezing point.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/15/2126212&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T23:46:00+00:00</updated>
+<author>
+ <name>mrcoolbp</name>
+</author>
+<category term="news"/>
+<slash:department>sea-mars-run</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>8</slash:comments>
+<slash:hit_parade>8,8,8,6,1,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/1938204&amp;from=rss</id>
+<title>Geek Nirvana Approaches: Robots to Cook You Breakfast</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/1938204&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">We recently covered <a href="https://soylentnews.org/article.pl?sid=15/04/13/163200">AI creating recipes</a>, now we can have robots make those recipes for us also.  <p class="byline"> <a href="mailto:spowell@climafy.com">Phoenix666</a> writes:</p><p>The world's first robotic kitchen <a href="http://arstechnica.com/gadgets/2015/04/the-worlds-first-robotic-kitchen-prepares-crab-bisque-for-ars-technica/">prepares crab bisque for breakfast</a>:</p><blockquote><div><p>A couple of weeks ago, I was invited along to a warehouse in north London to see what is being billed as "the world's first automated kitchen." The system, made by Moley Robotics in the UK, can only make crab bisque right now—and it requires that all of the ingredients and utensils are pre-positioned perfectly. The goal, though, is to have a consumer-ready version within two years, priced at around £10,000 ($14,600). The company envisions an "iTunes style library of recipes" that you can download and have your robot chef prepare.</p><p>In its current form, the Moley Robotic Kitchen is essentially two very expensive robotic arms, with two even dearer fully articulated biomimetic humanoid hands made by the Shadow Robot Company on the ends. In front of the robot is a kitchen—a sink, a stovetop, an oven, and a range of utensils, including the aforementioned blender. The ingredients are placed in bowls and cups on the worktop. Once everything is set up, an engineer simply presses "start" on the controlling PC, the robot arms whirl around for 30 minutes, and voilà: crab bisque.</p></div></blockquote><p>Simply stunning.  Fresh from the arms of your <a href="https://www.youtube.com/watch?v=hlHrvQ7D5OU">android girlfriend</a>, you awake from a coding/WoW binge to a delicately prepared breakfast of crab bisque.  Geek nirvana, here we come!</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/1938204&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T22:03:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="hardware"/>
+<slash:department>too-lazy-to-take-care-of-ourselves</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>38</slash:comments>
+<slash:hit_parade>38,38,26,24,5,2,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/1619205&amp;from=rss</id>
+<title>A Camera That Powers Itself</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/1619205&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~tonyPick/"&gt;tonyPick&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Spotted at &lt;i&gt;phys.org&lt;/i&gt; is a story on &lt;a href="http://phys.org/news/2015-04-team-camera-powers.html"&gt;a prototype video camera that is the first to be fully self-powered&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;A leading researcher in computational imaging, Nayar realized that although digital cameras and solar panels have different purposes - one measures light while the other converts light to power - both are constructed from essentially the same components.&lt;br&gt;...&lt;br&gt;The pixel design is very simple, and uses just two transistors. During each image capture cycle, the pixels are used first to record and read out the image and then to harvest energy and charge the sensor's power supply—the image sensor continuously toggles between image capture and power harvesting modes.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;Additional background at &lt;a href="http://www.cs.columbia.edu/CAVE/projects/self_powered_camera/"&gt;Columbia  Engineering Computer Vision Lab&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/15/1619205&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T20:05:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="hardware"/>
+<slash:department>better-than-batteries</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>5</slash:comments>
+<slash:hit_parade>5,5,5,4,3,2,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/1242241&amp;from=rss</id>
+<title>Dark Matter: Mapping, Massing, and Musing</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/1242241&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~takyon/"&gt;takyon&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Two recent studies are attempting to shine light on dark matter.&lt;br&gt; &lt;br&gt;The Dark Energy Survey (DES) has published its &lt;a href="http://arxiv.org/abs/1504.03002"&gt;preliminary findings&lt;/a&gt;. The project is attempting to &lt;a href="http://www.bbc.com/news/science-environment-32284995"&gt;map dark matter&lt;/a&gt; across 1/8 of the sky using 570-megapixel imagery from the Victor Blanco telescope at the Cerro Tololo Inter-American Observatory, in the Chilean Andes. The early results are a test of the project's first images and cover just 0.4% of the sky, yet it is "the largest contiguous dark matter map" ever made, revealing exactly where dark matter is concentrated amid 2 million galaxies.&lt;br&gt; &lt;br&gt;A separate finding &lt;a href="http://mnras.oxfordjournals.org/content/449/4/3393"&gt;published&lt;/a&gt; this week in the Monthly Notices of the Royal Astronomical Society may reveal how &lt;a href="http://www.bbc.com/news/science-environment-32303622"&gt;dark matter can interact with itself&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;For the first time, the enigmatic quantity may have been caught interacting with other dark matter in a cluster 1.4 billion light-years away.&lt;br&gt; &lt;br&gt;[...] A team of astronomers led by Dr Richard Massey of Durham University studied a simultaneous collision of four galaxies in the cluster Abell 3827.&lt;br&gt; &lt;br&gt;Although dark matter cannot be seen, the team was able to deduce its location using a technique called gravitational lensing. While dark matter does not absorb or emit light, it does have gravity.&lt;br&gt; &lt;br&gt;So it bends the path of light passing nearby, warping our view of anything on the other side of it. The dark matter in Abell 3827 bent the path of light rays coming from a distant background galaxy, which happened to be aligned just right for the team's purpose.&lt;br&gt; &lt;br&gt;The researchers found that one dark matter clump appeared to be lagging behind the galaxy it surrounds. Such a lag between the dark matter and its associated galaxy would be expected if the mysterious stuff was interacting with itself - through forces other than gravity.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/15/1242241&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T18:22:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>dark-matter-matters</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>11</slash:comments>
+<slash:hit_parade>11,11,9,9,2,1,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/1228254&amp;from=rss</id>
+<title>Chinese Robotics Company Ninebot Buys Segway</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/1228254&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~kaszz/">kaszz</a> writes:</p><p>The Chinese robotics company <a href="http://www.ninebot.com/ninebot/Ninebot/index.html">Ninebot</a> has <a href="https://www.theverge.com/2015/4/15/8419537/segway-ninebot-acquisition-china">bought Segway</a>, a maker of two-wheeled electric vehicles, for an undisclosed sum. In 2014, Segway <a href="http://www.bloomberg.com/news/articles/2014-09-10/segway-owner-claims-chinese-knockoffs-roam-u-s-streets">accused</a> Ninebot and several other Chinese companies of infringing on its patents and sought an import ban on the Ninebot One. As Segway has struggled to make profits it has changed ownership; in 2009, it was sold to a group led by British millionaire Jimi Heselden, who died after riding a Segway off a cliff in 2010.</p><p> <a href="http://www.bbc.com/news/business-32316865">According to the BBC</a>:</p><blockquote><div><p>In a statement, the companies said that both brands would continue to operate under their existing names.</p><p>"It [the acquisition] creates a development opportunity for the short-distance transportation industry, which the combined company will lead by widely applying a series of technologies, such as electric driving, mobile internet and human-computer interaction on future products," said Ninebot chief executive Lufeng Gao.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/1228254&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T17:05:00+00:00</updated>
+<author>
+ <name>takyon</name>
+</author>
+<category term="business"/>
+<slash:department>american-innovation</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>9</slash:comments>
+<slash:hit_parade>9,9,5,4,3,2,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/126231&amp;from=rss</id>
+<title>The Surprising Downsides of Being Clever</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/126231&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~AnonTechie/">AnonTechie</a> writes:</p><p> <a href="http://www.bbc.com/future/story/20150413-the-downsides-of-being-clever">From BBC Future</a>:</p><blockquote><div><p>If ignorance is bliss, does a high IQ equal misery? Popular opinion would have it so. We tend to think of geniuses as being plagued by existential angst, frustration, and loneliness. Think of Virginia Woolf, Alan Turing, or Lisa Simpson – lone stars, isolated even as they burn their brightest. As Ernest Hemingway wrote: "Happiness in intelligent people is the rarest thing I know."</p><p>The question may seem like a trivial matter concerning a select few – but the insights it offers could have ramifications for many. Much of our education system is aimed at improving academic intelligence; although its limits are well known, IQ is still the primary way of measuring cognitive abilities, and we spend millions on brain training and cognitive enhancers that try to improve those scores. But what if the quest for genius is itself a fool's errand?</p><p>The first steps to answering these questions were taken almost a century ago, at the height of the American Jazz Age. At the time, the new-fangled IQ test was gaining traction, after proving itself in World War One recruitment centres, and in 1926, psychologist Lewis Terman decided to use it to identify and study a group of gifted children. Combing California's schools for the creme de la creme, he selected 1,500 pupils with an IQ of 140 or more – 80 of whom had IQs above 170. Together, they became known as the "Termites", and the highs and lows of their lives are still being studied to this day.</p><p>As you might expect, many of the Termites did achieve wealth and fame – most notably Jess Oppenheimer, the writer of the classic 1950s sitcom I Love Lucy. Indeed, by the time his series aired on CBS, the Termites' average salary was twice that of the average white-collar job. But not all the group met Terman's expectations – there were many who pursued more "humble" professions such as police officers, seafarers, and typists. For this reason, Terman concluded that "intellect and achievement are far from perfectly correlated". Nor did their smarts endow personal happiness. Over the course of their lives, levels of <a href="https://alumni.stanford.edu/get/page/magazine/article/?article_id=40678">divorce, alcoholism and suicide</a> were about the same as the national average.</p><p>As the Termites enter their dotage, the moral of their story – that intelligence does not equate to a better life – has been told again and again. At best, a great intellect makes no differences to your life satisfaction; at worst, <a href="http://www.tandfonline.com/doi/abs/10.1080/15427609.2014.936182#.VR1XHRCtaFE">it can actually mean you are less fulfilled</a>.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/126231&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T16:06:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="random"/>
+<slash:department>not-what-soylentils-want-to-hear</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>137</slash:comments>
+<slash:hit_parade>137,135,92,72,26,13,4</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/1125232&amp;from=rss</id>
+<title>EU Files Anti-Competition Complaint Against Google</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/1125232&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~wantkitteh/">wantkitteh</a> writes:</p><p> <a href="http://www.bbc.co.uk/news/technology-32315649">BBC News</a> reports that, following a 5-year investigation, the EU have filed an official anti-competition complaint against Google:</p><blockquote><div><p>The Commission is responding to complaints that Google, which accounts for more than a [sic] 90% of EU-based web searches, favours its own products in search engine results.</p><p>The European Commission has investigated the antitrust allegations - made by Microsoft, Tripadvisor, Streetmap and others - since 2010.</p><p>They object to the fact that the firm places reviews from Google+, directions from Google Maps, music and videos from YouTube, and adverts from its AdWords platform ahead of others' links in relevant searches.</p></div></blockquote><p>Google have not officially replied to the complaint yet and have ten weeks to do so, although they have informed staff they have "a very strong case" and that competition to its search business was "thriving". Competition commissions in India, Russia, Brazil, Argentina, Taiwan and Canada have opened investigations - the US commission dropped its probe in 2013 after Google agreed to several non-binding commitments. Competition commissioner Margrethe Vestager has also launched an investigation into the Android operating system.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/1125232&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T14:55:00+00:00</updated>
+<author>
+ <name>takyon</name>
+</author>
+<category term="techonomics"/>
+<slash:department>click-monopoly</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>21</slash:comments>
+<slash:hit_parade>21,21,15,12,5,2,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/0343254&amp;from=rss</id>
+<title>Universe's Rate of Expansion Called into Question</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/0343254&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~martyb/"&gt;martyb&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt; &lt;em&gt;Science Daily&lt;/em&gt; has an intriguing article, &lt;a href="http://www.sciencedaily.com/releases/2015/04/150411091607.htm"&gt;"Accelerating universe? Not so fast"&lt;/a&gt;, which notes the discovery that type Ia supernovae, which are used as a 'standard candle' for measuring distances in the universe, actually come in two different subtypes. Though nearly indistinguishable in normal optical frequencies, the differences became apparent when examined in the ultraviolet. The significance is two type IA supernovae having the same luminosity may actually be located at different distances from us. This, in turn, calls into question how fast the universe is expanding.&lt;/p&gt;&lt;p&gt;So, if I measured the brightness of a "100-watt bulb" at 1km, and then measure another "100-watt bulb" and find it to have the same brightness, I would assume that it, too, was 1km away. Apparently some "100-watt bulbs" are dimmer than others &amp;mdash; and, according to the inverse square law, would be closer to me than 1 km.&lt;/p&gt;&lt;p&gt;I've been unable to determine how much a difference this would cause in our estimation of the rate of the expansion of the universe. Also, I suspect this might affect our 3-D maps of the universe and what is located where. How will it affect the current thinking about "dark energy"? How much of an impact are we looking at here? What else might be affected?&lt;/p&gt;&lt;p&gt;[Continued after the break]&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/15/0343254&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T13:44:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="science"/>
+<slash:department>not-your-momma's-chevy-nova</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>30</slash:comments>
+<slash:hit_parade>30,30,24,24,4,2,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/0240231&amp;from=rss</id>
+<title>Peripherals Behind the Iron Curtain</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/0240231&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~tonyPick/">tonyPick</a> writes:</p><p> <i>Hackaday</i> has an article on <a href="http://hackaday.com/2015/04/13/peripherals-behind-the-iron-curtain/">computer peripherals from former Soviet Union countries</a> used in 80's era home computing.</p><blockquote><div><p>... the lack of spare parts, literature and technology in Czechoslovakia forced geeks to solve it themselves: by improvisation and what we would today call “hacking.”  Hobbyist projects of one person or a small party was eventually taken over by a state-owned enterprise, which then began to manufacture and deliver to stores with some minor modifications. These projects most often involved a variety of peripherals that could only be found in the Czechoslovakia with great difficulty.</p></div></blockquote><p>This is a followup piece to <a href="http://hackaday.com/2014/12/15/home-computers-behind-the-iron-curtain/">an earlier article on home computers</a>, originally discussed in <a href="http://soylentnews.org/article.pl?sid=14/12/16/1439223">a previous SN article</a>.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/0240231&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T12:12:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="hardware"/>
+<slash:department>if-you-build-it-they-will-come</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>1</slash:comments>
+<slash:hit_parade>1,1,1,1,1,1,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/0235219&amp;from=rss</id>
+<title>Lawyer Representing Whistleblowers Finds Malware on Drive Supplied by Cops</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/0235219&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="mailto:spowell@climafy.com">Phoenix666</a> writes:</p><p>ArsTechnica <a href="http://arstechnica.com/security/2015/04/lawyer-representing-whistle-blowers-finds-malware-on-drive-supplied-by-cops/">reports</a> that Matt Campbell, a North Little Rock attorney who represents police department whistleblowers supplied an external hard drive to the Fort Smith Police Department for them to copy emails and other evidence. When it was returned, he discovered that it contained three well-known trojan viruses:</p><blockquote><div><p>According to court documents filed last week in the case, Campbell provided police officials with an external hard drive for them to load with e-mail and other data responding to his discovery request. When he got it back, he found something he didn't request. In a subfolder titled D:\Bales Court Order, a computer security consultant for Campbell allegedly found three well-known trojans, including:</p><ul> <li>Win32:Zbot-AVH[Trj], a password logger and backdoor</li><li>NSIS:Downloader-CC[Trj], a program that connects to attacker-controlled servers and downloads and installs additional programs, and</li><li>Two instances of Win32Cycbot-NF[Trj], a backdoor</li></ul><p>All three trojans are usually easily detected by antivirus software. In an affidavit filed in the whistle-blower case, Campbell's security consultant said it's unlikely the files were copied to the hard drive by accident, given claims by Fort Smith police that department systems ran real-time AV protection.</p><p>"Additionally, the placement of these trojans, all in the same sub-folder and not in the root directory, means that [t]he trojans were not already on the external hard drive that was sent to Mr. Campbell, and were more likely placed in that folder intentionally with the goal of taking command of Mr. Campbell's computer while also stealing passwords to his accounts."</p></div></blockquote><p>Will the Fort Smith Police Department be held accountable? Place your bets...</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/0235219&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T10:20:00+00:00</updated>
+<author>
+ <name>takyon</name>
+</author>
+<category term="security"/>
+<slash:department>surveillance-stick</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>53</slash:comments>
+<slash:hit_parade>53,52,41,31,16,9,6</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/024214&amp;from=rss</id>
+<title>Exploring the Creepiest, Craziest Abandoned Spaces of NYC</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/024214&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Wired &lt;a href="http://www.wired.com/2015/04/will-ellis-abandoned-nyc/"&gt;shares&lt;/a&gt; a photo gallery of abandoned spaces in NYC that should appeal to anyone who's ever watched post-apocalyptic films like "Escape from New York" or played games like "Enslaved" or "Crysis 3":&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Will Ellis ignored his first “no trespassing” sign in 2012 when he ducked through the fence surrounding an old warehouse in Red Hook, Brooklyn. He started photographing the rotting interior and was immediately hooked.&lt;br&gt; &lt;br&gt;“I’m not a daredevil at all, but the first time I snuck in, there was that rush of adrenaline and sense of adventure,” Ellis says. “I was also fascinated by the visuals inside. As a kid I loved all things creepy—Halloween was my favorite holiday and that’s something I never grew out of.”&lt;br&gt; &lt;br&gt;From the creepy to the bizarre, Ellis’ exploration of the derelict and decrepit has lead him to document nearly 50 locations across New York City and beyond. The images chronicle forsaken schools, asylums, and forts, along with railroads and waterfronts. He updates his popular blog constantly, and a collection of 150 images has been published in Abandoned NYC.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;I have had my eye on the Gowanus Batcave for years, with intentions to convert it into a real batcave.  Sadly, my plans to become a billionaire have not panned out yet...&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/15/024214&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T08:55:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="news"/>
+<slash:department>can't-compete-with-detroit</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>9</slash:comments>
+<slash:hit_parade>9,9,6,5,2,2,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/0132239&amp;from=rss</id>
+<title>Taxpayers are Subsidizing Industries Which Don't Pay a Living Wage</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/0132239&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~c0lo/"&gt;c0lo&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;Analysis of a &lt;a href="http://laborcenter.berkeley.edu/pdf/2015/the-high-public-cost-of-low-wages.pdf"&gt;study&lt;/a&gt; (PDF) carried by UC Berkeley Center for Labor Research and Education shows that isn't the poor people won't work but the work they do can't sustain them. As a blog on WaPo &lt;a href="http://www.washingtonpost.com/blogs/wonkblog/wp/2015/04/14/when-work-isnt-enough-to-keep-you-off-welfare-and-food-stamps/?tid=sm_tw"&gt;puts it&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;We often make assumptions about people on public assistance, about the woman in the checkout line with an EBT card, or the family who lives in public housing. &lt;tt&gt;[...]&lt;/tt&gt; We assume, at our most skeptical, that poor people need help above all because they haven't tried to help themselves — they haven't bothered to find work.&lt;br&gt; &lt;br&gt;The reality, though, is that a tremendous share of people who rely on government programs designed for the poor in fact work — they just don't make enough at it to cover their basic living expenses. According to the UC Berkeley Center for Labor Research and Education, 73 percent of people who benefit from major public assistance programs in the U.S. live in a working family where at least one adult earns the household some money.&lt;br&gt; &lt;br&gt;This picture casts the culprit in a different light: Taxpayers are spending a lot of money subsidizing not people who won't work, but industries that don't pay their workers a living wage. Through these four programs alone &lt;tt&gt;[food stamps, Medicaid, the Earned Income Tax Credit, income supports through welfare]&lt;/tt&gt;, federal and state governments spend about $150 billion a year aiding working families, according to the analysis (the authors define people who are working here as those who worked at least 10 hours a week, at least half the year).&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;The workers relying the most on social programs: Fast Food (52%), Home Care (48%), Child Care (46%) and Part-time college students (25%).&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/15/0132239&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T06:50:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="business"/>
+<slash:department>suppresion-of-the-proletariat</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>85</slash:comments>
+<slash:hit_parade>85,83,64,44,14,8,6</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/15/013205&amp;from=rss</id>
+<title>Mozilla Considers Phasing Out Unencrypted HTTP</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/15/013205&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Phoronix <a href="http://www.phoronix.com/scan.php?page=news_item&amp;px=Mozilla-No-Insecure-HTTP">reports</a> the <a href="https://wiki.mozilla.org/SecurityEngineering">Mozilla Security Engineering team</a> is planning to make their browser useless for browsing much of the World Wide Web, by deprecating insecure HTTP.</p><p>Richard Barnes of Mozilla writes:</p><blockquote><div><p>In order to encourage web developers to move from HTTP to HTTPS, I would like to propose establishing a deprecation plan for HTTP without security. Broadly speaking, this plan would entail limiting new features to secure contexts, followed by gradually removing legacy features from insecure contexts. Having an overall program for HTTP deprecation makes a clear statement to the web community that the time for plaintext is over -- it tells the world that the new web uses HTTPS, so if you want to use new things, you need to provide security.</p></div></blockquote><p>See also <a href="https://docs.google.com/document/d/1IGYl_rxnqEvzmdAP9AJQYY2i2Uy_sW-cg9QI9ICe-ww/edit?pli=1">this document</a> outlining the initial plans.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/15/013205&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-15T04:52:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="software"/>
+<slash:department>it's-the-end-of-the-web-as-we-know-it-and-i-feel-fine</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>99</slash:comments>
+<slash:hit_parade>99,98,75,63,24,14,9</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/2342204&amp;from=rss</id>
+<title>Violent Methane Storms on Titan May Solve Dune Direction Mystery</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/2342204&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="mailto:spowell@climafy.com"&gt;Phoenix666&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;ScienceDaily &lt;a href="http://www.sciencedaily.com/releases/2015/04/150413183738.htm"&gt;reports&lt;/a&gt;:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Titan, Saturn's largest moon, is among the most Earthlike places in the solar system. As the Cassini-Huygens spacecraft examines Titan, its discoveries bring new mysteries. One of these is that the seemingly wind-created sand dunes spotted near the moon's equator point one direction, but the near-surface winds point another direction. Astronomers may have solved this mystery. &lt;br&gt;
+...&lt;/p&gt;&lt;p&gt;Here's the problem: Climate simulations indicate that Titan's near-surface winds -- like Earth's trade winds -- blow toward the west. So why do the surface dunes, reaching a hundred yards high and many miles long, point to the east? &lt;br&gt;
+...&lt;/p&gt;&lt;p&gt;Violent methane storms high in Titan's dense atmosphere, where winds do blow toward the east, might be the answer, according to new research by University of Washington astronomer Benjamin Charnay and co-authors in a &lt;a href="http://arxiv.org/abs/1504.03404"&gt;paper published today in the journal Nature Geoscience&lt;/a&gt;.
+
+Using computer models, Charnay, a UW post-doctoral researcher, and co-authors hypothesize that the attitude of Titan's sand dunes results from rare methane storms that produce eastward gusts much stronger than the usual westward surface winds.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;Will we one day discover Titanians wind-surfing the seas of methane?&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/14/2342204&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T03:01:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>sand-dune-in-our-crevices</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>9</slash:comments>
+<slash:hit_parade>9,8,8,8,2,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1926256&amp;from=rss</id>
+<title>Fifty Years of Moore's Law</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1926256&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="http://hughpickens.com/"&gt;Hugh Pickens&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;IEEE is running a &lt;a href="http://spectrum.ieee.org/static/special-report-50-years-of-moores-law"&gt;special report on "50 Years of Moore's Law"&lt;/a&gt; that considers "the gift that keeps on giving" from different points of view. Chris Mack begins by arguing that &lt;a href="http://spectrum.ieee.org/semiconductors/processors/the-multiple-lives-of-moores-law"&gt;nothing about Moore’s Law was inevitable&lt;/a&gt;. "Instead, it’s a testament to hard work, human ingenuity, and the incentives of a free market. Moore’s prediction may have started out as a fairly simple observation of a young industry. But over time it became an expectation and self-fulfilling prophecy—an ongoing act of creation by engineers and companies that saw the benefits of Moore’s Law and did their best to keep it going, or else risk falling behind the competition." &lt;br&gt; &lt;br&gt;
+
+Andrew Huang argues that Moore's Law is slowing and will someday stop but &lt;a href="http://spectrum.ieee.org/semiconductors/design/the-death-of-moores-law-will-spur-innovation"&gt;the death of Moore's Law will spur innovation&lt;/a&gt;. "Someday in the foreseeable future, you will not be able to buy a better computer next year," writes Huang. "Under such a regime, you’ll probably want to purchase things that are more nicely made to begin with. The idea of an “heirloom laptop” may sound preposterous today, but someday we may perceive our computers as cherished and useful looms to hand down to our children, much as some people today regard wristwatches or antique furniture."&lt;br&gt; &lt;br&gt;
+
+Vaclav Smil writes about "Moore's Curse" and argues that &lt;a href="http://spectrum.ieee.org/energy/renewables/moores-curse"&gt;there is a dark side to the revolution in electronics&lt;/a&gt; for it has had the unintended effect of raising expectations for technical progress. "We are assured that rapid progress will soon bring self-driving electric cars, hypersonic airplanes, individually tailored cancer cures, and instant three-dimensional printing of hearts and kidneys. We are even told it will pave the world’s transition from fossil fuels to renewable energies," writes Smil. "But the doubling time for transistor density is no guide to technical progress generally. Modern life depends on many processes that improve rather slowly, not least the production of food and energy and the transportation of people and goods."&lt;br&gt; &lt;br&gt;
+
+Finally Cyrus Mody writes that it  seems clear that Moore’s Law is not a law of nature in any commonly accepted sense but what kind of thing is Moore’s Law? "&lt;a href="http://spectrum.ieee.org/semiconductors/devices/what-kind-of-thing-is-moores-law"&gt;Moore’s Law is a human construct&lt;/a&gt;. As with legislation, though, most of us have little and only indirect say in its construction," writes Mody. "Everyone, both the producers and consumers of microelectronics, takes steps needed to maintain Moore’s Law, yet everyone’s experience is that they are subject to it."&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/14/1926256&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-15T01:02:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="news"/>
+<slash:department>need-more-more-moore</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>33</slash:comments>
+<slash:hit_parade>33,33,30,29,7,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1922236&amp;from=rss</id>
+<title>15 Companies That Paid Zero Income Tax Last Year (Despite $23 Billion In Profits).</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1922236&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~AnonTechie/"&gt;AnonTechie&lt;/a&gt; writes:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Due to completely messed up U.S. tax policies, some even got a rebate check. Only small businesses pay taxes. Big companies often pay nothing at all.&lt;br&gt; &lt;br&gt;Look at a new report from Citizens for Tax Justice ( &lt;a href="http://ctj.org/ctjreports/2015/04/fifteen_of_many_reasons_why_we_need_corporate_tax_reform.php#.VSbihhPF8QY"&gt;http://ctj.org/ctjreports/2015/04/fifteen_of_many_reasons_why_we_need_corporate_tax_reform.php#.VSbihhPF8QY&lt;/a&gt; ), a Washington, D.C. group. It finds that some of nation's most famous brands have paid remarkably little to the government over the last five years. In fact, many actually enjoyed a negative tax rate: They received a nice rebate check from the U.S. Treasury.&lt;br&gt; &lt;br&gt;The 15 giants highlighted by CTJ were chosen to represent a wide range of industries among Fortune 500 companies. They include CBS, Mattel, Prudential, and the California utility PG&amp;amp;E. Together, they paid no federal income tax in 2014, despite profits totaling $23 billion. CTJ's point is that these companies are not anomalies, they are examples.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt; &lt;a href="http://www.fastcoexist.com/3044873/15-companies-that-paid-zero-income-tax-last-year-despite-23-billion-in-profits"&gt;http://www.fastcoexist.com/3044873/15-companies-that-paid-zero-income-tax-last-year-despite-23-billion-in-profits&lt;/a&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/14/1922236&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-14T23:11:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="random"/>
+<slash:department>wish-we-were-in-the-one-percent</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>124</slash:comments>
+<slash:hit_parade>124,123,93,67,18,13,8</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1444242&amp;from=rss</id>
+<title>Abraham Lincoln Bedspread to be Tested for Blood</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1444242&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~takyon/">takyon</a> writes:</p><p>The <a href="http://www.wisconsinhistory.org/">Wisconsin Historical Society</a> has asked University of Wisconsin textile expert Majid Sarmadi to run a <a href="http://www.theguardian.com/us-news/2015/apr/14/potential-bedspread-from-abraham-lincolns-deathbed-to-be-tested-for-blood">blood test</a> on a bedspread that may have covered President Abraham Lincoln after he was shot 150 years ago. Sarmadi and the state's crime lab have run their own preliminary tests, and the FBI may be asked to conduct its own test.</p><blockquote><div><p>If blood is present, Sarmadi said he hoped to confirm eventually whether it was Lincoln's blood through DNA tests on other assassination artefacts.</p><p>No DNA test has been conducted on any artefacts such as a pillow on display at the Ford's Theatre museum known to contain Lincoln's blood, because of fears of ruining them, Bellais said.</p><p>"Technology now has it that you can actually test these things without destroying the pieces," Bellais said. "I wouldn't be surprised that fairly soon we will have Lincoln DNA on record."</p></div></blockquote><p>Yes, it is almost time to clone Lincoln.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/14/1444242&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-14T21:14:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="science"/>
+<slash:department>history-is-a-bloody-business</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>35</slash:comments>
+<slash:hit_parade>35,34,24,20,10,6,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1437244&amp;from=rss</id>
+<title>Sharp Announces 5.5" 4K Screen</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1437244&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~takyon/">takyon</a> writes:</p><p>Sharp has announced its intention to manufacture the <a href="http://www.tomshardware.com/news/sharp-4k-display-smartphone-trade-offs,28915.html">world's sharpest display</a>, a 5.5" <a href="https://en.wikipedia.org/wiki/Indium_gallium_zinc_oxide">IGZO</a> screen with a 4K/UHD 3840x2160 resolution (806 pixels per inch), for some 2016 smartphones. Is 806 PPI too much? Tom's Hardware notes the drawbacks while celebrating the new milestone:</p><blockquote><div><p>Although devices that are 1440p or even 4K will look even more stunning, there are indeed diminishing returns benefits-wise as the cost, the power consumption, or the GPU resources required to handle such high resolutions are significantly higher than the previous generations.</p><p>That's not to say that a 4K display today will necessarily cost more than a 1440p display did last year, but it does cost significantly more than a 1440p display being sold this year. Although the price ratios for components may remain relatively the same for the new technologies inside a new smartphone, if the benefits are increasingly smaller, then there's an opportunity cost, as well.</p><p>For instance, the extra cost to get a 4K display over a 1440p display this year could be used instead towards improving the device's camera. (OEMs could use a sharper lens, a larger sensor, improved OIS, and so on.) This sort of balance should always be taken into consideration.</p><p>[...] That doesn't mean higher resolution displays in smartphones are not useful. However, they could be even more useful for other applications; for example, 4K displays are ideal for VR. In order to have a VR experience that makes you completely forget you have a screen in front of your eyes, you'll need at least a 4K resolution screen.</p><p>Higher-resolution displays will also help lower the cost of lower resolution panels.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/14/1437244&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-14T19:25:00+00:00</updated>
+<author>
+ <name>cmn32480</name>
+</author>
+<category term="mobile"/>
+<slash:department>how-clear-can-it-be</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>46</slash:comments>
+<slash:hit_parade>46,46,27,23,7,0,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1116206&amp;from=rss</id>
+<title>The Most Futuristic Predictions that Came True in 2014</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1116206&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="mailto:spowell@climafy.com">Phoenix666</a> writes:</p><p>io9 <a href="http://io9.com/the-most-futuristic-predictions-that-came-true-in-2014-1674887659">reports</a>:</p><blockquote><div><p>As 2014 comes to a close, it's time to reflect on the most futuristic breakthroughs and developments of the past year. This year's crop features a slew of incredible technological, scientific, and social achievements, from mind-to-mind communication to self-guiding sniper bullets. Here are 15 predictions that came true in 2014.</p></div></blockquote><p>It's a bit deep into 2015 for a 2014 round-up, but there are some in their list you may not have heard of.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/14/1116206&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-14T17:33:00+00:00</updated>
+<author>
+ <name>LaminatorX</name>
+</author>
+<category term="news"/>
+<slash:department>wold-of-tomorrow</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>35</slash:comments>
+<slash:hit_parade>35,35,30,28,9,1,0</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1114250&amp;from=rss</id>
+<title>AMD's Upcoming "Zen" APU - 16 Cores, 32 Threads</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1114250&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~wantkitteh/"&gt;wantkitteh&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt; &lt;a href="http://www.fudzilla.com/news/processors/37494-amd-x86-16-core-zen-apu-detailed"&gt;Fudzilla&lt;/a&gt; have 'obtained' a slide showing details of a forthcoming APU from AMD based on their new "Zen" architecture.&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;The highest end compute HSA part has up to 16 Zen x86 cores and supports 32 threads, or two threads per core. This is something we saw on Intel architectures for a while, and it seems to be working just fine. This will be the first exciting processor from the house of AMD in the server / HSA market in years, and in case AMD delivers it on time it might be a big break for the company.&lt;br&gt; &lt;br&gt;Each Zen core gets 512 KB of L2 cache and each cluster or four Zen cores is sharing 8MB L3 cache. In case we are talking about a 16-core, 32-thread next generation Zen based x86 processor, the total amount of L2 cache gets to a whopping 8MB, backed by 32MB of L3 cache.&lt;br&gt; &lt;br&gt;This new APU also comes with the Greenland Graphics and Multimedia Engine that comes with HBM memory on the side. The specs we saw indicate that there can be up to 16GB of HBM memory with 512GB/s speed packed on the interposer. This is definitely a lot of memory for an APU GPU, and it also comes with 1/2 rate double precision compute, enhanced ECC and RAS and HSA support.&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;The new APU sports quad-channel DDR4 support, with up to 256GB per channel at speeds of up to 3.2GHz. No information yet on which processor socket this APU will use, but it's safe to assume the DDR4 support alone will render it incompatible with all AMD's current motherboards. Support is also included for secure boot and AMD's encryption co-processor.&lt;/p&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/14/1114250&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-14T13:54:00+00:00</updated>
+<author>
+ <name>LaminatorX</name>
+</author>
+<category term="news"/>
+<slash:department>sound-of-one-hand-clapping</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>35</slash:comments>
+<slash:hit_parade>35,35,29,28,13,4,2</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/1112243&amp;from=rss</id>
+<title>UK Opposes "Killer Robot" Ban</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/1112243&amp;from=rss"/>
+<summary type="html">&lt;p class="byline"&gt; &lt;a href="//soylentnews.org/~takyon/"&gt;takyon&lt;/a&gt; writes:&lt;/p&gt;&lt;p&gt;The UK is &lt;a href="http://www.theguardian.com/politics/2015/apr/13/uk-opposes-international-ban-on-developing-killer-robots"&gt;opposing international efforts&lt;/a&gt; to ban "lethal autonomous weapons systems" (Laws) at a week-long United Nations &lt;a href="http://www.unog.ch/80256EE600585943/(httpPages)/3CFCEEEF52D553D5C1257B0300473B77?OpenDocument"&gt;session&lt;/a&gt; in Geneva:&lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;The meeting, chaired by a German diplomat, Michael Biontino, has also been asked to discuss questions such as: in what situations are distinctively human traits, such as fear, hate, sense of honour and dignity, compassion and love desirable in combat?, and in what situations do machines lacking emotions offer distinct advantages over human combatants?&lt;br&gt; &lt;br&gt;The &lt;a href="http://www.stopkillerrobots.org/"&gt;Campaign to Stop Killer Robots&lt;/a&gt;, an alliance of human rights groups and concerned scientists, is calling for an international prohibition on fully autonomous weapons.&lt;br&gt; &lt;br&gt;Last week &lt;a href="http://www.theguardian.com/science/2015/apr/09/un-urged-to-ban-killer-robots-before-they-can-be-developed"&gt;Human Rights Watch released a report&lt;/a&gt; urging the creation of a new protocol specifically aimed at outlawing Laws. Blinding laser weapons were pre-emptively outlawed in 1995 and combatant nations since 2008 have been required to remove unexploded cluster bombs.&lt;br&gt; &lt;br&gt;[...] The Foreign Office told the Guardian: "At present, we do not see the need for a prohibition on the use of Laws, as international humanitarian law already provides sufficient regulation for this area. The United Kingdom is not developing lethal autonomous weapons systems, and the operation of weapons systems by the UK armed forces will always be under human oversight and control. As an indication of our commitment to this, we are focusing development efforts on remotely piloted systems rather than highly automated systems."&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;a href="https://soylentnews.org/article.pl?sid=15/04/14/1112243&amp;amp;from=rss"&gt;Read more of this story&lt;/a&gt; at SoylentNews.&lt;/p&gt;</summary>
+<updated>2015-04-14T11:38:00+00:00</updated>
+<author>
+ <name>LaminatorX</name>
+</author>
+<category term="security"/>
+<slash:department>actually-taken-over-by-Cybermen</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>39</slash:comments>
+<slash:hit_parade>39,39,28,27,13,8,4</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/0212204&amp;from=rss</id>
+<title>The High Price of Dot-Sucks</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/0212204&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline"> <a href="//soylentnews.org/~takyon/">takyon</a> writes:</p><p>ICANN has been <a href="http://regmedia.co.uk/2015/03/27/ipc-sucks-letter-27mar15.pdf">asked</a> by its formal advisory body, the Intellectual Property Constituency (IPC), to investigate Vox Populi Registry Inc. for alleged wrongdoing in regards to the <a href="http://www.iana.org/domains/root/db/sucks.html">".sucks" gTLD</a>.</p><p>According to the <a href="http://www.bbc.com/news/technology-32284922">BBC</a>:</p><blockquote><div><p>Specialist online website Domain Incite reports that actor "Kevin Spacey, Microsoft, Google and Apple have already bought up '.sucks' sites in a bid to protect their reputations". This practice is known as "defensive registering".</p><p>Icann granted Vox Populi permission to sell the ".sucks" names but is now concerned at the price levels the Canadian company has set. Kevin Murphy, from Domain Incite, told the BBC two key elements of the way Vox Populi was handling the sale were causing concern.</p><p>"They are charging a $2,000 'sunrise' premium to those wishing to register '.sucks' addresses early, before the addresses go on sale to the general public [next month]," he said. "Also they are using a list of words or names that have been defensively registered in the past, for which they are charging the top amount."</p><p>Mr Murphy said the company was working from a list of keywords that had been part of web addresses bought up early on in similar new domain web address sales and using that to decide which ".sucks" addresses to charge more for.</p></div></blockquote><p>Although ICANN has been urged to <a href="http://www.theregister.co.uk/2015/04/10/icann_ftc_dot_sucks/">end the shakedown</a> by the likes of US Senator Jay Rockefeller, the CEO of Vox Populi has <a href="http://www.theregister.co.uk/2015/03/13/sucks_domain_stirs_up_controversy/">defended</a> .sucks, claiming that the pricing strategy was intended to strike a balance between the rights of trademark holders and the ability of critics to lampoon people and brands, as originally intended by Ralph Nader when his group Consumer Project for Technology proposed the TLD <a href="http://www.zdnet.com/article/new-top-level-domains-on-the-way/">back in 2000</a>.</p><p><a href="https://soylentnews.org/article.pl?sid=15/04/14/0212204&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-14T10:29:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="techonomics"/>
+<slash:department>official-protection-racket</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>37</slash:comments>
+<slash:hit_parade>37,37,29,24,13,6,1</slash:hit_parade>
+</entry>
+
+<entry>
+<id>https://soylentnews.org/article.pl?sid=15/04/14/028238&amp;from=rss</id>
+<title>Australia is Cracking Down on Anti-Vaxxer Parents</title>
+<link href="https://soylentnews.org/article.pl?sid=15/04/14/028238&amp;from=rss"/>
+<summary type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p class="byline">"gewg_" writes:</p><p>The Center for American Progress <a href="http://thinkprogress.org/health/2015/04/13/3646232/australia-anti-vaccine-parents/#triple-feature">reports</a> </p><blockquote><div><p>The anti-vaccine sentiments that originated with a [completely] discredited British study linking the <a href="http://en.wikipedia.org/wiki/MMR_vaccine">MMR</a> (measles, mumps, rubella) shot to autism have made their way to other western countries like Australia.</p><p>According to the government agency that tracks Australia's childhood vaccination rates, the rate of kids going without their shots has doubled over the past decade.</p><p>[...]Australia has announced an <a href="http://www.npr.org/blogs/thetwo-way/2015/04/12/399145143/australia-to-stop-payments-to-families-who-refuse-child-vaccinations#mainContent">aggressive new approach</a> in this area: Cutting off government benefits to parents who refuse to inoculate their children.</p><p>Under the proposal, parents who claim philosophical objections to vaccines will <a href="http://www.smh.com.au/federal-politics/political-news/abbott-government-withdraws-childcare-payments-for-antivaccination-parents-20150412-1mj837.html#googleAds">no longer be eligible</a> for welfare payments and childcare rebates that can equal up to $11,500 per child in American dollars. Prime Minister Tony Abbott announced the policy change on Sunday, although it still has to be approved by Parliament.</p></div></blockquote><p><a href="https://soylentnews.org/article.pl?sid=15/04/14/028238&amp;from=rss">Read more of this story</a> at SoylentNews.</p></div></summary>
+<updated>2015-04-14T08:40:00+00:00</updated>
+<author>
+ <name>CoolHand</name>
+</author>
+<category term="science"/>
+<slash:department>when-you-can't-make-them-see-the-light</slash:department>
+<slash:section>mainpage</slash:section>
+<slash:comments>47</slash:comments>
+<slash:hit_parade>47,45,33,24,14,8,1</slash:hit_parade>
+</entry>
+
+</feed>

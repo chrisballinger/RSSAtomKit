@@ -30,25 +30,123 @@
     if (self.feedType == RSSFeedTypeAtom) {
         [self parseAtomFeedFromElement:element mediaItemClass:mediaItemClass];
     }
+    _title = [self titleFromElement:element];
+    _publicationDate = [self publicationDateFromElement:element];
+    _linkURL = [self linkURLFromElement:element];
+    _itemDescription = [self itemDescriptionFromElement:element];
+    _author = [self authorFromElement:element];
+    
+    ONOXMLElement *thumbnailElement = [element firstChildWithTag:@"thumbnail" inNamespace:@"media"];
+    if (thumbnailElement) {
+        _thumbnailURL = [self media_URLForElement:thumbnailElement];
+        _thumbnailSize = [self media_sizeForElement:thumbnailElement];
+    }
+}
+
+- (NSDate *)publicationDateFromElement:(ONOXMLElement *)element
+{
+    ONOXMLElement *dateElement = nil;
+    NSString *dateString = nil;
+    
+    //RSS
+    dateElement = [element firstChildWithTag:@"pubDate"];
+    dateString = [dateElement stringValue];
+    if ([dateString length]) {
+        return [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC822];
+    }
+    
+    //RDF
+    dateElement = [element firstChildWithTag:@"date"];
+    dateString = [dateElement stringValue];
+    if ([dateString length]) {
+        return [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC3339];
+    }
+    
+    //Atom
+    dateElement = [element firstChildWithTag:@"updated"];
+    if (!dateElement) {
+        dateElement = [element firstChildWithTag:@"published"];
+    }
+    dateString = [dateElement stringValue];
+    if ([dateString length]) {
+        return [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC3339];
+    }
+    
+    return nil;
+}
+
+- (NSURL *)linkURLFromElement:(ONOXMLElement *)element
+{
+    //Picks up on both Atom and RSS methods for links <link> and <atom:link> prefer rss way
+    __block NSString *stringURL = nil;
+    
+    
+    NSString* (^linkExtractorBlock)(ONOXMLElement *) = ^NSString *(ONOXMLElement *linkElement) {
+        NSString *string = [linkElement stringValue];
+        if ([string length]) {
+            return string;
+        }
+        
+        return [linkElement valueForAttribute:@"href"];
+        
+    };
+    
+    NSArray *links = [element childrenWithTag:@"link"];
+    if ([links count] == 1) {
+        stringURL = linkExtractorBlock([links firstObject]);
+    }
+    
+    [links enumerateObjectsUsingBlock:^(ONOXMLElement *linkElement, NSUInteger idx, BOOL *stop) {
+        if (![[linkElement valueForAttribute:@"rel"] isEqualToString:@"self"]) {
+            stringURL = linkExtractorBlock(linkElement);
+            *stop = YES;
+        }
+        
+    }];
+    
+    if ([stringURL length]) {
+        return [NSURL URLWithString:stringURL];
+    }
+    return nil;
+}
+
+- (NSString *)itemDescriptionFromElement:(ONOXMLElement *)element
+{
+    NSString *itemDescription = nil;
+    ONOXMLElement *descriptionElement = [element firstChildWithTag:@"description"];
+    itemDescription = [descriptionElement stringValue];
+    
+    if (![itemDescription length]) {
+        NSString *xPath = [NSString stringWithFormat:@".//%@:content | .//%@:summary",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix];
+        ONOXMLElement *contentElement = [element firstChildWithXPath:xPath];
+        itemDescription = [contentElement stringValue];
+    }
+    
+    
+    return itemDescription;
+}
+
+- (NSString *)titleFromElement:(ONOXMLElement *)element
+{
+    ONOXMLElement *titleElement = [element firstChildWithTag:@"title"];
+    return [titleElement stringValue];
+}
+
+- (RSSPerson *)authorFromElement:(ONOXMLElement *)element
+{
+    ONOXMLElement *authorElement = [element firstChildWithXPath:@"./author"];
+    if (!authorElement) {
+        authorElement = [element firstChildWithXPath:[NSString stringWithFormat:@"./%@:author",kRSSFeedAtomPrefix]];
+    }
+    
+    if (authorElement) {
+        return [[RSSPerson alloc] initWithXMLElement:authorElement];
+    }
+    return nil;
 }
 
 - (void) parseAtomFeedFromElement:(ONOXMLElement *)element mediaItemClass:(Class)mediaItemClass
 {
-    ONOXMLElement *dateElement = [element firstChildWithTag:@"published"];
-    NSString *dateString = [dateElement stringValue];
-    if ([dateString length]) {
-        _publicationDate = [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC3339];
-    }
-    
-    ONOXMLElement *linkElement = [element firstChildWithXPath:[NSString stringWithFormat:@".//%@:link[@type = 'text/html']",kRSSFeedAtomPrefix]];
-    NSString *linkString = [linkElement valueForAttribute:@"href"];
-    if ([linkString length]) {
-        _linkURL = [NSURL URLWithString:linkString];
-    }
-    
-    ONOXMLElement *contentElement = [element firstChildWithXPath:[NSString stringWithFormat:@".//%@:content",kRSSFeedAtomPrefix]];
-    _itemDescription = [contentElement stringValue];
-    
     NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:[NSString stringWithFormat:@".//%@:link[@rel = 'enclosure' and @href",kRSSFeedAtomPrefix] mediaItemClass:(Class)mediaItemClass];
     if ([tempMediaItems count]) {
         //Not sure if there's a feed out there with both but oh well we catch it
@@ -56,48 +154,8 @@
     }
 }
 
-- (void) parseRSSFeedFromElement:(ONOXMLElement*)element mediaItemClass:(Class)mediaItemClass{
-    ONOXMLElement *titleElement = [element firstChildWithTag:@"title"];
-    _title = [titleElement stringValue];
-    
-    //Picks up on both Atom and RSS methods for links <link> and <atom:link> prefer rss way
-    __block NSString *stringURL = nil;
-    [[element childrenWithTag:@"link"] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        ONOXMLElement *linkElement = (ONOXMLElement *)obj;
-        stringURL = [linkElement stringValue];
-        if ([stringURL length]) {
-            *stop = YES;
-        }
-    }];
-    
-    if (stringURL) {
-        _linkURL = [NSURL URLWithString:stringURL];
-    }
-    ONOXMLElement *descriptionElement = [element firstChildWithTag:@"description"];
-    _itemDescription = [descriptionElement stringValue];
-    ONOXMLElement *pubDateElement = [element firstChildWithTag:@"pubDate"];
-    NSString *dateString = [pubDateElement stringValue];
-    if ([dateString length]) {
-        _publicationDate = [NSDate dateFromInternetDateTimeString:dateString formatHint:DateFormatHintRFC822];
-    }
-    
-    ONOXMLElement *authorElement = [element firstChildWithXPath:@"./author"];
-    if (!authorElement) {
-        authorElement = [element firstChildWithXPath:[NSString stringWithFormat:@"./%@:author",kRSSFeedAtomPrefix]];
-    }
-    
-    if (authorElement) {
-        _author = [[RSSPerson alloc] initWithXMLElement:authorElement];
-    }
-    
-    
-    // Media RSS
-    ONOXMLElement *thumbnailElement = [element firstChildWithTag:@"thumbnail" inNamespace:@"media"];
-    if (thumbnailElement) {
-        _thumbnailURL = [self media_URLForElement:thumbnailElement];
-        _thumbnailSize = [self media_sizeForElement:thumbnailElement];
-    }
-    
+- (void) parseRSSFeedFromElement:(ONOXMLElement*)element mediaItemClass:(Class)mediaItemClass
+{
     //These have to happen with seperate XPath searches because some documents don't contain the media prefix and would error on the whole XPath otherwise
     NSArray *tempMediaItems = [self mediaItemsFromElement:element withXPath:@".//enclosure[@url]" mediaItemClass:(Class)mediaItemClass];
     if (!tempMediaItems) {
@@ -142,6 +200,9 @@
     switch (feedType) {
         case RSSFeedTypeRSS:
             return [self parseRSSItemsWithXPath:@"/rss/channel/item" feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
+            break;
+        case RSSFeedTypeRDF:
+            return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/rdf:RDF/%@:item",kRSSFedRSSPrefix] feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
             break;
         case RSSFeedTypeAtom:
             return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:entry",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix] feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];

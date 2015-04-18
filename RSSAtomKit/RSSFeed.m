@@ -11,6 +11,9 @@
 NSString *const kRSSFeedAtomPrefix = @"atom";
 NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
 
+NSString *const kRSSFedRSSPrefix = @"rss1";
+NSString *const kRSSFeddRSSNameSpace = @"http://purl.org/rss/1.0/";
+
 @implementation RSSFeed
 
 - (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error {
@@ -32,50 +35,102 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
     ONOXMLElement *root = xmlDocument.rootElement;
     NSString *rootTag = root.tag;
     
-    //Try RSS way first
-    ONOXMLElement *channel = [root firstChildWithTag:@"channel"];
-    if (channel) {
-        ONOXMLElement *titleElement = [channel firstChildWithTag:@"title"];
-        _title = [titleElement stringValue];
-        ONOXMLElement *linkElement = [channel firstChildWithTag:@"link"];
-        NSString *linkString = [linkElement stringValue];
-        _htmlURL = [NSURL URLWithString:linkString];
-        ONOXMLElement *descriptionElement = [channel firstChildWithTag:@"description"];
-        _feedDescription = [descriptionElement stringValue];
-        _feedType = RSSFeedTypeRSS;
-    }
-    else if ([rootTag isEqualToString:@"feed"]) {
-        [xmlDocument definePrefix:kRSSFeedAtomPrefix forDefaultNamespace:kRSSFeedAtomNameSpace];
-        ONOXMLElement *titleElement = [root firstChildWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:title",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix]];
-        _title = [titleElement stringValue];
-        ONOXMLElement *subtitleElement = [root firstChildWithTag:@"subtitle"];
-        _feedDescription = [subtitleElement stringValue];
-        ONOXMLElement *htmlLinkElement = [root firstChildWithXPath:[NSString stringWithFormat:@"./%@:link[@rel = 'alternate' and @type = 'text/html' and @href]",kRSSFeedAtomPrefix]];
-        NSString *htmlLinkString = [htmlLinkElement valueForAttribute:@"href"];
-        if ([htmlLinkString length]) {
-            _htmlURL = [NSURL URLWithString:htmlLinkString];
-        }
-        
+    ONOXMLElement *channel = nil;
+    if ( [rootTag isEqualToString:@"feed"] ) {
+        channel = root;
         _feedType = RSSFeedTypeAtom;
+        [xmlDocument definePrefix:kRSSFeedAtomPrefix forDefaultNamespace:kRSSFeedAtomNameSpace];
+    } else {
+        channel = [root firstChildWithTag:@"channel"];
+        
+        if([root.tag isEqualToString:@"RDF"]) {
+            [xmlDocument definePrefix:kRSSFedRSSPrefix forDefaultNamespace:kRSSFeddRSSNameSpace];
+            _feedType = RSSFeedTypeRDF;
+        } else {
+            _feedType = RSSFeedTypeRSS;
+        }
     }
-    else {
+    
+    if (!channel) {
         if (!*error) {
             *error = [NSError errorWithDomain:@"RSSAtomKit" code:101 userInfo:@{NSLocalizedDescriptionKey: @"Invalid feed."}];
         }
         return;
     }
     
-    //Try on all feeds because many rss feeds have atom inside
-    ONOXMLElement *selfLinkElement = [root firstChildWithXPath:[NSString stringWithFormat:@"./%@:link[@rel = 'self' and @type = 'application/atom+xml' and @href]",kRSSFeedAtomPrefix]];
-    if (!selfLinkElement) {
-        //namespaceing is very strange 'atom10:link' but not declared. So instaead checking for any tag that contains 'link' with correct attributes
-        selfLinkElement = [channel firstChildWithXPath:@"./*[contains(local-name(), 'link')][@rel = 'self' and @type = 'application/rss+xml' and @href]"];
+    
+    _title = [self titleFromChannelOrFeedElement:channel];
+    _htmlURL = [self htmlURLFromChannelOrFeedElement:channel];
+    _feedDescription = [self descriptionFromChannelOrFeedElement:channel];
+    _xmlURL = [self xmlURLFromChannelOrFeedElement:channel];
+}
+
+
+
+- (NSString *)descriptionFromChannelOrFeedElement:(ONOXMLElement *)channelElement
+{
+    NSString *feedDescription = nil;
+    
+    ONOXMLElement *descriptionElement = [channelElement firstChildWithTag:@"description"];
+    feedDescription = [descriptionElement stringValue];
+    
+    if (![feedDescription length]) {
+        ONOXMLElement *subtitleElement = [channelElement firstChildWithTag:@"subtitle"];
+        feedDescription = [subtitleElement stringValue];
     }
+    
+    
+    return feedDescription;
+}
+
+- (NSString *)titleFromChannelOrFeedElement:(ONOXMLElement *)channelElement
+{
+    NSString *title = nil;
+    
+    ONOXMLElement *titleElement = [channelElement firstChildWithTag:@"title"];
+    title = [titleElement stringValue];
+    if (![title length]) {
+        ONOXMLElement *titleElement = [channelElement firstChildWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:title",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix]];
+        title = [titleElement stringValue];
+    }
+    
+    return title;
+}
+
+- (NSURL *)xmlURLFromChannelOrFeedElement:(ONOXMLElement *)channelElement
+{
+    //Try on all feeds because many rss feeds have atom inside
+    ONOXMLElement *selfLinkElement = [channelElement firstChildWithXPath:@"./*[contains(local-name(), 'link')][@rel = 'self' and @type = 'application/rss+xml' and @href]"];
     
     NSString *xmlLInkString = [selfLinkElement valueForAttribute:@"href"];
     if ([xmlLInkString length]) {
-        _xmlURL = [NSURL URLWithString:xmlLInkString];
+         return [NSURL URLWithString:xmlLInkString];
     }
+    return nil;
+}
+
+- (NSURL *)htmlURLFromChannelOrFeedElement:(ONOXMLElement *)channelElement
+{
+    
+    __block NSString *urlString = nil;
+    [channelElement enumerateElementsWithXPath:@"./*[contains(local-name(), 'link')]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
+        
+        //Normal RSS method
+        urlString = [element stringValue];
+        if ([urlString length]) {
+            *stop = YES;
+        } else if (![[element valueForAttribute:@"rel"] isEqualToString:@"self"]) {
+            urlString = [element valueForAttribute:@"href"];
+            *stop = YES;
+        }
+    }];
+    
+    
+    
+    if([urlString length]) {
+        return [NSURL URLWithString:urlString];
+    }
+    return nil;
 }
 
 - (void)parseOPMLOutlineElement:(ONOXMLElement *)element

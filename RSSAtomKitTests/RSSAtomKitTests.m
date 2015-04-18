@@ -44,49 +44,49 @@
  *  http://www.voanews.com/api/epiqq
  */
 - (void)testVoiceOfAmericaFeed {
-    [self runTestOnFeedName:@"VOA" expectedMediaItems:19];
+    [self runTestOnFeedName:@"VOA" feedItems:20 expectedTotalMediaItems:19 hasDescription:YES];
 }
 
 /**
  *  http://www.theguardian.com/world/rss
  */
 - (void)testGuardianWorldFeed {
-    [self runTestOnFeedName:@"Guardian-World" expectedMediaItems:2];
+    [self runTestOnFeedName:@"Guardian-World" feedItems:88 expectedTotalMediaItems:2 hasDescription:YES];
 }
 
 /**
  *  http://feeds.washingtonpost.com/rss/world
  */
 - (void)testWashingtonPostWorldFeed {
-    [self runTestOnFeedName:@"WashingtonPost-World" expectedMediaItems:0];
+    [self runTestOnFeedName:@"WashingtonPost-World" feedItems:25 expectedTotalMediaItems:0 hasDescription:YES];
 }
 
 /**
  *  http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml
  */
 - (void)testNYTimesInternationalFeed {
-    [self runTestOnFeedName:@"NYTimes-International" expectedMediaItems:17];
+    [self runTestOnFeedName:@"NYTimes-International" feedItems:25 expectedTotalMediaItems:17 hasDescription:NO];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_topstories.rss
  */
 - (void)testCNNTopStoriesFeed {
-    [self runTestOnFeedName:@"CNN-TopStories" expectedMediaItems:70];
+    [self runTestOnFeedName:@"CNN-TopStories" feedItems:90 expectedTotalMediaItems:70 hasDescription:YES];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_world.rss
  */
 - (void)testCNNWorldFeed {
-    [self runTestOnFeedName:@"CNN-World" expectedMediaItems:131];
+    [self runTestOnFeedName:@"CNN-World" feedItems:135 expectedTotalMediaItems:131 hasDescription:YES];
 }
 
 /**
  *  http://www.rfa.org/tibetan/RSS
  */
 - (void)testRFATibetanFeed {
-    [self runTestOnFeedName:@"RFA-tibetan" expectedMediaItems:0];
+    [self runTestOnFeedName:@"RFA-tibetan" feedItems:15 expectedTotalMediaItems:0 hasDescription:YES];
 }
 
 #pragma - mark Atom Tests
@@ -95,7 +95,25 @@
  *  http://googleblog.blogspot.com/
  */
 - (void)testGoogleAtomFeed {
-    [self runTestOnFeedName:@"google-atom" expectedMediaItems:0];
+    [self runTestOnFeedName:@"google-atom" feedItems:25 expectedTotalMediaItems:0 hasDescription:YES];
+}
+
+/**
+ *  http://7rmath4ro2of2a42.onion/index.atom
+ *  https://soylentnews.org/index.atom
+ */
+- (void)testSoylentNewsAtomFeed {
+    [self runTestOnFeedName:@"soylentNews-atom" feedItems:50 expectedTotalMediaItems:0 hasDescription:YES];
+}
+
+#pragma - mark RDF Tests
+
+/**
+ *  http://7rmath4ro2of2a42.onion/index.rss
+ *  https://soylentnews.org/index.rss
+ */
+- (void)testSoylentNewsRDFFeed {
+    [self runTestOnFeedName:@"soylentNews-rdf" feedItems:50 expectedTotalMediaItems:0 hasDescription:YES];
 }
 
 #pragma - mark OPML Tests
@@ -149,7 +167,7 @@
     }];
 }
 
-- (void)runTestOnFeedName:(NSString*)feedName expectedMediaItems:(NSUInteger)expectedMediaItems {
+- (void)runTestOnFeedName:(NSString*)feedName feedItems:(NSUInteger)expectedFeedItems expectedTotalMediaItems:(NSUInteger)expectedMediaItems hasDescription:(BOOL)hasDescription {
     NSData *feedData = [self dataForResource:feedName ofType:@"xml"];
     __block RSSFeed *parsedFeed = nil;
     __block NSArray *parsedItems = nil;
@@ -163,27 +181,27 @@
         parsedFeed = feed;
         parsedItems = items;
         
-        XCTAssertNotNil(parsedFeed.title);
-        XCTAssertNotNil(parsedFeed.feedDescription);
+        XCTAssertTrue([parsedFeed.title length] > 0);
+        XCTAssertTrue([parsedFeed.feedDescription length] > 0 == hasDescription);
         XCTAssertNotNil(parsedFeed.htmlURL);
         if(parsedFeed.xmlURL) {
             NSLog(@"%@ - has self xmlUrl",parsedFeed.title);
         }
         __block NSUInteger foundMediaItems = 0;
+        XCTAssertEqual([items count], expectedFeedItems, @"Did not find correct number of items");
+        
         [items enumerateObjectsUsingBlock:^(RSSItem *item, NSUInteger idx, BOOL *stop) {
-            XCTAssertNotNil(item.title);
+            XCTAssertTrue([item.title length] > 0);
             XCTAssertNotNil(item.publicationDate);
-            XCTAssertNotNil(item.itemDescription);
-            XCTAssertNotNil(item.linkURL);
+            XCTAssertTrue([item.itemDescription length] > 0);
             XCTAssertTrue([item.linkURL.absoluteString length] > 0,@"URL has no length");
             
             if (item.author) {
-                XCTAssertNotNil(item.author.email);
+                XCTAssertTrue([item.author.email length] > 0);
             }
             
             [item.mediaItems enumerateObjectsUsingBlock:^(RSSMediaItem *mediaItem, NSUInteger idx, BOOL *stop) {
                 foundMediaItems += 1;
-                XCTAssertNotNil(mediaItem.url);
                 XCTAssertTrue([mediaItem.url absoluteString] > 0, @"Link has no length");
             }];
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
