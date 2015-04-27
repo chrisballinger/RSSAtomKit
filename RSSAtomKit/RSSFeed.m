@@ -11,8 +11,8 @@
 NSString *const kRSSFeedAtomPrefix = @"atom";
 NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
 
-NSString *const kRSSFedRSSPrefix = @"rss1";
-NSString *const kRSSFeddRSSNameSpace = @"http://purl.org/rss/1.0/";
+NSString *const kRSSFeedRSSPrefix = @"rss1";
+NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
 
 @implementation RSSFeed
 
@@ -44,7 +44,7 @@ NSString *const kRSSFeddRSSNameSpace = @"http://purl.org/rss/1.0/";
         channel = [root firstChildWithTag:@"channel"];
         
         if([root.tag isEqualToString:@"RDF"]) {
-            [xmlDocument definePrefix:kRSSFedRSSPrefix forDefaultNamespace:kRSSFeddRSSNameSpace];
+            [xmlDocument definePrefix:kRSSFeedRSSPrefix forDefaultNamespace:kRSSFeedRSSNameSpace];
             _feedType = RSSFeedTypeRDF;
         } else {
             _feedType = RSSFeedTypeRSS;
