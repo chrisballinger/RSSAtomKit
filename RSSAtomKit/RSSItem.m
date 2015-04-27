@@ -202,7 +202,7 @@
             return [self parseRSSItemsWithXPath:@"/rss/channel/item" feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
             break;
         case RSSFeedTypeRDF:
-            return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/rdf:RDF/%@:item",kRSSFedRSSPrefix] feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
+            return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/rdf:RDF/%@:item",kRSSFeedRSSPrefix] feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
             break;
         case RSSFeedTypeAtom:
             return [self parseRSSItemsWithXPath:[NSString stringWithFormat:@"/%@:feed/%@:entry",kRSSFeedAtomPrefix,kRSSFeedAtomPrefix] feedType:feedType document:xmlDocument mediaItemClass:mediaItemClass];
