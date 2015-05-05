@@ -51,6 +51,13 @@ extern NSString *const kRSSFeedRSSNameSpace;
 @property (nonatomic, strong) NSURL *xmlURL;
 
 /**
+ This is the url that comes from teh NSURLResponse from the network requests. It's not found in the XML document but from
+ the network requests. Use this url for all future requests as it may differ from the reported xmlURL or url in OPML files.
+ They can differ because of things like redirects.
+ */
+@property (nonatomic, strong, readonly) NSURL *sourceURL;
+
+/**
  The feeds description
  RSS: first child in 'channel' with tag 'description'
  Atom: first child in 'feed' with tag 'subtitle'
@@ -61,10 +68,12 @@ extern NSString *const kRSSFeedRSSNameSpace;
  Creates and returns a RSSFeed object from an ONOXMLDocument
  
  @param xmlDocument the xml document that will be parsed
+ @param sourceURL the source url where the document was fetched from
  @param error any errors encountered parsing the document
  @return An initialized RSSFeed object
  */
 - (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument
+                           sourceURL:(NSURL *)sourceURL
                                error:(NSError**)error;
 
 /**

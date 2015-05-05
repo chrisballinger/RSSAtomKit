@@ -46,6 +46,7 @@
  *  @param completionQueue if nil, defaults to main queue
  */
 - (void) feedFromXMLData:(NSData*)xmlData
+               sourceURL:(NSURL *)sourceURL
          completionBlock:(void (^)(RSSFeed *feed, NSArray *items, NSError *error))completionBlock
          completionQueue:(dispatch_queue_t)completionQueue;
 

@@ -16,10 +16,11 @@ NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
 
 @implementation RSSFeed
 
-- (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument error:(NSError**)error {
+- (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument sourceURL:(NSURL *)sourceURL error:(NSError**)error {
     if (self = [super init]) {
         NSError *parseError = nil;
         [self parseXMLDocument:xmlDocument error:&parseError];
+        _sourceURL = sourceURL;
         if (parseError) {
             if (*error) {
                 *error = parseError;

@@ -85,7 +85,7 @@
                 completionBlock(nil, nil, error);
             });
         } else {
-            [parser feedFromXMLData:responseData completionBlock:completionBlock completionQueue:completionQueue];
+            [parser feedFromXMLData:responseData sourceURL:response.URL completionBlock:completionBlock completionQueue:completionQueue];
         }
     }];
 }
