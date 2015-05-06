@@ -193,7 +193,8 @@
     __block RSSFeed *parsedFeed = nil;
     __block NSArray *parsedItems = nil;
     XCTestExpectation *expectation = [self expectationWithDescription:[NSString stringWithFormat:@"Feed - %@",feedName]];
-    [self.parser feedFromXMLData:feedData completionBlock:^(RSSFeed *feed, NSArray *items, NSError *error) {
+    NSURL *url = [NSURL URLWithString:@"test@test.example"];
+    [self.parser feedFromXMLData:feedData sourceURL:url completionBlock:^(RSSFeed *feed, NSArray *items, NSError *error) {
         if (error) {
             XCTFail(@"Error for %@: %@", feedName, error);
             return;
@@ -205,6 +206,7 @@
         XCTAssertTrue([parsedFeed.title length] > 0);
         XCTAssertTrue([parsedFeed.feedDescription length] > 0 == hasDescription);
         XCTAssertNotNil(parsedFeed.htmlURL);
+        XCTAssertTrue([[parsedFeed.sourceURL absoluteString] length] > 0);
         if(parsedFeed.xmlURL) {
             NSLog(@"%@ - has self xmlUrl",parsedFeed.title);
         }
