@@ -65,6 +65,11 @@ extern NSString *const kRSSFeedRSSNameSpace;
 @property (nonatomic, strong, readonly) NSString *feedDescription;
 
 /**
+ Optional feed category, picked up from nested outline elements in an OMPL file
+ */
+@property (nonatomic, strong, readonly) NSString *feedCategory;
+
+/**
  Creates and returns a RSSFeed object from an ONOXMLDocument
  
  @param xmlDocument the xml document that will be parsed
