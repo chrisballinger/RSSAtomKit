@@ -153,19 +153,42 @@ NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
         if (htmlURLString) {
             _htmlURL = [NSURL URLWithString:htmlURLString];
         }
-        
+        if (_feedCategory == nil)
+            _feedCategory = @"";
     }
+}
+
+- (void) setFeedCategory:(NSString *)feedCategory
+{
+    _feedCategory = feedCategory;
 }
 
 + (NSArray *) feedsFromOPMLDocument:(ONOXMLDocument *)xmlDocument
                               error:(NSError **)error
 {
     NSMutableArray *feeds = [NSMutableArray array];
-    [xmlDocument enumerateElementsWithXPath:@"//outline[@xmlUrl]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
-        RSSFeed *feed = [[[self class] alloc] init];
-        [feed parseOPMLOutlineElement:element];
-        if (feed) {
-            [feeds addObject:feed];
+    [xmlDocument enumerateElementsWithXPath:@"//outline[not(parent::outline)]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
+        if ([element.attributes objectForKey:@"xmlUrl"] != nil)
+        {
+            RSSFeed *feed = [[[self class] alloc] init];
+            [feed parseOPMLOutlineElement:element];
+            if (feed) {
+                [feeds addObject:feed];
+            }
+        }
+        else
+        {
+            // Top level outline. Pick up the category from this.
+            NSString *category = [element.attributes objectForKey:@"text"];
+            
+            [element enumerateElementsWithXPath:@".//outline[@xmlUrl]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
+                RSSFeed *feed = [[[self class] alloc] init];
+                [feed setFeedCategory:category];
+                [feed parseOPMLOutlineElement:element];
+                if (feed) {
+                    [feeds addObject:feed];
+                }
+            }];
         }
     }];
     return feeds;
