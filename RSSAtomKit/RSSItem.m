@@ -82,7 +82,7 @@
     
     
     NSString* (^linkExtractorBlock)(ONOXMLElement *) = ^NSString *(ONOXMLElement *linkElement) {
-        NSString *string = [linkElement stringValue];
+        NSString *string = [[linkElement stringValue] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         if ([string length]) {
             return string;
         }

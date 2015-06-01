@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633756E41B1D12D200810FF2 /* BBCPersian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 633756E31B1D12D200810FF2 /* BBCPersian.xml */; };
 		63482A4B1AE1AE7100D8AEED /* soylentNews-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */; };
 		63482A4C1AE1AE7100D8AEED /* soylentNews-rdf.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */; };
 		634AF9001A969FF000BBD372 /* test_1.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FE1A969FF000BBD372 /* test_1.opml */; };
 		634AF9011A969FF000BBD372 /* test_2.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FF1A969FF000BBD372 /* test_2.opml */; };
 		634AF9031A96A59600BBD372 /* test_3.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF9021A96A59600BBD372 /* test_3.opml */; };
+		638090E41B1D07590019B081 /* BBC Persian Radio.xml in Resources */ = {isa = PBXBuildFile; fileRef = 638090E31B1D07590019B081 /* BBC Persian Radio.xml */; };
 		639B1F221A648CE500B3E23E /* RFA-tibetan.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F211A648CE500B3E23E /* RFA-tibetan.xml */; };
 		639B1F241A6495D000B3E23E /* google-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 639B1F231A6495D000B3E23E /* google-atom.xml */; };
 		63B384511AE1DA6B005869A2 /* techcrunch.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63B384501AE1DA6B005869A2 /* techcrunch.xml */; };
@@ -34,11 +36,13 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		633756E31B1D12D200810FF2 /* BBCPersian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BBCPersian.xml; path = Feeds/BBCPersian.xml; sourceTree = "<group>"; };
 		63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "soylentNews-atom.xml"; path = "Feeds/soylentNews-atom.xml"; sourceTree = "<group>"; };
 		63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "soylentNews-rdf.xml"; path = "Feeds/soylentNews-rdf.xml"; sourceTree = "<group>"; };
 		634AF8FE1A969FF000BBD372 /* test_1.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_1.opml; path = OPML/test_1.opml; sourceTree = "<group>"; };
 		634AF8FF1A969FF000BBD372 /* test_2.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_2.opml; path = OPML/test_2.opml; sourceTree = "<group>"; };
 		634AF9021A96A59600BBD372 /* test_3.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_3.opml; path = OPML/test_3.opml; sourceTree = "<group>"; };
+		638090E31B1D07590019B081 /* BBC Persian Radio.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "BBC Persian Radio.xml"; path = "Feeds/BBC Persian Radio.xml"; sourceTree = "<group>"; };
 		639B1F211A648CE500B3E23E /* RFA-tibetan.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RFA-tibetan.xml"; path = "Feeds/RFA-tibetan.xml"; sourceTree = "<group>"; };
 		639B1F231A6495D000B3E23E /* google-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "google-atom.xml"; path = "Feeds/google-atom.xml"; sourceTree = "<group>"; };
 		63B384501AE1DA6B005869A2 /* techcrunch.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = techcrunch.xml; path = Feeds/techcrunch.xml; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 		D9E49D711A2328E000A2CDB4 /* Feeds */ = {
 			isa = PBXGroup;
 			children = (
+				633756E31B1D12D200810FF2 /* BBCPersian.xml */,
+				638090E31B1D07590019B081 /* BBC Persian Radio.xml */,
 				D9E657491A232FB1000E6301 /* CNN-TopStories.xml */,
 				D9E6574A1A232FB1000E6301 /* CNN-World.xml */,
 				D9E6574B1A232FB1000E6301 /* Guardian-World.xml */,
@@ -221,6 +227,8 @@
 			files = (
 				634AF9011A969FF000BBD372 /* test_2.opml in Resources */,
 				63B384551AE1DC41005869A2 /* 538.xml in Resources */,
+				633756E41B1D12D200810FF2 /* BBCPersian.xml in Resources */,
+				638090E41B1D07590019B081 /* BBC Persian Radio.xml in Resources */,
 				D9E657501A232FB1000E6301 /* CNN-World.xml in Resources */,
 				63482A4C1AE1AE7100D8AEED /* soylentNews-rdf.xml in Resources */,
 				63B384531AE1DB62005869A2 /* boinboing.xml in Resources */,

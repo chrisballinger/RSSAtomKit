@@ -44,70 +44,77 @@
  *  http://www.voanews.com/api/epiqq
  */
 - (void)testVoiceOfAmericaFeed {
-    [self runTestOnFeedName:@"VOA" feedItems:20 expectedTotalMediaItems:19 hasDescription:YES];
+    [self runTestOnFeedName:@"VOA" feedItems:20 expectedTotalMediaItems:19 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://www.theguardian.com/world/rss
  */
 - (void)testGuardianWorldFeed {
-    [self runTestOnFeedName:@"Guardian-World" feedItems:88 expectedTotalMediaItems:2 hasDescription:YES];
+    [self runTestOnFeedName:@"Guardian-World" feedItems:88 expectedTotalMediaItems:2 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://feeds.washingtonpost.com/rss/world
  */
 - (void)testWashingtonPostWorldFeed {
-    [self runTestOnFeedName:@"WashingtonPost-World" feedItems:25 expectedTotalMediaItems:0 hasDescription:YES];
+    [self runTestOnFeedName:@"WashingtonPost-World" feedItems:25 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://www.nytimes.com/services/xml/rss/nyt/InternationalHome.xml
  */
 - (void)testNYTimesInternationalFeed {
-    [self runTestOnFeedName:@"NYTimes-International" feedItems:25 expectedTotalMediaItems:17 hasDescription:NO];
+    [self runTestOnFeedName:@"NYTimes-International" feedItems:25 expectedTotalMediaItems:17 hasDescription:NO hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_topstories.rss
  */
 - (void)testCNNTopStoriesFeed {
-    [self runTestOnFeedName:@"CNN-TopStories" feedItems:90 expectedTotalMediaItems:70 hasDescription:YES];
+    [self runTestOnFeedName:@"CNN-TopStories" feedItems:90 expectedTotalMediaItems:70 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://rss.cnn.com/rss/cnn_world.rss
  */
 - (void)testCNNWorldFeed {
-    [self runTestOnFeedName:@"CNN-World" feedItems:135 expectedTotalMediaItems:131 hasDescription:YES];
+    [self runTestOnFeedName:@"CNN-World" feedItems:135 expectedTotalMediaItems:131 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://www.rfa.org/tibetan/RSS
  */
 - (void)testRFATibetanFeed {
-    [self runTestOnFeedName:@"RFA-tibetan" feedItems:15 expectedTotalMediaItems:0 hasDescription:YES];
+    [self runTestOnFeedName:@"RFA-tibetan" feedItems:15 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://techcrunch.com/feed/
  */
 - (void)testTechcrunchFeed {
-    [self runTestOnFeedName:@"techcrunch" feedItems:20 expectedTotalMediaItems:89 hasDescription:YES];
+    [self runTestOnFeedName:@"techcrunch" feedItems:20 expectedTotalMediaItems:89 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://boingboing.net/feed
  */
 - (void)testBoingBoingFeed {
-    [self runTestOnFeedName:@"boinboing" feedItems:30 expectedTotalMediaItems:0 hasDescription:YES];
+    [self runTestOnFeedName:@"boinboing" feedItems:30 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
  *  http://fivethirtyeight.com/features/feed/
  */
 - (void)test538Feed {
-    [self runTestOnFeedName:@"538" feedItems:20 expectedTotalMediaItems:88 hasDescription:YES];
+    [self runTestOnFeedName:@"538" feedItems:20 expectedTotalMediaItems:88 hasDescription:YES hasFeedHTMLURL:YES];
+}
+
+/**
+ *  http://downloads.bbc.co.uk/podcasts/worldservice/jjn/rss.xml
+ */
+- (void)testBBCPersianRadio {
+    [self runTestOnFeedName:@"BBC Persian Radio" feedItems:32 expectedTotalMediaItems:64 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 #pragma - mark Atom Tests
@@ -116,7 +123,7 @@
  *  http://googleblog.blogspot.com/
  */
 - (void)testGoogleAtomFeed {
-    [self runTestOnFeedName:@"google-atom" feedItems:25 expectedTotalMediaItems:0 hasDescription:YES];
+    [self runTestOnFeedName:@"google-atom" feedItems:25 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 /**
@@ -124,7 +131,11 @@
  *  https://soylentnews.org/index.atom
  */
 - (void)testSoylentNewsAtomFeed {
-    [self runTestOnFeedName:@"soylentNews-atom" feedItems:50 expectedTotalMediaItems:0 hasDescription:YES];
+    [self runTestOnFeedName:@"soylentNews-atom" feedItems:50 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
+}
+
+- (void)testBBCPersianAtomFeed {
+    [self runTestOnFeedName:@"BBCPersian" feedItems:39 expectedTotalMediaItems:0 hasDescription:NO hasFeedHTMLURL:NO];
 }
 
 #pragma - mark RDF Tests
@@ -134,7 +145,7 @@
  *  https://soylentnews.org/index.rss
  */
 - (void)testSoylentNewsRDFFeed {
-    [self runTestOnFeedName:@"soylentNews-rdf" feedItems:50 expectedTotalMediaItems:0 hasDescription:YES];
+    [self runTestOnFeedName:@"soylentNews-rdf" feedItems:50 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
 #pragma - mark OPML Tests
@@ -188,7 +199,7 @@
     }];
 }
 
-- (void)runTestOnFeedName:(NSString*)feedName feedItems:(NSUInteger)expectedFeedItems expectedTotalMediaItems:(NSUInteger)expectedMediaItems hasDescription:(BOOL)hasDescription {
+- (void)runTestOnFeedName:(NSString*)feedName feedItems:(NSUInteger)expectedFeedItems expectedTotalMediaItems:(NSUInteger)expectedMediaItems hasDescription:(BOOL)hasDescription hasFeedHTMLURL:(BOOL)hasFeedHTMLURL {
     NSData *feedData = [self dataForResource:feedName ofType:@"xml"];
     __block RSSFeed *parsedFeed = nil;
     __block NSArray *parsedItems = nil;
@@ -205,7 +216,7 @@
         
         XCTAssertTrue([parsedFeed.title length] > 0);
         XCTAssertTrue([parsedFeed.feedDescription length] > 0 == hasDescription);
-        XCTAssertNotNil(parsedFeed.htmlURL);
+        XCTAssertTrue([parsedFeed.htmlURL.absoluteString length] > 0 == hasFeedHTMLURL);
         XCTAssertTrue([[parsedFeed.sourceURL absoluteString] length] > 0);
         if(parsedFeed.xmlURL) {
             NSLog(@"%@ - has self xmlUrl",parsedFeed.title);

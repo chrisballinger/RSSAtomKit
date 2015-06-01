@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/">
+   <id>http://www.bbc.co.uk/persian/index.xml</id>
+   <title>BBCPersian.com | صفحه نخست</title>
+   <updated>2015-06-01T21:42:08+00:00</updated>
+   <link rel="self" href="http://www.bbc.co.uk/persian/index.xml"/>
+   <author>
+      <name>BBC &amp;#8238;فارسی</name>
+      <email>persian@bbc.co.uk</email>
+      <uri>BBCPersian.com</uri>
+   </author>
+   <generator>BBCPersian.com</generator>
+   <category xml:lang="fa" term="persian" label="persian"/>
+   <category xml:lang="fa" term="persian" label="صفحه نخست"/>
+   <logo>http://www.bbc.co.uk/persian/images/gel/rss_logo.gif</logo>
+   <rights>حق نشر این مطالب برای بی بی سی محفوظ است</rights>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_l16_iraq_attack_anbar</id>
+      <dc:identifier>/persian/world/2015/06/150601_l16_iraq_attack_anbar</dc:identifier>
+      <updated>2015-06-01T21:24:44+00:00</updated>
+      <published>2015-06-01T12:52:03+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">کشته شدن '۱۵ نیروی ایرانی' در جریان حمله انتحاری داعش در استان انبار</title>
+      <summary xml:lang="fa">یک گزارش رسیده از عراق، از کشته شدن ۱۵ نیروی ایرانی در جریان حمله انتحاری امروز داعش به یک پایگاه نیروهای پلیس در استان انبار حکایت دارد. بنا بر همین گزارش، اخیرا یک محموله از موشک های ضدتانک ایرانی نیز به این پایگاه تحویل داده شده بود.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_l16_iraq_attack_anbar"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601204237_iraq_144x81_nc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601204237_iraq_144x81_nc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_egypt_demolishes_hosni_ubarak_headquarters</id>
+      <dc:identifier>/persian/world/2015/06/150601_egypt_demolishes_hosni_ubarak_headquarters</dc:identifier>
+      <updated>2015-06-01T21:36:44+00:00</updated>
+      <published>2015-06-01T19:58:52+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">دولت مصر مقر حزب مبارک را ویران می‌کند</title>
+      <summary xml:lang="fa">دولت مصر کار تخریب دفتر مرکزی حزب منحل شده حسنی مبارک را که در جریان انقلاب مصر به آتش کشیده شده بود، آغاز کرده است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_egypt_demolishes_hosni_ubarak_headquarters"
+            title="story">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_l39_atena_daemi_verdict</id>
+      <dc:identifier>/persian/iran/2015/06/150601_l39_atena_daemi_verdict</dc:identifier>
+      <updated>2015-06-01T17:34:01+00:00</updated>
+      <published>2015-06-01T17:34:01+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">مادر آتنا دائمی از صدور ۱۴ سال حکم زندان برای دخترش خبر داد</title>
+      <summary xml:lang="fa">معصومه نعمتی مادر آتنا دائمی، فعال حقوق کودکان، گفته که دادگاه بدوی دخترش را به ۱۴ سال زندان محکوم کرده است. خانم دائمی به مواردی همچون "توهین به رهبری"، "توهین به مقدسات"، "اجتماع و تبانی به قصد برهم زدن امنیت کشور" و "مخفی کردن ادله جرم" متهم شده است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_l39_atena_daemi_verdict"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601171429_atena_daemi_144x81_a_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601171429_atena_daemi_144x81_a_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_us_supreme_ourt_muslim_woman</id>
+      <dc:identifier>/persian/world/2015/06/150601_us_supreme_ourt_muslim_woman</dc:identifier>
+      <updated>2015-06-01T19:11:15+00:00</updated>
+      <published>2015-06-01T17:59:38+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">دیوان عالی آمریکا به نفع یک زن مسلمان باحجاب رای داد</title>
+      <summary xml:lang="fa">دیوان عالی آمریکا روز دوشنبه به نفع زن مسلمانی حکم داد که می‌گوید فروشگاه زنجیره ای "ابرکرومبی و فیچ" او را به خاطر حجابش استخدام نکرده است.  </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_us_supreme_ourt_muslim_woman"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/03/12/150312210849_abercrombie_and_fitch_shopping_bag_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/03/12/150312210849_abercrombie_and_fitch_shopping_bag_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_l26_mahabad_intelligence_ministry_arrests</id>
+      <dc:identifier>/persian/iran/2015/06/150601_l26_mahabad_intelligence_ministry_arrests</dc:identifier>
+      <updated>2015-06-01T17:10:21+00:00</updated>
+      <published>2015-06-01T16:29:01+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">'دستگیری اعضای یک گروه تروریستی' در ارتباط با ماجرای مهاباد </title>
+      <summary xml:lang="fa">وزارت اطلاعات ایران از دستگیری اعضای یک "تیم تروریستی" خبر داده که برای انجام "اقدامات خرابکارانه" وارد ایران شده بودند. این بیانیه می‌گوید که آنها با توجه به وقایع هتل تارای شهرستان مهاباد "به منظور انجام عملیات ایذایی" به ایران آمده بودند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_l26_mahabad_intelligence_ministry_arrests"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/08/150508121537_mahabad_protest_144x81_ugc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/08/150508121537_mahabad_protest_144x81_ugc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_l12_iran_saudi_sexual_assault</id>
+      <dc:identifier>/persian/iran/2015/06/150601_l12_iran_saudi_sexual_assault</dc:identifier>
+      <updated>2015-06-01T15:32:42+00:00</updated>
+      <published>2015-06-01T15:06:38+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">دادستان جده 'برای مأموران متعرض به دو نوجوان ایرانی، درخواست اعدام کرد'</title>
+      <summary xml:lang="fa">حسن قشقاوی، معاون کنسولی وزارت امور خارجه ایران گفته است که دادستان جده در عربستان سعودی برای دو مأمور فرودگاه جده که به دو نوجوان ایرانی تعرض کرده بودند، مجازات اعدام درخواست کرده است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_l12_iran_saudi_sexual_assault"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/04/07/150407135637_hasan_ghashghavi_144x81_fars_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/04/07/150407135637_hasan_ghashghavi_144x81_fars_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/science/2015/06/150601_me_cancer_drug_melanoma</id>
+      <dc:identifier>/persian/science/2015/06/150601_me_cancer_drug_melanoma</dc:identifier>
+      <updated>2015-06-01T16:18:18+00:00</updated>
+      <published>2015-06-01T10:46:35+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="science" label="دانش و فن"/>
+      <title xml:lang="fa">ترکیب دو دارو 'برای درمان سرطان پوست مؤثرتر است'</title>
+      <summary xml:lang="fa">نتایج تحقیقی که درباره تاثیر ترکیب دو داروی سرطان برای درمان خطرناک‌ترین نوع سرطان پوست (ملانوما) انجام شده نشان می‌دهد که این روش دوره توقف پیشرفت تومور را چند ماه افزایش داده است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/science/2015/06/150601_me_cancer_drug_melanoma"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601124318_melanoma_144x81_thinkstock_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601124318_melanoma_144x81_thinkstock_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/sport/2015/06/150601_l56_french_open_sharapova_out_2015</id>
+      <dc:identifier>/persian/sport/2015/06/150601_l56_french_open_sharapova_out_2015</dc:identifier>
+      <updated>2015-06-01T18:32:40+00:00</updated>
+      <published>2015-06-01T11:14:25+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="sport" label="ورزش"/>
+      <title xml:lang="fa">حذف شاراپووا از مسابقات تنیس آزاد فرانسه</title>
+      <summary xml:lang="fa">در ادامه رقابت‌های تنیس اوپن فرانسه ماریا شاراپووا تنیس باز روس و قهرمان فصل گذشته این رقابت‌ها با شکست مقابل لوسی سافارووا از جمهوری چک از این رقابت‌ها حذف شد و سرنا ویلیامز، راجر فدرر و اندی ماری به دور بعدی این رقابت‌ها راه یافتند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/sport/2015/06/150601_l56_french_open_sharapova_out_2015"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/06/01/150601171521_sharapova_safarova_open_french_open_2015_304x171_epa_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/06/01/150601171521_sharapova_safarova_open_french_open_2015_304x171_epa_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601171521_sharapova_safarova_open_french_open_2015_144x81_epa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601171521_sharapova_safarova_open_french_open_2015_144x81_epa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/afghanistan/2015/06/150601_k02_ghani_children_day</id>
+      <dc:identifier>/persian/afghanistan/2015/06/150601_k02_ghani_children_day</dc:identifier>
+      <updated>2015-06-01T15:00:37+00:00</updated>
+      <published>2015-06-01T11:38:08+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="afghanistan" label="افغانستان"/>
+      <title xml:lang="fa">غنی: مشکلات کودکان افغان غیرقابل تحمل است</title>
+      <summary xml:lang="fa">همزمان با روز جهانی کودک، اشرف غنی، رئیس جمهوری افغانستان گفته مشکلاتی که کودکان افغان با آن‌ها مواجهند، غیر قابل تحمل است. او کار شاقه، تغذیه ناسالم، مواجه بودن با خشونت‌های مسلحانه و خانوادگی و محرومیت کودکان از آموزش را از مشکلات جدی آنها دانسته است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/afghanistan/2015/06/150601_k02_ghani_children_day"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/04/27/140427122620_afghan_girl_child_worker_304x171_ap_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/04/27/140427122620_afghan_girl_child_worker_304x171_ap_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/04/27/140427122620_afghan_girl_child_worker_144x81_ap_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/04/27/140427122620_afghan_girl_child_worker_144x81_ap_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_l39_nobakht_protests_nuclear_talks</id>
+      <dc:identifier>/persian/iran/2015/06/150601_l39_nobakht_protests_nuclear_talks</dc:identifier>
+      <updated>2015-06-01T13:54:55+00:00</updated>
+      <published>2015-06-01T13:02:13+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">سخنگوی دولت ایران: تجمع مخالفان مذاکرات غیرقانونی و غیرشرعی است</title>
+      <summary xml:lang="fa">محمدباقر نوبخت، سخنگوی دولت ایران گفت که تجمعات مخالفان مذاکرات هسته‌ای غیرقانونی و در نتیجه غیرشرعی است. پیشتر، وزارت کشور اعلام کرده بود که تا وقتی مذاکرات در جریان است، این وزارتخانه قصد صدور مجوز تجمع در موافقت یا مخالفت با گفتگوهای هسته‌ای را ندارد. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_l39_nobakht_protests_nuclear_talks"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/10/08/141008155148_nobakht_144x81_dolat.ir_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/10/08/141008155148_nobakht_144x81_dolat.ir_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_12_iran_ap_nuclear_deal_pmd_badieenejad</id>
+      <dc:identifier>/persian/iran/2015/06/150601_12_iran_ap_nuclear_deal_pmd_badieenejad</dc:identifier>
+      <updated>2015-06-01T12:42:54+00:00</updated>
+      <published>2015-06-01T09:25:30+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">مذاکره کننده اتمی ایران: بازرسی از مراکز نظامی و انجام مصاحبه، مربوط به توافق جامع اتمی نیست</title>
+      <summary xml:lang="fa">حمید بعیدی‌نژاد، مدیرکل وزارت امور خارجه ایران و از مذاکره‌کنندگان اتمی این کشور گفته است که بحث بازرسی از تاسیسات نظامی و انجام مصاحبه‌ها در چارچوب یک ابتکار عمل ویژه برای حل موضوع ابعاد نظامی احتمالی مطرح شده است و ربطی به توافق جامع اتمی ندارد.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_12_iran_ap_nuclear_deal_pmd_badieenejad"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/20/150520084317_d_144x81_d_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/20/150520084317_d_144x81_d_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_l26_iran_khomeini_shrine</id>
+      <dc:identifier>/persian/iran/2015/06/150601_l26_iran_khomeini_shrine</dc:identifier>
+      <updated>2015-06-01T12:05:32+00:00</updated>
+      <published>2015-06-01T08:58:11+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">هشدار سپاه به منتقدان بازسازی حرم آیت‌الله خمینی</title>
+      <summary xml:lang="fa">مسئول روابط عمومی سپاه پاسداران به منتقدان "تجمل‌گرایی" در بازسازی آرامگاه آیت‌الله خمینی، رهبر پیشین جهموری اسلام ایران، هشدار داده و گفته است نباید "نوعی عمل شود که موجبات سوء استفاده دشمنان امام و انقلاب فراهم آید".</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_l26_iran_khomeini_shrine"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601103315_khomeini_shrine__144x81_tasnim_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601103315_khomeini_shrine__144x81_tasnim_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/afghanistan/2015/06/150601_fm_five_taliban_officials_remain_qatar</id>
+      <dc:identifier>/persian/afghanistan/2015/06/150601_fm_five_taliban_officials_remain_qatar</dc:identifier>
+      <updated>2015-06-01T10:33:16+00:00</updated>
+      <published>2015-06-01T10:22:21+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="afghanistan" label="افغانستان"/>
+      <title xml:lang="fa">اقامت پنج عضو ارشد گروه طالبان در قطر تمدید شد</title>
+      <summary xml:lang="fa">دولت قطر موافقت کرده است که اقامت پنج عضو ارشد گروه طالبان افغانستان را که سال گذشته از زندان گوانتانامو آزاد و به این کشور منتقل شده بودند، تمدید کند. این افراد سال گذشته با بو برگدال، سرباز آمریکایی اسیر نزد طالبان مبادله شده بودند. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/afghanistan/2015/06/150601_fm_five_taliban_officials_remain_qatar"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/06/01/140601132212_taliban.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/06/01/140601132212_taliban.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_sam_surveillance</id>
+      <dc:identifier>/persian/world/2015/06/150601_sam_surveillance</dc:identifier>
+      <updated>2015-06-01T18:47:12+00:00</updated>
+      <published>2015-06-01T18:38:44+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">تمدید نشدن قانون شنود مکالمات تلفنی شهروندان آمریکایی</title>
+      <summary xml:lang="fa">در آمریکا سرانجام سناتور جمهوری‌خواه رند پال موفق شد مانع از تمدید قانونی شود که به دولت آمریکا امکانات گسترده‌ای برای جاسوسی از شهروندان می‌داد. آقای پال مدعیست، این قانون ناقض حریم خصوصی و قانون اساسی آمریکاست.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_sam_surveillance"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601183952_sam_sureillance_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601183952_sam_sureillance_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_mgh_italy_plane_accident</id>
+      <dc:identifier>/persian/world/2015/06/150601_mgh_italy_plane_accident</dc:identifier>
+      <updated>2015-06-01T14:22:20+00:00</updated>
+      <published>2015-06-01T14:16:56+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">سانحه در پرواز نمایشی؛ یک خلبان کشته شد</title>
+      <summary xml:lang="fa">دو هواپیمای آکروباتیک که در حال اجرای نمایش در حوالی آسمان شهر تورتورتو در ایتالیا بودند، در میانه مسیر با هم برخورد کردند و یکی از خلبان‌ها کشته شد.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_mgh_italy_plane_accident"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601142052_italy_planes_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601142052_italy_planes_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_sam_opec</id>
+      <dc:identifier>/persian/world/2015/06/150601_sam_opec</dc:identifier>
+      <updated>2015-06-01T18:12:10+00:00</updated>
+      <published>2015-06-01T17:54:14+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">نقش اوپک در بازار و رابطه‌ آن با شرکت‌های بزرگ نفت </title>
+      <summary xml:lang="fa">وقتی در سال‌های ۱۹۶۰ سازمان کشورهای صادر کننده نفت، اوپک، تاسیس شد، هدف، هماهنگی برای کنترل قیمت نفت بود. ۵۵ سال بعد اوپک نه تنها از کنترل قیمت نفت عاجز است بلکه برای حفظ سهمش در بازار دست و پا می‌زند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_sam_opec"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601175936_sam_opec_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601175936_sam_opec_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_sam_china</id>
+      <dc:identifier>/persian/world/2015/06/150601_sam_china</dc:identifier>
+      <updated>2015-06-01T18:23:44+00:00</updated>
+      <published>2015-06-01T18:10:57+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">ممنوعیت کشیدن سیگار در اماکن عمومی پکن</title>
+      <summary xml:lang="fa">چین با سیصد میلیون سیگاری یکی از سیگاری‌ترین کشورهای دنیا است. اما از امروز سیگار کشیدن در اماکن در شهر پکن ممنوع شده و ۲۰۰ یوان معادل حدود ۳۰ دلار جریمه دارد. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_sam_china"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601181515_sam_china_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601181515_sam_china_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_sam_irdemo</id>
+      <dc:identifier>/persian/iran/2015/06/150601_sam_irdemo</dc:identifier>
+      <updated>2015-06-01T17:49:28+00:00</updated>
+      <published>2015-06-01T17:36:11+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">ممنوعیت تجمع هسته‌ای، چه موافق چه مخالف</title>
+      <summary xml:lang="fa">تجمعات چه در موافقت و چه در مخالفت با مذاکرات هسته‌ای امنیت ملی را مخدوش می‌کنند. این ادعای قائم مقام وزیر کشور ایران است. تجمعات اخیر گروه موسوم به دلواپسان در تهران، مشهد و قم در اعتراض به مذاکرات هسته‌ای واکنش‌های متفاوتی در پی داشته است. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_sam_irdemo"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601174031_sam_irdemo_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601174031_sam_irdemo_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_sam_isiskid</id>
+      <dc:identifier>/persian/world/2015/06/150601_sam_isiskid</dc:identifier>
+      <updated>2015-06-01T14:47:52+00:00</updated>
+      <published>2015-06-01T14:16:31+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">کودک، سرباز، داعش؛ شکنجه نوجوان ۱۴ ساله در سوریه</title>
+      <summary xml:lang="fa">داعش و بعضی گروه‌های شبه نظامی دیگر در سوریه و عراق از کودکانی که بعضی فقط دوازده ساله هستند به عنوان سرباز جنگی استفاده می‌کنند. در این گزارش، صدا و تصاویری پخش می‌شود که ممکن است برایتان آزار دهنده باشد.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_sam_isiskid"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601143753_sam_isiskid_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601143753_sam_isiskid_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-30:/persian/afghanistan/2015/05/150527_mar_sms_friday_prayers_afghanistan</id>
+      <dc:identifier>/persian/afghanistan/2015/05/150527_mar_sms_friday_prayers_afghanistan</dc:identifier>
+      <updated>2015-05-31T10:03:17+00:00</updated>
+      <published>2015-05-30T06:32:51+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="afghanistan" label="افغانستان"/>
+      <title xml:lang="fa">'پیام کوتاه' وزارت حج و اوقاف افغانستان به خطیبان جمعه</title>
+      <summary xml:lang="fa">تا کنون برنامه‌ جامع و دقیقی برای تعیین مسیر فعالیت نهاد مسجد و نظارت بر خطابه‌های روز جمعه در افغانستان وجود نداشته اما به تازگی وزارات حج و اوقاف این کشور گفته است که از این پس موضوع و محتوای خطبه‌های جمعه با 'اس ام اس' به خطیبان ابلاغ خواهد شد. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/afghanistan/2015/05/150527_mar_sms_friday_prayers_afghanistan"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2012/07/13/120713140514_kabul_poll-e-khishty_mosque_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2012/07/13/120713140514_kabul_poll-e-khishty_mosque_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-27:/persian/blogs/2015/05/150527_fm_nazeran_wahid_mozhdeh_taliban_iran</id>
+      <dc:identifier>/persian/blogs/2015/05/150527_fm_nazeran_wahid_mozhdeh_taliban_iran</dc:identifier>
+      <updated>2015-05-29T10:56:40+00:00</updated>
+      <published>2015-05-27T17:07:59+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="blogs" label="وبلاگ ها"/>
+      <title xml:lang="fa">آیا داعش طالبان را به ایران نزدیک می‌سازد؟</title>
+      <summary xml:lang="fa">اخیرا یکی از خبرگزاری‌های ایرانی نزدیک به سپاه پاسداران این کشور از سفر یک هیات طالبان به تهران خبر داد و طالبان نیز با تایید این خبر، آنرا بخشی از سفرهای معمول اعضای دفتر خود در قطر به کشور‌های دیگر دانستند. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/blogs/2015/05/150527_fm_nazeran_wahid_mozhdeh_taliban_iran"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/26/150526101726_taliban_member_144x81_epa_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/26/150526101726_taliban_member_144x81_epa_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-31:/persian/interactivity/2015/05/150531_yt_l38_street_art</id>
+      <dc:identifier>/persian/interactivity/2015/05/150531_yt_l38_street_art</dc:identifier>
+      <updated>2015-05-31T17:52:12+00:00</updated>
+      <published>2015-05-31T17:36:01+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="interactivity" label="نوبت شما"/>
+      <title xml:lang="fa">هنر خیابانی؛ نظرات و مشاهدات شما</title>
+      <summary xml:lang="fa">مشاهدات شما از هنر خیابانی در جایی که زندگی می‌کنید چیست؟ چگونه بر کار و فعالیت هنرمندان خیابانی نظارت می‌شود؟ تاثیر هنری که در خیابان، که محل تردد مردم است، نمایش داده می‌شود بر دریافت جامعه از هنر و سلیقه هنری افراد چیست؟</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/interactivity/2015/05/150531_yt_l38_street_art"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/02/26/150226160352_banksy_gaza_woman_144x81_banksy.co.uk_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/02/26/150226160352_banksy_gaza_woman_144x81_banksy.co.uk_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/iran/2015/06/150601_l30_tehran_iran_press_</id>
+      <dc:identifier>/persian/iran/2015/06/150601_l30_tehran_iran_press_</dc:identifier>
+      <updated>2015-06-01T09:48:10+00:00</updated>
+      <published>2015-06-01T09:25:16+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">روزنامه‌های تندرو: کربلای چهار در ژنو تکرار نشود</title>
+      <summary xml:lang="fa">روزنامه های صبح دوشنبه تهران همچنان به مخالفت و موافقت با مذاکرات هسته‌ای و نتایج آن ادامه داده اند و در همین حال از گفته‌های مقامات دولتی علیه مخالفان خبر داده‌اند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/06/150601_l30_tehran_iran_press_"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601094214_ebtekar_front_page_144x81_ebtekarfrontpage_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601094214_ebtekar_front_page_144x81_ebtekarfrontpage_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/afghanistan/2015/06/150601_k04_kabul_press_reveiw</id>
+      <dc:identifier>/persian/afghanistan/2015/06/150601_k04_kabul_press_reveiw</dc:identifier>
+      <updated>2015-06-01T05:57:01+00:00</updated>
+      <published>2015-06-01T05:11:51+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="afghanistan" label="افغانستان"/>
+      <title xml:lang="fa">روزنامه های کابل؛ دوشنبه ۱۱ جوزا</title>
+      <summary xml:lang="fa">خواست‌های دولت افغانستان از پاکستان، فساد اداری و ناامنی‌ها در افغانستان مهمترین عناوین مطالب تحلیلی روزنامه‌های ۱۱ جوزا/خرداد افغانستان است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/afghanistan/2015/06/150601_k04_kabul_press_reveiw"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/10/18/141018084303_kabul_press__304x171_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/10/18/141018084303_kabul_press__304x171_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/10/18/141018084303_kabul_press__144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/10/18/141018084303_kabul_press__144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/sport/2015/06/150601_l56_zob_ahan_hazfi_champion_94</id>
+      <dc:identifier>/persian/sport/2015/06/150601_l56_zob_ahan_hazfi_champion_94</dc:identifier>
+      <updated>2015-06-01T18:24:59+00:00</updated>
+      <published>2015-06-01T15:57:16+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="sport" label="ورزش"/>
+      <title xml:lang="fa">ذوب آهن با شکست نفت قهرمان جام حذفی ایران شد</title>
+      <summary xml:lang="fa">تیم ذوب آهن اصفهان با شکست سه بر یک نفت تهران در فینال، برای سومین بار قهرمان جام حذفی ایران شد.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/sport/2015/06/150601_l56_zob_ahan_hazfi_champion_94"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/06/01/150601182231_gol_mohamd_mansorian_hazfi_1_304x171_fars_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/06/01/150601182231_gol_mohamd_mansorian_hazfi_1_304x171_fars_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601182231_gol_mohamd_mansorian_hazfi_1_144x81_fars_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601182231_gol_mohamd_mansorian_hazfi_1_144x81_fars_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/sport/2015/06/150601_l56_women_volleyball_stadium_iran_molaverdi</id>
+      <dc:identifier>/persian/sport/2015/06/150601_l56_women_volleyball_stadium_iran_molaverdi</dc:identifier>
+      <updated>2015-06-01T14:24:20+00:00</updated>
+      <published>2015-06-01T11:04:02+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="sport" label="ورزش"/>
+      <title xml:lang="fa">معاون رئیس جمهور ایران: مجوز ورود زنان به ورزشگاه‌ها صادر شده است</title>
+      <summary xml:lang="fa">شهیندخت مولاوردی، معاون رئیس جمهوری ایران در گفت‌وگو با روزنامه شرق گفته که اجازه حضور زنان در ورزشگاه‌ها امضا شده و تنها باید از طرف وزیر ورزش ابلاغ شود.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/sport/2015/06/150601_l56_women_volleyball_stadium_iran_molaverdi"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/10/09/141009141248_women_volleyball_iran_1_304x171_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2014/10/09/141009141248_women_volleyball_iran_1_304x171_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/10/09/141009141248_women_volleyball_iran_1_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2014/10/09/141009141248_women_volleyball_iran_1_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_l26_photo_paris_love_lock_bridge</id>
+      <dc:identifier>/persian/world/2015/06/150601_l26_photo_paris_love_lock_bridge</dc:identifier>
+      <updated>2015-06-01T15:11:24+00:00</updated>
+      <published>2015-06-01T14:45:42+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">عکس‌خبر؛ پاکسازی پل قفل عشاق در پاریس</title>
+      <summary xml:lang="fa">کارگران شهرداری پاریس امروز "پون‌ دز ار" یا پل عشاق را از قفل‌هایی که زوج‌ها برای ماندگاری عشقشان روی آن زده بودند، پاکسازی کردند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_l26_photo_paris_love_lock_bridge"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601152156_love-lock_144x81_r_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601152156_love-lock_144x81_r_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_l10_sss_ramadi_is_us</id>
+      <dc:identifier>/persian/world/2015/06/150601_l10_sss_ramadi_is_us</dc:identifier>
+      <updated>2015-06-01T11:19:33+00:00</updated>
+      <published>2015-06-01T07:59:12+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">چرا آمریکا کاروان داعش را در راه رمادی بمباران نکرد؟</title>
+      <summary xml:lang="fa">سقوط شهر رمادی، مرکز استان انبار، بزرگترین استان عراق، در حالی صورت گرفت که نیروهای آمریکایی، نظاره گر ورود کاروان داعش به داخل شهر رمادی بودند و هیچ واکنشی از خود نشان ندادند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_l10_sss_ramadi_is_us"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601105631_ramadi_144x81__nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="ورود کاروان داعش به رمادی"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601105631_ramadi_144x81__nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/world/2015/06/150601_l31_isis_children_fighting</id>
+      <dc:identifier>/persian/world/2015/06/150601_l31_isis_children_fighting</dc:identifier>
+      <updated>2015-06-01T16:57:07+00:00</updated>
+      <published>2015-06-01T12:08:10+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">داعش از 'شکنجه پسربچه سوری فیلم‌ گرفت'</title>
+      <summary xml:lang="fa">تصاویری به دست بی‌بی‌سی رسیده که در آن پیکارجویان گروه دولت اسلامی (داعش) در حال شکنجه یک پسربچه ۱۴ ساله سوری به نام احمد هستند. این تصاویر را فردی با موبایل فیلم‌برداری کرده‌ که قبلا با داعش همکاری داشته است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/06/150601_l31_isis_children_fighting"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601142423_isis_144x81_r_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/06/01/150601142423_isis_144x81_r_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-06-01:/persian/afghanistan/2015/06/150601_fm_asif_maroof_ghani_letter_sharif</id>
+      <dc:identifier>/persian/afghanistan/2015/06/150601_fm_asif_maroof_ghani_letter_sharif</dc:identifier>
+      <updated>2015-06-01T14:04:52+00:00</updated>
+      <published>2015-06-01T13:05:20+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="afghanistan" label="افغانستان"/>
+      <title xml:lang="fa">نامه رئيس جمهور غنى به نواز شريف به چه معناست؟</title>
+      <summary xml:lang="fa">رئیس جمهور غنی در نامه‌اش به نخست وزیر پاکستان که سری بوده ولی به رسانه‌ها درز کرده است یاد آور شده که بر اساس صحبت‌ها و تعهداتی که همین ماه گذشته، آنها با هم در ارگ کابل مطرح کردند، حالا زمان عمل فرا رسیده است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/afghanistan/2015/06/150601_fm_asif_maroof_ghani_letter_sharif"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/05/11/150511113258_nawaz_ghani_pix__304x171_bbc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/05/11/150511113258_nawaz_ghani_pix__304x171_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/11/150511113257_nawaz_ghani_pix__144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/11/150511113257_nawaz_ghani_pix__144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-26:/persian/iran/2015/05/150526_me_religious_belief_ranking_iran_provinces</id>
+      <dc:identifier>/persian/iran/2015/05/150526_me_religious_belief_ranking_iran_provinces</dc:identifier>
+      <updated>2015-05-31T13:49:07+00:00</updated>
+      <published>2015-05-26T08:44:09+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="iran" label="ايران"/>
+      <title xml:lang="fa">دینداری و رابطه آن با باروری در ایران</title>
+      <summary xml:lang="fa">نتایج تحقیقی که در ایران انجام شده نشان می‌دهد که از ۲۸ مرکز استان در ایران، دینداری در زاهدان، اردبیل، کرمان و قم بیشتر از سایر استان‌هاست و کمترین میزان گرایش مذهبی در رشت، تهران، اهواز و کرمانشاه دیده می‌شود. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/iran/2015/05/150526_me_religious_belief_ranking_iran_provinces"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/26/150526120338_iran_144x81_thinkstock_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/26/150526120338_iran_144x81_thinkstock_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-30:/persian/arts/2015/05/150530_l41_visual_arts_iraq_venice_biennale</id>
+      <dc:identifier>/persian/arts/2015/05/150530_l41_visual_arts_iraq_venice_biennale</dc:identifier>
+      <updated>2015-05-30T13:40:06+00:00</updated>
+      <published>2015-05-30T12:35:17+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="arts" label="فرهنگ و هنر"/>
+      <title xml:lang="fa">هنر عراق زیر سایه داعش در دوسالانه ونیز </title>
+      <summary xml:lang="fa">غرفه عراق در دوساله ونیز با به نمایش گذاشتن آثاری در ارتباط با گروه موسوم به دولت آسلامی آشکارا به بحران و درگیریهای اخیر در این کشور پرداخته است. </summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/arts/2015/05/150530_l41_visual_arts_iraq_venice_biennale"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/30/150530125413_b_144x81_haiderjabber_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/30/150530125413_b_144x81_haiderjabber_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-12:/persian/world/2015/05/150525_l31_an_man_cut_appendix</id>
+      <dc:identifier>/persian/world/2015/05/150525_l31_an_man_cut_appendix</dc:identifier>
+      <updated>2015-05-30T12:24:41+00:00</updated>
+      <published>2015-05-12T11:11:55+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="world" label="جهان"/>
+      <title xml:lang="fa">مردی که آپاندیس‌ خودش را درآورد</title>
+      <summary xml:lang="fa">لئونید روگوزوف یک جراح روس، و البته مردی ماجراجو، بود. در سفری به قطب جنوب ناگهان بیمار شد. باید عمل می‌شد. اما تنها پزشک گروه خودش بود.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/world/2015/05/150525_l31_an_man_cut_appendix"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/30/150530105101_russia_144x81_vladislavrocosov_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/30/150530105101_russia_144x81_vladislavrocosov_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-30:/persian/arts/2015/05/150530_l41_cinema_goodfellaas_anniversary</id>
+      <dc:identifier>/persian/arts/2015/05/150530_l41_cinema_goodfellaas_anniversary</dc:identifier>
+      <updated>2015-05-30T17:27:36+00:00</updated>
+      <published>2015-05-30T15:51:41+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="arts" label="فرهنگ و هنر"/>
+      <title xml:lang="fa">۲۵ سالگی 'رفقای خوب'؛ آیا این بهترین فیلم گانگستری است؟</title>
+      <summary xml:lang="fa">فیلم جنایی- گانگستری "رفقای خوب" به کارگردانی مارتین اسکورسیزی ۲۵ سال پیش ساخته و اکران شد. از نگاه بسیاری این فیلم عالی ترین پرداخت سینمایی از زندگی گانگسترها است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/arts/2015/05/150530_l41_cinema_goodfellaas_anniversary"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/30/150530165543_f_144x81_afarchivealamy_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/30/150530165543_f_144x81_afarchivealamy_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-17:/persian/interactivity/2015/05/150517_ugc_photo_waxima</id>
+      <dc:identifier>/persian/interactivity/2015/05/150517_ugc_photo_waxima</dc:identifier>
+      <updated>2015-05-17T14:03:21+00:00</updated>
+      <published>2015-05-17T12:29:53+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="interactivity" label="نوبت شما"/>
+      <title xml:lang="fa">واکسی تلفنی با ماشینی به شکل کفش</title>
+      <summary xml:lang="fa">علی می گوید اولین واکسی تلفنی ایران است. او چند سال پیش با سه چرخه‌اش سراغ مشتری‌های تلفنی‌اش می‌رفت. مدتی در رسانه‌ها مطرح شد ولی کم کم از یاد رفت و کاسبی‌اش کساد شد تا اینکه فکر تازه‌ای کرد. او حالا ماشینی به شکل کفش ساخته است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/interactivity/2015/05/150517_ugc_photo_waxima"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/05/17/150517135427_ugc_photo_waxima_304x171_ugc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/05/17/150517135427_ugc_photo_waxima_304x171_ugc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/17/150517135427_ugc_photo_waxima_144x81_ugc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/17/150517135427_ugc_photo_waxima_144x81_ugc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2015-05-09:/persian/interactivity/2015/05/150509_ugc_photo_sweden</id>
+      <dc:identifier>/persian/interactivity/2015/05/150509_ugc_photo_sweden</dc:identifier>
+      <updated>2015-05-09T16:59:11+00:00</updated>
+      <published>2015-05-09T16:34:53+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="interactivity" label="نوبت شما"/>
+      <title xml:lang="fa">آلبوم عکس: موسیقی و دو زیر باران رنگ</title>
+      <summary xml:lang="fa">تصاویر این آلبوم از تجمع و شادی مردم در برنامه "دویدن زیر رنگ" است. این برنامه هر سال در بعضی کشورهای اروپا و آمریکا برگزار می‌شود. این عکس‌ها را آیدا از شهر لینشوپینگ سوئد برای بی‌بی‌سی فرستاده‌است.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/interactivity/2015/05/150509_ugc_photo_sweden"
+            title="story">
+         <media:content>
+            <media:thumbnail url="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/05/09/150509162519_ugc_sweden_colourrun_304x171_ugc_nocredit.jpg"
+                             width="106"
+                             height="60">
+               <img alt=""
+                    width="106"
+                    height="60"
+                    src="http://ichef.bbci.co.uk/news/ws/106/amz/worldservice/live/assets/images/2015/05/09/150509162519_ugc_sweden_colourrun_304x171_ugc_nocredit.jpg"/>
+            </media:thumbnail>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/09/150509162519_ugc_sweden_colourrun_144x81_ugc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt=""
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2015/05/09/150509162519_ugc_sweden_colourrun_144x81_ugc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2011-04-06:/persian/tv/2011/04/000001_ptv_page2_gel</id>
+      <dc:identifier>/persian/tv/2011/04/000001_ptv_page2_gel</dc:identifier>
+      <updated>2013-01-31T11:02:04+00:00</updated>
+      <published>2011-04-06T15:27:09+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="tv" label="برنامه های تلویزیون"/>
+      <title xml:lang="fa">صفحه دو</title>
+      <summary xml:lang="fa">تحلیل مهم ترین رویدادهای سیاسی هفته، مصاحبه با خبرسازان در داخل و خارج از ایران و نگاهی موشکافانه به عملکرد دولتمردان و فعالان سیاسی در منطقه و جهان.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/tv/2011/04/000001_ptv_page2_gel"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2011/04/07/110407161614_ptv_page2_144x81_bbc_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="صفحه دو"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2011/04/07/110407161614_ptv_page2_144x81_bbc_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2009-01-04:/persian/tv/2009/01/000000_ptv_purple_crystal</id>
+      <dc:identifier>/persian/tv/2009/01/000000_ptv_purple_crystal</dc:identifier>
+      <updated>2009-01-04T15:52:26+00:00</updated>
+      <published>2009-01-04T15:52:26+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="tv" label="برنامه های تلویزیون"/>
+      <title xml:lang="fa">بلور بنفش</title>
+      <summary xml:lang="fa">در این رشته برنامه ها بهزاد بلور چند روزی را با معروف ترین ستاره های دنیای موسیقی پاپ ایرانی می گذراند.</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/tv/2009/01/000000_ptv_purple_crystal"
+            title="video">
+         <media:content/>
+      </link>
+   </entry>
+   <entry>
+      <id>tag:,2011-04-06:/persian/tv/2011/04/000001_ptv_pargar</id>
+      <dc:identifier>/persian/tv/2011/04/000001_ptv_pargar</dc:identifier>
+      <updated>2014-12-01T16:56:11+00:00</updated>
+      <published>2011-04-06T14:32:25+00:00</published>
+      <category xml:lang="fa" term="persian" label="persian"/>
+      <category xml:lang="fa" term="tv" label="برنامه های تلویزیون"/>
+      <title xml:lang="fa">پرسش‌هایی برای تمام فصل ها</title>
+      <summary xml:lang="fa">پرسش‌هایی برای تمام فصل‏‌ها</summary>
+      <link rel="alternate"
+            type="text/html"
+            href="http://www.bbc.co.uk/persian/tv/2011/04/000001_ptv_pargar"
+            title="video">
+         <media:content>
+            <media:thumbnail url="http://a.files.bbci.co.uk/worldservice/live/assets/images/2012/01/28/120128180058_pargar_144x81_pic_nocredit.jpg"
+                             width="144"
+                             height="81">
+               <img alt="پرگار"
+                    width="144"
+                    height="81"
+                    src="http://a.files.bbci.co.uk/worldservice/live/assets/images/2012/01/28/120128180058_pargar_144x81_pic_nocredit.jpg"/>
+            </media:thumbnail>
+         </media:content>
+      </link>
+   </entry>
+</feed>
