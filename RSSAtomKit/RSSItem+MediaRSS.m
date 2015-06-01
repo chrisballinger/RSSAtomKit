@@ -12,6 +12,7 @@
 
 - (NSURL*) media_URLForElement:(ONOXMLElement*)element {
     NSString *urlString = [element valueForAttribute:@"url"];
+    urlString  = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     NSURL *url = [NSURL URLWithString:urlString];
     return url;
 }

@@ -105,6 +105,7 @@
     }];
     
     if ([stringURL length]) {
+        stringURL = [stringURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         return [NSURL URLWithString:stringURL];
     }
     return nil;

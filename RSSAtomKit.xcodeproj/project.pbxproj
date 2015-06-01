@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		633756E41B1D12D200810FF2 /* BBCPersian.xml in Resources */ = {isa = PBXBuildFile; fileRef = 633756E31B1D12D200810FF2 /* BBCPersian.xml */; };
+		633756E61B1D246000810FF2 /* tabnak.xml in Resources */ = {isa = PBXBuildFile; fileRef = 633756E51B1D246000810FF2 /* tabnak.xml */; };
 		63482A4B1AE1AE7100D8AEED /* soylentNews-atom.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */; };
 		63482A4C1AE1AE7100D8AEED /* soylentNews-rdf.xml in Resources */ = {isa = PBXBuildFile; fileRef = 63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */; };
 		634AF9001A969FF000BBD372 /* test_1.opml in Resources */ = {isa = PBXBuildFile; fileRef = 634AF8FE1A969FF000BBD372 /* test_1.opml */; };
@@ -37,6 +38,7 @@
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		633756E31B1D12D200810FF2 /* BBCPersian.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = BBCPersian.xml; path = Feeds/BBCPersian.xml; sourceTree = "<group>"; };
+		633756E51B1D246000810FF2 /* tabnak.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = tabnak.xml; path = Feeds/tabnak.xml; sourceTree = "<group>"; };
 		63482A491AE1AE7100D8AEED /* soylentNews-atom.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "soylentNews-atom.xml"; path = "Feeds/soylentNews-atom.xml"; sourceTree = "<group>"; };
 		63482A4A1AE1AE7100D8AEED /* soylentNews-rdf.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "soylentNews-rdf.xml"; path = "Feeds/soylentNews-rdf.xml"; sourceTree = "<group>"; };
 		634AF8FE1A969FF000BBD372 /* test_1.opml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = test_1.opml; path = OPML/test_1.opml; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		D9E49D711A2328E000A2CDB4 /* Feeds */ = {
 			isa = PBXGroup;
 			children = (
+				633756E51B1D246000810FF2 /* tabnak.xml */,
 				633756E31B1D12D200810FF2 /* BBCPersian.xml */,
 				638090E31B1D07590019B081 /* BBC Persian Radio.xml */,
 				D9E657491A232FB1000E6301 /* CNN-TopStories.xml */,
@@ -235,6 +238,7 @@
 				639B1F241A6495D000B3E23E /* google-atom.xml in Resources */,
 				D9E6574F1A232FB1000E6301 /* CNN-TopStories.xml in Resources */,
 				D9E657521A232FB1000E6301 /* NYTimes-International.xml in Resources */,
+				633756E61B1D246000810FF2 /* tabnak.xml in Resources */,
 				D9E657511A232FB1000E6301 /* Guardian-World.xml in Resources */,
 				63D58C231A8BFB8C003C5A2D /* search.opml in Resources */,
 				D9E657541A232FB1000E6301 /* WashingtonPost-World.xml in Resources */,

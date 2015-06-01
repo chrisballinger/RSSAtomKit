@@ -30,12 +30,12 @@
 - (void)parseElement:(ONOXMLElement *)element forType:(RSSFeedType)feedType
 {
     NSString *urlString = [element valueForAttribute:@"url"];
-    if ([urlString length]) {
-        _url = [NSURL URLWithString:urlString];
-    } else {
-        urlString = [element valueForAttribute:@"href"];
-        _url = [NSURL URLWithString:urlString];
+    if (![urlString length]) {
+         urlString = [element valueForAttribute:@"href"];
     }
+    
+    urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    _url = [NSURL URLWithString:urlString];
     
     _type = [element valueForAttribute:@"type"];
     

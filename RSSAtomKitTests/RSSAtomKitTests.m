@@ -117,6 +117,14 @@
     [self runTestOnFeedName:@"BBC Persian Radio" feedItems:32 expectedTotalMediaItems:64 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
+
+/**
+ * http://www.tabnak.ir/fa/rss/allnews
+ */
+- (void)testTabnak {
+    [self runTestOnFeedName:@"tabnak" feedItems:100 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
+}
+
 #pragma - mark Atom Tests
 
 /**

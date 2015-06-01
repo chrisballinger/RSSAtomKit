@@ -105,6 +105,7 @@ NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
     
     NSString *xmlLInkString = [selfLinkElement valueForAttribute:@"href"];
     if ([xmlLInkString length]) {
+        xmlLInkString = [xmlLInkString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
          return [NSURL URLWithString:xmlLInkString];
     }
     return nil;
@@ -129,6 +130,7 @@ NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
     
     
     if([urlString length]) {
+        urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         return [NSURL URLWithString:urlString];
     }
     return nil;
@@ -146,11 +148,13 @@ NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
             _feedDescription = @"";
         NSString *xmlURLString = [element valueForAttribute:@"xmlUrl"];
         if ([xmlURLString length]) {
+            xmlURLString = [xmlURLString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
             _xmlURL = [NSURL URLWithString:xmlURLString];
         }
         
         NSString *htmlURLString = [element valueForAttribute:@"htmlUrl"];
         if (htmlURLString) {
+            htmlURLString = [htmlURLString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
             _htmlURL = [NSURL URLWithString:htmlURLString];
         }
         if (_feedCategory == nil)
