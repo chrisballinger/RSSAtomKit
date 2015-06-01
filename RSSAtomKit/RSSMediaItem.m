@@ -43,6 +43,15 @@
     if ([lengthString length]) {
         _length = [[element.document.numberFormatter numberFromString:lengthString] unsignedIntegerValue];
     }
+    
+    NSMutableArray *thumbnails = [[NSMutableArray alloc] init];
+    [element enumerateElementsWithXPath:@".//media:thumbnail" usingBlock:^(ONOXMLElement *thumbnailElement, NSUInteger idx, BOOL *stop) {
+        RSSMediaItem *thumbnail = [[RSSMediaItem alloc] initWithFeedType:feedType xmlElement:thumbnailElement];
+        if (thumbnail) {
+            [thumbnails addObject:thumbnail];
+        }
+    }];
+    _thumbnails = thumbnails;
 }
 
 @end

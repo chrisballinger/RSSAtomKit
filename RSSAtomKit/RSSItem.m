@@ -161,7 +161,7 @@
     if (!tempMediaItems) {
         tempMediaItems = @[];
     }
-    tempMediaItems = [tempMediaItems arrayByAddingObjectsFromArray:[self mediaItemsFromElement:element withXPath:@".//media:content[@url]" mediaItemClass:mediaItemClass]];
+    tempMediaItems = [tempMediaItems arrayByAddingObjectsFromArray:[self mediaItemsFromElement:element withXPath:@".//media:content" mediaItemClass:mediaItemClass]];
     
     if ([tempMediaItems count]) {
         _mediaItems = tempMediaItems;
@@ -173,7 +173,7 @@
     NSMutableArray *tempMediaItems = [NSMutableArray array];
     [element enumerateElementsWithXPath:xPath usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
         RSSMediaItem *item = [[mediaItemClass alloc] initWithFeedType:self.feedType xmlElement:element];
-        if (item) {
+        if ([item.url.absoluteString length] || [item.thumbnails count]) {
             [tempMediaItems addObject:item];
         }
     }];

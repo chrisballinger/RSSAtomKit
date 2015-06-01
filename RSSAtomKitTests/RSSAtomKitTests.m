@@ -135,7 +135,7 @@
 }
 
 - (void)testBBCPersianAtomFeed {
-    [self runTestOnFeedName:@"BBCPersian" feedItems:39 expectedTotalMediaItems:0 hasDescription:NO hasFeedHTMLURL:NO];
+    [self runTestOnFeedName:@"BBCPersian" feedItems:39 expectedTotalMediaItems:37 hasDescription:NO hasFeedHTMLURL:NO];
 }
 
 #pragma - mark RDF Tests
@@ -236,7 +236,10 @@
             
             [item.mediaItems enumerateObjectsUsingBlock:^(RSSMediaItem *mediaItem, NSUInteger idx, BOOL *stop) {
                 foundMediaItems += 1;
-                XCTAssertTrue([mediaItem.url absoluteString] > 0, @"Link has no length");
+                BOOL hasMediaItemURL = [[mediaItem.url absoluteString] length] > 0;
+                RSSMediaItem *thumbnail = [mediaItem.thumbnails firstObject];
+                BOOL hasMediaThumbnail = [[thumbnail.url absoluteString] length] > 0;
+                XCTAssertTrue((hasMediaThumbnail || hasMediaItemURL), @"No media Item URL");
             }];
             NSLog(@"Parsed item from %@: %@", feedName, item.title);
         }];

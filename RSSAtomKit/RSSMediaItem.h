@@ -16,6 +16,12 @@
 @property (nonatomic, strong, readonly) NSString *type;
 @property (nonatomic, readonly) NSUInteger length;
 
+/**
+ * An array of RSSMediaItem thumbnails ordered by importance
+ * http://www.rssboard.org/media-rss#media-thumbnails
+ */
+@property (nonatomic, strong, readonly) NSArray *thumbnails;
+
 - (instancetype) initWithURL:(NSURL *)url;
 
 - (instancetype) initWithFeedType:(RSSFeedType)feedType xmlElement:(ONOXMLElement*)xmlElement;
