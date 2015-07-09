@@ -7,10 +7,9 @@
 //
 
 #import "RSSAtomKit.h"
-#import "AFNetworking.h"
 
 @interface RSSAtomKit()
-@property (nonatomic, strong) AFHTTPSessionManager *sessionManager;
+@property (nonatomic, strong, readonly) NSURLSession *urlSession;
 @end
 
 @implementation RSSAtomKit
@@ -36,25 +35,18 @@
 
 - (void)setUrlSessionConfiguration:(NSURLSessionConfiguration *)urlSessionConfiguration
 {
+    if (!urlSessionConfiguration) {
+        urlSessionConfiguration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
+    }
     if (![urlSessionConfiguration isEqual:self.urlSessionConfiguration]) {
-        [self.sessionManager.session invalidateAndCancel];
-        _sessionManager = nil;
-        _sessionManager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:urlSessionConfiguration];
-        AFHTTPResponseSerializer *serializer = [AFHTTPResponseSerializer serializer];
-        serializer.acceptableContentTypes  = [NSSet setWithObjects:
-                                              @"application/xml",
-                                              @"text/xml",
-                                              @"application/rss+xml",
-                                              @"application/atom+xml",
-                                              @"text/x-opml",
-                                              nil];
-        self.sessionManager.responseSerializer = serializer;
+        [self.urlSession invalidateAndCancel];
+        _urlSession = [NSURLSession sessionWithConfiguration:urlSessionConfiguration];
     }
 }
 
 - (NSURLSessionConfiguration *)urlSessionConfiguration
 {
-    return self.sessionManager.session.configuration;
+    return self.urlSession.configuration;
 }
 
 #pragma - mark Public Methods
@@ -128,18 +120,12 @@
     if (!completion) {
         return;
     }
-     NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    NSURLSessionDataTask *dataTask = [self.sessionManager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
-        
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSURLSessionDataTask *dataTask = [self.urlSession dataTaskWithRequest:request completionHandler:^(NSData * __nullable data, NSURLResponse * __nullable response, NSError * __nullable error) {
         if (error) {
             completion(response,nil,error);
         } else {
-            NSAssert([responseObject isKindOfClass:[NSData class]], @"responseObject must be NSData!");
-            if ([responseObject isKindOfClass:[NSData class]]) {
-                completion(response,responseObject,error);
-            } else {
-                completion(response,nil,[NSError errorWithDomain:@"RSSAtomKit" code:100 userInfo:@{NSLocalizedDescriptionKey: @"responseObject must be NSData!"}]);
-            }
+            completion(response, data, error);
         }
     }];
     [dataTask resume];

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RSSAtomKit"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Customizable Obj-C RSS/Atom feed fetcher and parser."
   s.homepage         = "https://github.com/chrisballinger/RSSAtomKit"
   s.license          = 'MIT'
@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'RSSAtomKit/**/*.{h,m}'
 
-  s.dependency 'AFNetworking', '~> 2.5'
-  s.dependency 'Mantle', '~> 1.5'
-  s.dependency 'Ono', '~> 1.1'
+  s.dependency 'Mantle', '~> 2.0'
+  s.dependency 'Ono', '~> 1.2'
 
 end

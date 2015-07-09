@@ -21,7 +21,7 @@
  *  The current NSURLSessionConfiguration that will be used for all network requests after it is set.
  *  Any requests ongoing are cancelled when the session configuration is changed.
  */
-@property (nonatomic, strong) NSURLSessionConfiguration *urlSessionConfiguration;
+@property (nonatomic, copy) NSURLSessionConfiguration *urlSessionConfiguration;
 
 /**
  *  Set custom NSURLSession settings, such as SOCKS proxy.
