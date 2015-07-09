@@ -34,9 +34,11 @@ NSURL *nytimesURL = [NSURL URLWithString:@"http://www.nytimes.com/services/xml/r
 
 If you prefer, you can also fetch on your own and parse raw `NSData` separately using `RSSParser`'s `feedFromXMLData:completionBlock:completionQueue:` method. Additionally, you can provide application-specific subclasses of `RSSItem` and `RSSFeed` via the `registerItemClass:` and `registerFeedClass:` methods.
 
-## Author
+## Authors
 
-[Chris Ballinger](https://github.com/chrisballinger)
+* [Chris Ballinger](https://github.com/chrisballinger)
+* [David Chiles](https://github.com/davidchiles)
+* [N-Pex](https://github.com/n-pex)
 
 ## License
 
