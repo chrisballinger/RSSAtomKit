@@ -258,7 +258,7 @@
         [expectation fulfill];
     } completionQueue:nil];
     
-    [self waitForExpectationsWithTimeout:5 handler:^(NSError *error) {
+    [self waitForExpectationsWithTimeout:30 handler:^(NSError *error) {
         if (error) {
             NSLog(@"Timeout Error");
         }
