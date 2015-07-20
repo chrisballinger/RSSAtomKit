@@ -22,6 +22,9 @@ extern NSString *const kRSSFeedAtomNameSpace;
 extern NSString *const kRSSFeedRSSPrefix;
 extern NSString *const kRSSFeedRSSNameSpace;
 
+extern NSString *const kRSSfeedDublinCorePrefix;
+extern NSString *const kRSSFeedDublinCoreNameSpace;
+
 @interface RSSFeed : MTLModel
 
 /**

@@ -33,6 +33,11 @@
     if (![self.email length]) {
         _email = [element stringValue];
     }
+    
+    //Dublin Core standard
+    if  (!self.name.length) {
+        _name = [[element firstChildWithXPath:[NSString stringWithFormat:@"./%@:creator",kRSSfeedDublinCorePrefix]] stringValue];
+    }
 }
 
 @end

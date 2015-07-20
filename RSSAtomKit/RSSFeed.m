@@ -14,6 +14,9 @@ NSString *const kRSSFeedAtomNameSpace = @"http://www.w3.org/2005/Atom";
 NSString *const kRSSFeedRSSPrefix = @"rss1";
 NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
 
+NSString *const kRSSfeedDublinCorePrefix = @"dc";
+NSString *const kRSSFeedDublinCoreNameSpace = @"http://purl.org/dc/elements/1.1/";
+
 @implementation RSSFeed
 
 - (instancetype) initWithXMLDocument:(ONOXMLDocument*)xmlDocument sourceURL:(NSURL *)sourceURL error:(NSError**)error {
@@ -43,6 +46,8 @@ NSString *const kRSSFeedRSSNameSpace = @"http://purl.org/rss/1.0/";
         [xmlDocument definePrefix:kRSSFeedAtomPrefix forDefaultNamespace:kRSSFeedAtomNameSpace];
     } else {
         channel = [root firstChildWithTag:@"channel"];
+        
+        [xmlDocument definePrefix:kRSSfeedDublinCorePrefix forDefaultNamespace:kRSSFeedDublinCoreNameSpace];
         
         if([root.tag isEqualToString:@"RDF"]) {
             [xmlDocument definePrefix:kRSSFeedRSSPrefix forDefaultNamespace:kRSSFeedRSSNameSpace];

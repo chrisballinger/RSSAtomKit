@@ -140,6 +140,10 @@
         authorElement = [element firstChildWithXPath:[NSString stringWithFormat:@"./%@:author",kRSSFeedAtomPrefix]];
     }
     
+    if (!authorElement) {
+        authorElement = element;
+    }
+    
     if (authorElement) {
         return [[RSSPerson alloc] initWithXMLElement:authorElement];
     }
