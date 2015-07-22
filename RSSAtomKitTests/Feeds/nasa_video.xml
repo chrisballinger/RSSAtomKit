@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?> <rss version="2.0" xml:base="http://www.nasa.gov/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"> <channel> <title>NASACast: This Week @ NASA Video</title>
+ <description>A weekly video summary of the latest news, events and mission activities at NASA.</description>
+ <link>http://www.nasa.gov/</link>
+ <atom:link rel="self" href="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss" />
+ <language>en-us</language>
+ <image> <url>http://www.nasa.gov/images/content/175183main_twan_itunes_1400.jpg</url>
+ <title>NASACast: This Week @ NASA Video</title>
+ <link>http://www.nasa.gov/</link>
+</image>
+ <copyright>no copyright</copyright>
+ <managingEditor>jim.wilson@nasa.gov</managingEditor>
+ <webMaster>jim.wilson@nasa.gov</webMaster>
+ <itunes:subtitle>This Week @NASA: A weekly summary of the latest news, events and mission activities at NASA.</itunes:subtitle>
+ <itunes:category text="Science &amp; Medicine" />
+ <itunes:keywords>NASA, Portal, audio, video, MP4s, NASATV, shuttle, Discovery, This Week at NASA, news, space, Mars, Earth, Moon, station, nation</itunes:keywords>
+ <itunes:image href="http://www.nasa.gov/sites/default/files/files/twan_itunes_1400.jpg" />
+ <itunes:author>National Aeronautics and Space Administration (NASA)</itunes:author>
+ <itunes:explicit>no</itunes:explicit>
+ <itunes:owner> <itunes:email>jim.wilson@nasa.gov</itunes:email>
+ <itunes:name>Brian Dunbar</itunes:name>
+</itunes:owner>
+ <item> <title>This Week @ NASA, July 17, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-july-17-2015</link>
+ <description>New Horizons arrives at Pluto, Mariner 4 Mars flyby anniversary and more...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0717_h264.mp4" length="58976381" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-july-17-2015</guid>
+ <pubDate>Fri, 17 Jul 2015 14:30 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, July 10, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-july-10-2015</link>
+ <description>Commercial crew astronauts , NASA’s newest astronauts, New Horizons still on track and more...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0710_h264.mp4" length="64052102" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-july-10-2015</guid>
+ <pubDate>Fri, 10 Jul 2015 11:23 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, July 3, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-july-3-2015</link>
+ <description>SpaceX leads investigation of mishap, New Horizons&#039; flight path to Pluto, &quot;Forever Remembered&quot; exhibit opens at Kennedy Space Center Visitor Complex, and more...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0702_h264.mp4" length="50997117" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-july-3-2015</guid>
+ <pubDate>Thu, 02 Jul 2015 15:50 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, June 26, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-june-26-2015</link>
+ <description>Looking for human landing sites on Mars, Mars Odyssey: 60,000 orbits and more ...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0626_h264.mp4" length="55563539" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-june-26-2015</guid>
+ <pubDate>Fri, 26 Jun 2015 10:58 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, June 19, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-june-19-2015</link>
+ <description>Mission to Europa gets green light, Seeking other worlds suitable for life and more ...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0619_h264.mp4" length="58594955" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-june-19-2015</guid>
+ <pubDate>Fri, 19 Jun 2015 13:18 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, June 12, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-june-12-2015</link>
+ <description>Expedition 43 returns home, Climate change projections and more ...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0612_h264.mp4" length="49068489" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-june-12-2015</guid>
+ <pubDate>Fri, 12 Jun 2015 12:20 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, June 5, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-june-5-2015</link>
+ <description>50 years of spacewalks, U.S. Astronaut Hall of Fame induction, Pluto’s moons tumbling about and more ...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0605_h264.mp4" length="47950320" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-june-5-2015</guid>
+ <pubDate>Fri, 05 Jun 2015 12:55 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, May 29, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-may-29-2015</link>
+ <description>Science instruments selected for Europa mission, Commercial Crew update, Space station module relocated and more ...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0529_h264.mp4" length="51667588" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-may-29-2015</guid>
+ <pubDate>Fri, 29 May 2015 14:51 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, May 22, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-may-22-2015</link>
+ <description>NASA&#039;s new deputy administrator, Dragon departs the space station, 3-D printed habitat challenge, and more...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0522_h264.mp4" length="56857203" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-may-22-2015</guid>
+ <pubDate>Fri, 22 May 2015 13:42 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+ <item> <title>This Week @ NASA, May 15, 2015</title>
+ <link>http://www.nasa.gov/mediacast/this-week-nasa-may-15-2015</link>
+ <description>Schedule changes for space station traffic, small satellite launch services, latest images of Ceres and more...</description>
+ <enclosure url="http://www.nasa.gov/sites/default/files/atoms/video/twan0515_h264.mp4" length="52156743" type="video/mp4" />
+ <guid isPermaLink="false">http://www.nasa.gov/mediacast/this-week-nasa-may-15-2015</guid>
+ <pubDate>Fri, 15 May 2015 11:45 EDT</pubDate>
+ <source url="http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss">NASACast: This Week @ NASA Video</source>
+</item>
+</channel>
+</rss>

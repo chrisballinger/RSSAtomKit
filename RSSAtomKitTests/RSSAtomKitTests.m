@@ -125,6 +125,14 @@
     [self runTestOnFeedName:@"tabnak" feedItems:100 expectedTotalMediaItems:0 hasDescription:YES hasFeedHTMLURL:YES];
 }
 
+/**
+ * Test Video in enclosure
+ * http://www.nasa.gov/rss/dyn/TWAN_vodcast.rss
+ */
+- (void)testNASAVideoRSS {
+    [self runTestOnFeedName:@"nasa_video" feedItems:10 expectedTotalMediaItems:10 hasDescription:YES hasFeedHTMLURL:YES];
+}
+
 #pragma - mark Atom Tests
 
 /**
