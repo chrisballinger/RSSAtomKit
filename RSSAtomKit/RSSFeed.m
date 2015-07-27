@@ -177,7 +177,7 @@ NSString *const kRSSFeedDublinCoreNameSpace = @"http://purl.org/dc/elements/1.1/
 {
     NSMutableArray *feeds = [NSMutableArray array];
     [xmlDocument enumerateElementsWithXPath:@"//outline[not(parent::outline)]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
-        if ([element.attributes objectForKey:@"xmlUrl"] != nil)
+        if ([element valueForAttribute:@"xmlUrl"] != nil)
         {
             RSSFeed *feed = [[[self class] alloc] init];
             [feed parseOPMLOutlineElement:element];
@@ -188,7 +188,7 @@ NSString *const kRSSFeedDublinCoreNameSpace = @"http://purl.org/dc/elements/1.1/
         else
         {
             // Top level outline. Pick up the category from this.
-            NSString *category = [element.attributes objectForKey:@"text"];
+            NSString *category = [element valueForAttribute:@"text"];
             
             [element enumerateElementsWithXPath:@".//outline[@xmlUrl]" usingBlock:^(ONOXMLElement *element, NSUInteger idx, BOOL *stop) {
                 RSSFeed *feed = [[[self class] alloc] init];
