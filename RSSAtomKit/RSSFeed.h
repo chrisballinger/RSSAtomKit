@@ -85,6 +85,12 @@ extern NSString *const kRSSFeedDublinCoreNameSpace;
                                error:(NSError**)error;
 
 /**
+ Parse a OPML Outline node to set values in this object
+ @param element the xml node that will be parsed
+ */
+- (void)parseOPMLOutlineElement:(ONOXMLElement *)element;
+
+/**
  Creates an array of feeds from an OPML document
  
  @param xmlDocument the xml document that will be parsed
